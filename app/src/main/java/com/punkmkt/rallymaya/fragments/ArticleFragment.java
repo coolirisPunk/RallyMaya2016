@@ -22,7 +22,7 @@ public class ArticleFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.fragment_article, container, false);
         int i = getArguments().getInt(ARG_ARTICLES_NUMBER);
-        String article = getResources().getStringArray(R.array.Tags)[i];
+        String article = getResources().getStringArray(R.array.ItemMenus)[i];
 
         getActivity().setTitle(article);
         TextView headline = (TextView)rootView.findViewById(R.id.headline);
