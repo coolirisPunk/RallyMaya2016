@@ -1,37 +1,29 @@
 package com.punkmkt.rallymaya;
 
-import java.util.ArrayList;
-
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.res.Configuration;
-import android.os.Bundle;
+import android.graphics.Typeface;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.os.Bundle;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.punkmkt.rallymaya.adapters.MenuAdapter;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
+import java.util.ArrayList;
 
-public class MainActivity extends ActionBarActivity {
 
-    /*
-     DECLARACIONES
-     */
+public class RallyMayaActivity extends ActionBarActivity {
     private DrawerLayout drawerLayout;
     private ListView drawerList;
     private ActionBarDrawerToggle drawerToggle;
@@ -48,7 +40,7 @@ public class MainActivity extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_rally_maya);
 
         itemTitle = activityTitle = getTitle();
         tagTitles = getResources().getStringArray(R.array.ItemMenusSec);
@@ -97,7 +89,6 @@ public class MainActivity extends ActionBarActivity {
                  */
                 //invalidateOptionsMenu();
             }
-
             public void onDrawerOpened(View drawerView) {
                 getSupportActionBar().setTitle(activityTitle);
 
@@ -106,14 +97,12 @@ public class MainActivity extends ActionBarActivity {
                  */
                 //invalidateOptionsMenu();
             }
-
-
         };
         //Seteamos la escucha
         drawerLayout.setDrawerListener(drawerToggle);
 
         if (savedInstanceState == null) {
-        //    selectItem(0);
+            //    selectItem(0);
         }
         String[] item_menus = getResources().getStringArray(R.array.ItemMenus);
 
@@ -123,33 +112,20 @@ public class MainActivity extends ActionBarActivity {
             //actionbar.setName(item_menus[index]);
             itemMenus.add(menu);
         }
-
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setAdapter(new MenuAdapter(itemMenus, R.layout.row_menu));
-        mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
-        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-
-
+        TextView title_section=(TextView)findViewById(R.id.title_section);
+        TextView description_section=(TextView)findViewById(R.id.description_section);
+        MyApplication application = (MyApplication) getApplication();
+        application.setTypeface(title_section);
+        application.setTypeface(description_section);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_rally_maya, menu);
+        return true;
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (drawerToggle.onOptionsItemSelected(item)) {
-            // Toma los eventos de selección del toggle aquí
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
     /* La escucha del ListView en el Drawer */
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
         @Override
@@ -166,7 +142,7 @@ public class MainActivity extends ActionBarActivity {
         //fragment.setArguments(args);
 
         //FragmentManager fragmentManager = getFragmentManager();
-       // fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
+        // fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
 
         // Se actualiza el item seleccionado y el título, después de cerrar el drawer
         drawerList.setItemChecked(position, true);
@@ -193,5 +169,15 @@ public class MainActivity extends ActionBarActivity {
         super.onConfigurationChanged(newConfig);
         // Cambiar las configuraciones del drawer si hubo modificaciones
         drawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        if (drawerToggle.onOptionsItemSelected(item)) {
+            // Toma los eventos de selección del toggle aquí
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -1,6 +1,8 @@
 package com.punkmkt.rallymaya.adapters;
 
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.punkmkt.rallymaya.R;
+import com.punkmkt.rallymaya.RallyMayaActivity;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 import java.util.ArrayList;
@@ -44,9 +47,18 @@ public class MenuAdapter  extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
         @Override
         public void onClick(View view) {
-            //Toast.makeText(view.getContext(), "OnItemClick :D", Toast.LENGTH_SHORT).show();
+            Log.e("C:",String.valueOf(getPosition()));
+            Context context = view.getContext();
+            Intent intent;
+            switch(getPosition()){
+                case 0:
+                    intent = new Intent(context, RallyMayaActivity.class);
+                    context.startActivity(intent);
+                    break;
+                default:
+                    break;
+            }
         }
-
     }
 
     @Override
@@ -60,7 +72,7 @@ public class MenuAdapter  extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, int position) {
         ItemMenu menu = menus.get(position);
-        //viewHolder.name.setText(menu.getName());
+        //viewHolder.name.setText(actionbar.getName());
         switch (menu.getId()){
             case 1:
                 viewHolder.image.setImageResource(R.drawable.rally_maya);
