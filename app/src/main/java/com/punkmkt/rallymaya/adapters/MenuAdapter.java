@@ -13,8 +13,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.punkmkt.rallymaya.ParticipantesActivityDetail;
+import com.punkmkt.rallymaya.ParticipantesActivityList;
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.RallyMayaActivity;
+import com.punkmkt.rallymaya.RutaActivity;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 import java.util.ArrayList;
@@ -47,12 +50,19 @@ public class MenuAdapter  extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
 
         @Override
         public void onClick(View view) {
-            Log.e("C:",String.valueOf(getPosition()));
             Context context = view.getContext();
             Intent intent;
             switch(getPosition()){
                 case 0:
                     intent = new Intent(context, RallyMayaActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 1:
+                    intent = new Intent(context, ParticipantesActivityList.class);
+                    context.startActivity(intent);
+                    break;
+                case 2:
+                    intent = new Intent(context, RutaActivity.class);
                     context.startActivity(intent);
                     break;
                 default:
