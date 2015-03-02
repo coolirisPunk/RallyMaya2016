@@ -55,5 +55,6 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
     <string name="title_activity_participantes_activity_list">ParticipantesActivityList</string>
     <string name="title_activity_participantes_activity_detail">ParticipantesActivityDetail</string>
     <string name="title_activity_ruta">RutaActivity</string>
+    <string name="title_activity_tips">TipsActivity</string>
 
 </resources>

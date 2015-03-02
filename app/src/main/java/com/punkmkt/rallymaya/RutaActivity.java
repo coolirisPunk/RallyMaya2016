@@ -24,6 +24,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
@@ -34,6 +36,7 @@ import android.graphics.Color;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.punkmkt.rallymaya.models.Coordenada;
+import com.punkmkt.rallymaya.utils.NetworkUtils;
 
 import android.widget.Toast;
 
@@ -117,55 +120,80 @@ public class RutaActivity extends ActionBarActivity {
         if (savedInstanceState == null) {
             //    selectItem(0);
         }
-        markerPoints = new ArrayList<LatLng>();
-        coordenadas = new ArrayList<Coordenada>();
-        SupportMapFragment fragment = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map));
-        map = fragment.getMap();
-        map.setMyLocationEnabled(true);
-        coordenadas.add(new Coordenada(20.9627063, -89.6282379, "Merida"));
-        coordenadas.add(new Coordenada(20.9578743,-86.9253269,"Cancun"));
-        coordenadas.add(new Coordenada(20.9013842,-89.725542,"Uman"));
-        coordenadas.add(new Coordenada(20.74578,-89.7222305,"HACIENDA YAXCOPOIL"));
-        coordenadas.add(new Coordenada(20.3666355,-90.0485722,"CALKINÍ"));
-        coordenadas.add(new Coordenada(20.4593239,-89.7592358,"HECELCHAKAN"));
-        coordenadas.add(new Coordenada(20.1361321,-90.174441,"POMUCH"));
-        coordenadas.add(new Coordenada(19.8254249,-90.5548053,"CAMPECHE"));
-        coordenadas.add(new Coordenada(19.7475659,-89.8427386,"HOPELCHEN"));
-        coordenadas.add(new Coordenada(20.3888822,-89.6859027,"UXMAL"));
-        for (Coordenada coordenada : coordenadas) {
-            if(markerPoints.size()>=10){
-                Toast.makeText(this,"Rebasado el numero de puntos.",Toast.LENGTH_SHORT);
-            }
-            else {
-                Double Lat = coordenada.getLatitud();
-                Double Lng = coordenada.getLongitud();
-                LatLng point = new LatLng(Lat, Lng);
-                markerPoints.add(point);
-                MarkerOptions options = new MarkerOptions();
-                options.position(point);
-                if (markerPoints.size() == 1) {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                } else if (markerPoints.size() == 2) {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+        if(NetworkUtils.haveNetworkConnection(this)) {
+            markerPoints = new ArrayList<LatLng>();
+            coordenadas = new ArrayList<Coordenada>();
+            SupportMapFragment fragment = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map));
+            map = fragment.getMap();
+            map.setMyLocationEnabled(true);
+            coordenadas.add(new Coordenada(20.9627063, -89.6282379, "Merida"));
+            coordenadas.add(new Coordenada(20.9578743, -86.9253269, "Cancun"));
+            coordenadas.add(new Coordenada(20.9013842, -89.725542, "Uman"));
+            coordenadas.add(new Coordenada(20.74578, -89.7222305, "HACIENDA YAXCOPOIL"));
+            coordenadas.add(new Coordenada(20.3666355, -90.0485722, "CALKINÍ"));
+            coordenadas.add(new Coordenada(20.4593239, -89.7592358, "HECELCHAKAN"));
+            coordenadas.add(new Coordenada(20.1361321, -90.174441, "POMUCH"));
+            coordenadas.add(new Coordenada(19.8254249, -90.5548053, "CAMPECHE"));
+            coordenadas.add(new Coordenada(19.7475659, -89.8427386, "HOPELCHEN"));
+            coordenadas.add(new Coordenada(20.3888822, -89.6859027, "UXMAL"));
+            coordenadas.add(new Coordenada(20.4886998,-89.7090447, "MUNA"));
+            coordenadas.add(new Coordenada(20.4098456,-89.5443497, "TICUL"));
+            coordenadas.add(new Coordenada(21.2386449,-89.2108244, "MANI"));
+            coordenadas.add(new Coordenada(20.9790703,-89.5922433, "MAYAPAN"));
+            coordenadas.add(new Coordenada(21.0982572,-89.7417512, "DZIBILCHALTUN"));
+            coordenadas.add(new Coordenada(21.2500219,-89.649646, "PROGRESO"));
+            coordenadas.add(new Coordenada(21.3274647,-89.2987983, "Telchac Puerto"));
+            coordenadas.add(new Coordenada(21.313508,-89.3541, "xcambo"));
+            coordenadas.add(new Coordenada(21.3294724,-89.0277729, "Dzilam González"));
+            coordenadas.add(new Coordenada(21.0050939,-88.0464464, "Tizimín"));
+            coordenadas.add(new Coordenada(20.6875138,-88.5659138, "Chichén Itzá, Tinum, Yuc."));
+            coordenadas.add(new Coordenada(20.6335355,-87.0796316, "Playa del Carmen"));
+            for (Coordenada coordenada : coordenadas) {
+                if (markerPoints.size() >= 10) {
+                   Log.e("Rebasado el numero de puntos","Coordenadas");
+                    //Toast.makeText(this, "Rebasado el numero de puntos.", Toast.LENGTH_SHORT).show();
                 } else {
-                    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    Double Lat = coordenada.getLatitud();
+                    Double Lng = coordenada.getLongitud();
+                    LatLng point = new LatLng(Lat, Lng);
+                    markerPoints.add(point);
+                    MarkerOptions options = new MarkerOptions();
+                    options.position(point);
+                    if (markerPoints.size() == 1) {
+                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
+                    } else if (markerPoints.size() == 2) {
+                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
+                    } else {
+                        options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    }
+                    // Add new marker to the Google Map Android API V2
+                    map.addMarker(options);
                 }
-                // Add new marker to the Google Map Android API V2
-                map.addMarker(options);
+            }
+
+
+            //Log.e("points", markerPoints.toString());
+
+            // Checks, whether start and end locations are captured
+            if (markerPoints.size() >= 2) {
+                LatLng origin = markerPoints.get(0);
+                LatLng dest = markerPoints.get(1);
+                // Getting URL to the Google Directions API
+                String url = getDirectionsUrl(origin, dest);
+                DownloadTask downloadTask = new DownloadTask();
+                // Start downloading json data from Google Directions API
+                downloadTask.execute(url);
+
+                LatLng location = new LatLng(20.2107651,-89.004814);
+                CameraUpdate center=CameraUpdateFactory.newLatLng(location);
+                CameraUpdate zoom=CameraUpdateFactory.zoomTo(6);
+                map.moveCamera(center);
+                map.animateCamera(zoom);
             }
         }
-        Log.e("points",markerPoints.toString());
-
-        // Checks, whether start and end locations are captured
-                if(markerPoints.size() >= 2){
-                    LatLng origin = markerPoints.get(0);
-                    LatLng dest = markerPoints.get(1);
-                    // Getting URL to the Google Directions API
-                    String url = getDirectionsUrl(origin, dest);
-                    DownloadTask downloadTask = new DownloadTask();
-                    // Start downloading json data from Google Directions API
-                    downloadTask.execute(url);
-                }
+        else{
+            Toast.makeText(getApplicationContext(), "Revise su conexion a internet",Toast.LENGTH_SHORT).show();
+        }
     }
     private String getDirectionsUrl(LatLng origin,LatLng dest){
 

@@ -18,6 +18,7 @@ import com.punkmkt.rallymaya.ParticipantesActivityList;
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.RallyMayaActivity;
 import com.punkmkt.rallymaya.RutaActivity;
+import com.punkmkt.rallymaya.TipActivity;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 import java.util.ArrayList;
@@ -63,6 +64,10 @@ public class MenuAdapter  extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
                     break;
                 case 2:
                     intent = new Intent(context, RutaActivity.class);
+                    context.startActivity(intent);
+                    break;
+                case 3:
+                    intent = new Intent(context, TipActivity.class);
                     context.startActivity(intent);
                     break;
                 default:

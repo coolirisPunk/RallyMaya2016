@@ -1,7 +1,6 @@
 package com.punkmkt.rallymaya;
 
 import android.content.res.Configuration;
-import android.graphics.Typeface;
 import android.os.AsyncTask;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
@@ -16,11 +15,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
-import android.widget.TextView;
 
-import com.punkmkt.rallymaya.adapters.MenuAdapter;
 import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
+import com.punkmkt.rallymaya.adapters.ParticipanteAdapterRecylcer;
 import com.punkmkt.rallymaya.models.Participante;
 
 import java.util.ArrayList;
@@ -35,11 +34,12 @@ public class ParticipantesActivityList extends ActionBarActivity {
     private String[] tagTitles;
 
     private RecyclerView mRecyclerView;
+    private GridView grid;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager mLayoutManager;
     private ArrayList<Participante> participantes = new ArrayList<Participante>();
 
-    private PintaImages tarea1;
+    //private PintaImages tarea1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -107,10 +107,16 @@ public class ParticipantesActivityList extends ActionBarActivity {
         if (savedInstanceState == null) {
             //    selectItem(0);
         }
-        tarea1 = new PintaImages();
-        tarea1.execute();
-
-
+       // tarea1 = new PintaImages();
+       // tarea1.execute();
+        for (int index = 0; index <26; index++) {
+            Participante participante = new Participante();
+            participante.setId(index + 1);
+            participantes.add(participante);
+            Log.e("participantes",participante.toString());
+        }
+        grid = (GridView)findViewById(R.id.grid_participantes);
+        grid.setAdapter(new ParticipanteAdapter(this, R.layout.row_participante, participantes));
     }
 
 
@@ -165,7 +171,7 @@ public class ParticipantesActivityList extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class PintaImages extends AsyncTask<Void, Integer, Boolean> {
+    /*private class PintaImages extends AsyncTask<Void, Integer, Boolean> {
 
         @Override
         protected Boolean doInBackground(Void... params) {
@@ -178,11 +184,11 @@ public class ParticipantesActivityList extends ActionBarActivity {
             //Log.e("Participantes", participantes.toString());
             mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view_participantes);
             mRecyclerView.setHasFixedSize(true);
-            mRecyclerView.setAdapter(new ParticipanteAdapter(participantes, R.layout.row_participante));
+            mRecyclerView.setAdapter(new ParticipanteAdapterRecylcer(participantes, R.layout.row_participante_cardview));
             mRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
             mRecyclerView.setItemAnimator(new DefaultItemAnimator());
             return true;
         }
 
-    }
+    }*/
 }
