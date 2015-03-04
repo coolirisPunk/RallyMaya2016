@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/directorio_singleitem"
+    android:layout_width="match_parent"
+    android:layout_height="40dip"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ListItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/color_paragraph"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

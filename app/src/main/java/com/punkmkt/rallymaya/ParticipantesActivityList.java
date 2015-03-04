@@ -49,10 +49,8 @@ public class ParticipantesActivityList extends ActionBarActivity {
         tagTitles = getResources().getStringArray(R.array.ItemMenusSec);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawerList = (ListView) findViewById(R.id.left_drawer);
-
         // Setear una sombra sobre el contenido principal cuando el drawer se despliegue
         drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-
         //Crear elementos de la lista
         ArrayList<DrawerItem> items = new ArrayList<DrawerItem>();
         items.add(new DrawerItem(tagTitles[0],R.drawable.home_sec));
@@ -113,10 +111,10 @@ public class ParticipantesActivityList extends ActionBarActivity {
             Participante participante = new Participante();
             participante.setId(index + 1);
             participantes.add(participante);
-            Log.e("participantes",participante.toString());
+            //Log.e("participantes",participante.toString());
         }
-        grid = (GridView)findViewById(R.id.grid_participantes);
-        grid.setAdapter(new ParticipanteAdapter(this, R.layout.row_participante, participantes));
+            grid = (GridView)findViewById(R.id.grid_participantes);
+            grid.setAdapter(new ParticipanteAdapter(this, R.layout.row_participante, participantes));
     }
 
 

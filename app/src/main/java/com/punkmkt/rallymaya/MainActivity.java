@@ -2,28 +2,26 @@ package com.punkmkt.rallymaya;
 
 import java.util.ArrayList;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import com.punkmkt.rallymaya.adapters.MenuAdapter;
+import com.punkmkt.rallymaya.adapters.MenuAdapterRecycler;
+import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 
@@ -38,6 +36,8 @@ public class MainActivity extends ActionBarActivity {
     private CharSequence activityTitle;
     private CharSequence itemTitle;
     private String[] tagTitles;
+
+    private GridView grid;
 
     private RecyclerView mRecyclerView;
     private RecyclerView.Adapter mAdapter;
@@ -106,12 +106,9 @@ public class MainActivity extends ActionBarActivity {
                  */
                 //invalidateOptionsMenu();
             }
-
-
         };
         //Seteamos la escucha
         drawerLayout.setDrawerListener(drawerToggle);
-
         if (savedInstanceState == null) {
         //    selectItem(0);
         }
@@ -123,14 +120,14 @@ public class MainActivity extends ActionBarActivity {
             //actionbar.setName(item_menus[index]);
             itemMenus.add(menu);
         }
+//        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+//        mRecyclerView.setHasFixedSize(true);
+//        mRecyclerView.setAdapter(new MenuAdapter(itemMenus, R.layout.row_menu));
+//        mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
+//        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
 
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        mRecyclerView.setHasFixedSize(true);
-        mRecyclerView.setAdapter(new MenuAdapter(itemMenus, R.layout.row_menu));
-        mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
-        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-
-
+        grid = (GridView)findViewById(R.id.grid_menu);
+        grid.setAdapter(new MenuAdapter(this,R.layout.row_menu, itemMenus));
     }
 
     @Override

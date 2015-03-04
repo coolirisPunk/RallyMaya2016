@@ -1,5 +1,12 @@
 package com.punkmkt.rallymaya;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
+import android.graphics.drawable.TransitionDrawable;
+import android.os.Build;
+import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -16,16 +23,21 @@ import com.punkmkt.rallymaya.fragments.Tip_viaje;
 
 
 public class TipActivity extends ActionBarActivity {
-
+    PagerSlidingTabStrip tabs;
+    private Drawable oldBackground = null;
+    private int currentColor = 0xFF666666;
+    private final Handler handler = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tips);
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
-        // Bind the tabs to the ViewPager
-        PagerSlidingTabStrip tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
+        tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
         tabs.setViewPager(pager);
+       // tabs.setDividerColorResource(Color.WHITE);
+        tabs.setTextColor(Color.WHITE);
+
     }
 
 
@@ -60,13 +72,13 @@ public class TipActivity extends ActionBarActivity {
             String title ="";
             switch (position){
                 case 0:
-                    title= "Tab 1";
+                    title= "TIPS DE VIAJE";
                     break;
                 case 1:
-                    title= "Tab 2";
+                    title= "LUGARES DE VISITA";
                     break;
                 case 2:
-                    title= "Tab 3";
+                    title= "DICCIONARIO MAYA";
                     break;
             }
             return title;
@@ -83,13 +95,20 @@ public class TipActivity extends ActionBarActivity {
                      fm= new Tip_viaje();
                 break;
                 case 1:
-                    fm= new Diccionario_maya();
+                    fm= new Lugar_visita();
                 break;
                 case 2:
-                    fm= new Lugar_visita();
+                    fm= new Diccionario_maya();
                 break;
             }
             return fm;
         }
     }
+
+
+
+
+
+
+
 }

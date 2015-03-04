@@ -1,14 +1,11 @@
 package com.punkmkt.rallymaya;
 
 import android.content.res.Configuration;
-import android.graphics.Typeface;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,7 +14,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.punkmkt.rallymaya.adapters.MenuAdapter;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 import java.util.ArrayList;

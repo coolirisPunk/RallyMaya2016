@@ -45,7 +45,6 @@ public class ParticipanteAdapter extends ArrayAdapter<Participante>{
             viewHolder = (ViewHolder) convertView.getTag();
         }
         Participante participante = participantes.get(position);
-        Log.e("position",String.valueOf(position) + "-" + participante.getId().toString());
         //viewHolder.name.setText(actionbar.getName());
         switch (participante.getId()){
             case 1:

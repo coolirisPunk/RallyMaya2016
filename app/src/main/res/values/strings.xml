@@ -57,4 +57,273 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
     <string name="title_activity_ruta">RutaActivity</string>
     <string name="title_activity_tips">TipsActivity</string>
 
+
+<!--TIPS-->
+    <string name="tips_viaje_text">
+Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabulosos de la Península de Yucatán que seguramente le dejarán una inolvidable experiencia de viaje, por lo que le recomendamos lo siguiente:\n\n
+- Agua \n
+- Repelente \n
+- Protector solar \n
+- Maleta pequeña (lo necesario para viajar) \n
+- Ropa fresca y de colores claros, casual y formal (cenas) \n
+- Zapatos cómodos \n
+- Toallas faciales \n
+- Lentes de sol \n
+- Sombrillas \n
+- Abanico \n
+- Nevera portátil  \n
+- Botiquín \n
+- Extinguidor \n
+- Cámaras Fotográficas y Celulares \n
+- Cargadores y conectores \n
+- Postales de sus autos \n
+- Cronometro \n
+- Libreta de ruta \n
+- Aprender algunas palabras en maya para interactuar con la gente. \n
+- Si tuviera algún apoyo para el adulto mayor (Credencial de INSEN) \n
+- Reproductor de música \n
+- Cangurera \n
+- Dinero/efectivo \n
+- Herramientas mecánicas \n
+
+       \n\n Estas son algunos tips que les sugerimos tener a la mano y pueda disfrutar del placer de viajar en el tiempo con Rally Maya México.
+
+    </string>
+    <string name="diccionario_maya_text">
+- <b>Agua:</b> Ja’ \n
+- <b>Aire:</b> Lik’ \n
+- <b>Alcalde:</b> Nojchil Kaaj \n
+- <b>Apetito:</b> Taakil Jaanal \n
+- <b>Apasionar: Uts Tu Yich</b> \n
+- <b>Aplauso:</b> Papax K’ab \n
+- <b>Asiento:</b> K’aanché \n
+- <b>Ayudar:</b> Aantaj \n
+- <b>Alegría:</b> Ki’imk Óol \n
+- <b>Abrazo:</b> Lóoch \n
+- <b>Baile:</b> Óok’ot.  \n
+- <b>Bañar O Baño:</b> Ichkíil \n
+- <b>Barriga:</b> Nak \n
+- <b>Belleza:</b> Ki’ichpanil, Jats’utsil \n
+- <b>Besar:</b> Ts’u’uts’ \n
+- <b>Bigote:</b> Me’ex \n
+- <b>Bikini:</b> Kul Eex \n
+- <b>Boca:</b> Chi’ \n
+- <b>Bostezar:</b> Jaayab \n
+- <b>Bromear:</b> Báaxal \n
+- <b>Caballo:</b> Tsíimin \n
+- <b>Cabello:</b> Tso’otsel Pool \n
+- <b>Cabeza:</b> Pool \n
+- <b>Cachete:</b> P’u’uk \n
+- <b>Café:</b> Káapej \n
+- <b>Calambre:</b> Lot’ \n
+- <b>Caliente:</b> Chokoj \n
+- <b>Calor:</b>  Ooxol \n
+- <b>Calvo:</b> K’olis, T’ooroch \n
+- <b>Calzón:</b> Eex \n
+- <b>Calle:</b> Beel \n
+- <b>Canción:</b> K’aay \n
+- <b>Cara</b> Ich \n
+- <b>Cena:</b> Ook’in Janal \n
+- <b>Cenote:</b> Ts’ono’ot \n
+- <b>Ciudad:</b>  Noj Kaaj, Nojoch Kaaj \n
+- <b>Coche Antiguo:</b> Úuchben \n
+- <b>Comprar:</b> Maan \n
+- <b>Chiflar:</b> Xuuxub \n
+- <b>Chile:</b> Ik \n
+- <b>Chiste:</b> Báaxal T’aan \n
+- <b>Dama:</b> Xunáan, Ko’olel \n
+- <b>Desayuno:</b> Uk’ul \n
+- <b>Despacio:</b> Chaanbéel \n
+- <b>Despeinar:</b> Xa’axak’ Pool \n
+- <b>Día:</b> K’iin \n
+- <b>Diabetes:</b> Ch’ujuk K’i’ik \n
+- <b>Dormir:</b> Wenel, Wenej \n
+- <b>Dulce:</b> Ch’ujuk \n
+- <b>Elote:</b> Bot: Nal \n
+- <b>Entrevistar:</b> K’áat Chi’ \n
+- <b>Escribir</b> Ts’íib \n
+- <b>Este:</b>  Lak’in \n
+- <b>Estómago:</b> Tsuuk \n
+- <b>Estrella:</b> Eek’ \n
+- <b>Familia:</b> Ch’i’ibalil, Láak’tsilil \n
+- <b>Fiesta:</b> Cha’an \n
+- <b>Final:</b> Ts’ook, Xuul \n
+- <b>Ganado:</b> Wakax \n
+- <b>Gente:</b> Máako’ob, Wíiniko’ob \n
+- <b>Grupo:</b> Múuch’ \n
+- <b>Ganar:</b> Náajal \n
+- <b>Gastar:</b> Xuup  \n
+- <b>Habitación:</b> Naj, Otoch, Taanaj \n
+- <b>Hablar:</b> T’aan \n
+- <b>Hamaca:</b> K’áan \n
+- <b>Hermano:</b> Láak’ \n
+- <b>Hombre:</b> Xiib \n
+- <b>Hotel:</b> Naj Tu’ux Ku K’uchul U’ulabo’ob  \n
+- <b>Huésped</b> U’ulab \n
+- <b>Inaugurar</b> Chúunpajal \n
+- <b>Inteligencia</b> Na’at \n
+- <b>Jarana</b> Síit’ Óok’ot \n
+- <b>Jícara</b> Luuch \n
+- <b>Joven:</b> Xi’ipal \n
+- <b>Kilómetro:U P’iisil Mil Meetroso’ob</b> \n
+- <b>Lengua: </b> Aak’ \n
+- <b>Líder:</b> Jalachil \n
+- <b>Luna:</b> Uj \n
+- <b>Luz:</b> Sáas, Sáasil  \n
+- <b>Llave:</b> Ch’otob \n
+- <b>Lluvia:</b> Cháak \n
+- <b>Llevar:</b> Biis \n
+- <b>Llenar:</b> Chuup \n
+- <b>Maíz:</b> Ixi’im \n
+- <b>Mamá:</b>Na’ \n
+- <b>Mar:</b> K’áak’náab \n
+- <b>Médico:</b> Ts’ak Máak Ts’ak Yaj \n
+- <b>Meta:</b> Xuul \n
+- <b>Mosquito:</b> K’oxol, Box K’oxol \n
+- <b>Mujer:</b> Ch’up, Ko’olel \n
+- <b>Música:</b> Paax  \n
+- <b>Nadar:</b> Báab \n
+- <b>Nombre:</b> K’aaba’ \n
+- <b>Norte:</b> Xaman  \n
+- <b>Número:</b> Xook \n
+- <b>Obedecer:</b> U’uy T’aan  \n
+- <b>Oeste:</b> Chik’in \n
+- <b>Oir:</b> U’uy \n
+- <b>Ojo:</b> Ich \n
+- <b>Ombligo:</b> Tuuch \n
+- <b>Orden:</b> Tsool \n
+- <b>Oriente:</b> Lak’in \n
+- <b>Padre:</b> Yuum, Taat, Taatáa \n
+- <b>Pasear:</b> Ximbal, Máan \n
+- <b>Perro:</b> Peek’  \n
+- <b>Playa:</b> Jáal Ja’  \n
+- <b>Población:</b> Kaaj, Kajtalil \n
+- <b>Poniente:</b> Chik’in  \n
+- <b>Precio:</b> Tojol  \n
+- <b>¿Qué?:</b> Ba’ax \n
+- <b>Ruta:</b> Bej, Beel, Bejil. \n
+- <b>Sed:</b> Uk’aj \n
+- <b>Sentar:</b> Kutal \n
+- <b>Señor:</b> Yuum, Taat, Nojoch Máak \n
+- <b>Señorita:</b> Ch’úupal \n
+- <b>Sí:</b> Beey, Beyo’  \n
+- <b>Sol:</b> K’iin \n
+- <b>Sombrero:</b> P’óok \n
+- <b>Sonrisa:</b> Sak Che’ej  \n
+- <b>Sur:</b> Nojol \n
+- <b>Tabaco</b> K’úuts \n
+- <b>Tarde:</b> Chúunk’in \n
+- <b>Tortilla:</b> Waaj \n
+- <b>Trabajar:</b> Meyaj \n
+- <b>Tramo:</b> Xóot’ \n
+- <b>Veloz:</b> Séeb, Péekla’an, Séeba’an  \n
+- <b>Visitar:</b> Xíimbaj  \n
+
+    </string>
+    <!-- CATEGORÍAS TIPS: lugares de visita -->
+    <string-array name="tips_LugaresVisitaHeader">
+        <item>MÉRIDA</item>
+        <item>UMAN</item>
+        <item>HACIENDA YAXCOPOIL</item>
+        <item>CALKINÍ</item>
+        <item>HECELCHAKAN</item>
+        <item>POMUCH</item>
+        <item>CAMPECHE</item>
+        <item>HOPELCHEN</item>
+        <item>SANTA ROSA XTAMPAK</item>
+        <item>UXMAL</item>
+        <item>MUNA</item>
+        <item>TICUL</item>
+        <item>MANÍ</item>
+        <item>MAYAPAN</item>
+        <item>DZIBILCHALTUN</item>
+        <item>PUERTO PROGRESO</item>
+        <item>XCAMBÓ</item>
+        <item>DZILAM GONZALEZ</item>
+        <item>TIZIMIN</item>
+        <item>VALLADOLID</item>
+        <item>CHICHEN ITZÁ</item>
+        <item>XCARET</item>
+        <item>PLAYA DEL CARMEN</item>
+        <item>CANCUN</item>
+        <item>ISLA MUJERES</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_merida">
+        <item>La Ciudad Blanca, envuelta en el Mundo Maya, es una ciudad  colonial que se caracteriza por la hospitalidad generosa de su gente, con sus barrios coloniales, arboladas y señoriales avenidas, con servicios de clase mundial, variada gastronomía, vida nocturna y modernas instalaciones garantiza el éxito de los negocios  y un recuerdo duradero de una experiencia única. </item>
+    </string-array>
+        <string-array name="tips_LugaresVisita_uman">
+        <item>Visitar la magnífica Parroquia de San Francisco que antes formo parte de un Convento del siglo XVI de proporciones imponentes, destaca su imponente fachada de cantera que quedó inconclusa.  </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_hacienda_yaxcopoil">
+        <item>Yaxcopoil que fue considerada una de las fincas rústicas más importantes por su tamaño y magnificencia y actualmente es un museo. Desde el siglo XVI, las haciendas en Yucatán funcionaban como el sistema Feudal europea. Eran eficientes granjas y centros de manufacturación que producían carne y productos agrícolas para la exportación. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_calkini">
+        <item>En lengua Maya significa “Garganta de Sol”, conocida como la “Atenas del Camino Real” y llamada “Cuna de las Artesanías Campechanas”; cuenta con una gran riqueza Cultural, Natural, y Artesanal y Servicios indispensables para disfrutar en Familia.</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_hecelchakan">
+        <item>El nombre de Hecelchakán está ligado desde siempre al descanso del viajero. En lengua maya significa “Sabana del Descanso” siendo muy descriptivo de lo que aún es su paisaje. Fundada entre 1500 y 1600, se dice que en tiempos antiguos los viajeros en sus largos recorridos se detenían aquí para proveerse del agua de su gran cenote, cuyos frondosos árboles les daban también sombra y fruta. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_pomuch">
+        <item>Pueblo mágico con olor a pan, donde la cultura refleja el pasado y el presente, en donde las tradiciones y costumbres siguen vivas a pesar del paso del tiempo. Es famoso nacional e internacionalmente por una particular tradición de sus habitantes para el día de muertos, según la cual los familiares del fallecido, desentierran sus huesos, los limpian y los envuelven en servilletas nuevas y bordadas especialmente para la ocasión, volviendo a depositarlos entonces en su tumba y se le realiza la tradicional ofrenda con alimentos y bebidas. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_campeche">
+        <item>La mezcla de la actividad comercial del puerto y su afán de protección contra sus agresores de la época dio como resultado la imagen colonial y defensiva del Campeche que hoy puede apreciarse en sus imponentes fuertes y baluartes, sus hermosos templos, plazas y palacios del que fue el puerto de mercancías más estratégico entre la Nueva España y Europa. La ciudad es una rica muestra de lo mejor de la gastronomía del Estado.</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_hopelchen">
+        <item>Hopelchén o lugar de los cinco pozos, se sitúa al este del Estado en la frontera con Yucatán, en la región de los Chenes, nombre maya para describir a los pozos, fuente principal de agua en el área. Su cabecera municipal crece en torno a su iglesia de San Antonio  cuyo retablo mayor dedicado a la Virgen María data de la época colonial; y a su plaza, lugar de reunión de los pobladores donde se conjugan de manera cordial la cultura mestiza y la menonita, que hace unos años se estableció en la región. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_santa_rosa_xtampak">
+        <item>En maya “Muros Viejos”, A este sitio se le considera como la ciudad prehispánica más importante de la región de los Chenes, ya que instituyó una capital regional en el área maya; además se le conoce como el sitio de mayor tamaño de aquella región.  </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_uxmal">
+        <item>Uno de los sitios  arqueológicos  de todo Mesoamericana y declarado Patrimonio de la Humanidad por la Unesco. Las edificaciones más sobresalientes son: el cuadrángulo de las monjas, el Juego de Pelota, el templo de los Monumentos, la casa de las Tortugas, el Palacio del Gobernador, y la casa del Adivino, pirámide de 35 metros de altura, cuenta con el museo de sitio en el cual se exhiben bellas e interesantes piezas de piedra tallada y cerámica. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_muna">
+        <item>Lugar de agua suave o tierna, por derivarse de las voces mun (tierno, suave) y á o há agua. En la época prehispánica perteneció al cacicazgo de Tutul xiu y después de la conquista permaneció bajo el régimen de las encomiendas entre las que se puede mencionar la de Don Alonzo Rosado en 1700.</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_ticul">
+        <item>Es también llamado la Perla del Sur, famoso por su manufactura de zapatos para mujeres y también es un centro de producción de cerámica a gran escala, de hecho, se pueden visitar diversos talleres de los alfareros para comprar piezas terminadas. Ahí encontrará una mezcla de cultura, con grandes edificios coloniales que contrastan con casas mayas de techo de paja.</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_mani">
+        <item>Lugar del mayor de los cacicazgos mayas. Este lugar fue testigo de uno de los actos más infames en la historia, el “Acto de Fe”, cuando Fray Diego de Landa  en 1561, mandó quemar varios objetos que los mayas valoraban, incluyendo los códices que hablaban de la historia, creencias y astronomía de los mayas. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_mayapan">
+        <item>Llegó a ser el centro más importante de la civilización maya durante el siglo XIII de nuestra era. Fue construida de forma muy similar a Chichen Itzá. Cuenta con más de 4 mil estructuras rodeadas por una gran muralla y decenas de cenotes. Se destaca el castillo de Kukulkán, en donde  tiene lugar un interesante fenómeno de luz y sombra durante el solsticio de invierno, similar al de Chichen Itzá. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_dzilchaltun">
+        <item>Su estructura más famosa es la Casa de las siete Muñecas, en los equinoccios de primavera y otoño, la orientación  del edificio hace que el sol pueda verse a través de las puertas  este y oeste, otro ejemplo de la precisión matemática de los mayas, también cuenta con el museo del pueblo maya y un cenote para nadar. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_puerto_progreso">
+        <item>Progreso de Castro, el puerto más importante del estado es, al mismo tiempo la población, con categoría de ciudad, más joven de Yucatán. La fundación del puerto de Progreso surgió como una necesidad: el traslado de la aduana de Sisal a un sitio más cercano a la capital del Estado. Progreso es actualmente, un punto de enlace turístico y una frontera abierta al intercambio comercial con el golfo de México y el Mar Caribe. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_xcambo">
+        <item>"Cocodrilo celestial" o "Lugar donde se realizan trueques" Espléndido escaparate natural que combina apacibles playas y una zona arqueológica.  Es un yacimiento arqueológico que se encuentra ubicado en el municipio de Dzemul Es considerada por los expertos como una de los yacimientos de mayor extensión en la costa norte peninsular, contando con edificios de grandes dimensiones. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_dzilam_gonzalez">
+        <item>Significa "Pelado o descortezado" En la época prehispánica perteneció al cacicazgo de los cheles. Después de realizada la conquista permaneció bajo el régimen de las encomiendas, las que prevalecen durante toda la época colonial. Se caracteriza por su peculiar Fiesta Tradicional. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_tizimin">
+        <item>Es traducido como lugar del "tzimin" (tapir) El sitio que hoy ocupa Tizimín formaba parte, en tiempos prehispánicos, de la provincia de los Cupules. Cuenta con monumentos Arquitectónicos: El ex convento y parroquia de los Santos Reyes (siglos XVII); ex convento y templo de San Francisco (siglo XVI). </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_valladolid">
+        <item>Valladolid, donde sucedieron dos grandes pasajes de la historia de México: “La Guerra de Castas” en 1847 y “La Primera chispa de la Revolución Mexicana” en 1910: es conocida actualmente como “La Capital del Oriente Maya”, título merecido no sólo por la belleza arquitectónica de sus edificaciones coloniales ancestrales como el Convento de San Bernardino de Siena, el Palacio Municipal, la Iglesia de San Servacio, el Ex Telar de la Aurora, el Museo de San Roque, así como otros no menos importantes. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_chichenitza">
+        <item>Una de las 7 maravillas del Mundo; se puede admirar el Castillo, el Templo de los Guerreros, el Grupo de las mil Columnas, la Plataforma de Venus, el Tzompantli, el Juego de Pelota, el Caracol, antiguo Observatorio y la Iglesia. Es la más impresionante de las ruinas de la civilización Maya. El edificio más conocido es el Castillo, tiene una altura de poco más de 30 metros y en la parte superior hay un templo dedicado a Kukulkán.</item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_xcaret">
+        <item>"Xcaret" significa en maya pequeña caleta, pues cuenta con una ensenada de extraordinaria belleza. La ubicación geográficamente conveniente de esta caleta la hizo atractiva para los mayas, quienes construyeron ahí un puerto y centro mercantil. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_playa_carmen">
+        <item>Antiguamente un pequeño pueblo, Playa del Carmen es hoy día uno de los sitios más glamurosos del Caribe Mexicano. “Playa”, como lo llaman sus visitantes asiduos, se sitúa en el corazón de la Riviera Maya y congrega los mejores restaurantes, tiendas y centros nocturnos. Playa del Carmen es uno de los destinos culinarios más importantes de la Riviera Maya. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_cancun">
+        <item>Cancún forma parte del territorio de la antigua civilización maya y aún es considerado la entrada al Mundo Maya. Cancún se distingue por contar con infraestructura, modernos centros de entretenimiento y filosofía de servicio que rivalizan con destinos vacacionales en todo el mundo. Este destino ofrece a los viajeros lo mejor de muchos mundos: del Caribe y de México; de los tiempos modernos y los antiguos; de la aventura y la tranquilidad. </item>
+    </string-array>
+    <string-array name="tips_LugaresVisita_isla_mujeres">
+        <item>Los primeros vestigios en Isla Mujeres datan del año 564 dc. La isla era una posición estratégica para los navegantes mayas los cuales construyeron ya en el período posclásico, un faro al sur de la misma para ayudas a la navegación. </item>
+    </string-array>
+
+
+
 </resources>
