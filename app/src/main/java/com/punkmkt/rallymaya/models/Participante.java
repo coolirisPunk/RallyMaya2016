@@ -7,6 +7,9 @@ public class Participante {
     private Integer id;
     private String name;
     private String image;
+    private String year;
+    private String order;
+
 
     public Integer getId() {
         return id;
@@ -30,5 +33,20 @@ public class Participante {
 
     public void setName(String name) {
         this.name = name;
+    }
+    public String getYear() {
+        return year;
+    }
+
+    public void setYear(String year) {
+        this.year = year;
+    }
+
+    public String getOrder() {
+        return order;
+    }
+
+    public void setOrder(String year) {
+        this.order = order;
     }
 }

@@ -13,8 +13,12 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.punkmkt.rallymaya.CronometroActivity;
+import com.punkmkt.rallymaya.DiabetesActivity;
+import com.punkmkt.rallymaya.DirectorioActivity;
 import com.punkmkt.rallymaya.ParticipantesActivityDetail;
 import com.punkmkt.rallymaya.ParticipantesActivityList;
+import com.punkmkt.rallymaya.PatrocinadorActivity;
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.RallyMayaActivity;
 import com.punkmkt.rallymaya.RutaActivity;
@@ -94,6 +98,22 @@ public class MenuAdapter extends ArrayAdapter<ItemMenu>{
                         break;
                     case 3:
                         intent = new Intent(context, TipActivity.class);
+                        context.startActivity(intent);
+                        break;
+                    case 4:
+                        intent = new Intent(context, PatrocinadorActivity.class);
+                        context.startActivity(intent);
+                        break;
+                    case 5:
+                        intent = new Intent(context, DirectorioActivity.class);
+                        context.startActivity(intent);
+                        break;
+                    case 6:
+                        intent = new Intent(context, DiabetesActivity.class);
+                        context.startActivity(intent);
+                        break;
+                    case 7:
+                        intent = new Intent(context, CronometroActivity.class);
                         context.startActivity(intent);
                         break;
                     default:

@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import android.content.Context;
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +41,8 @@ public class ExpandableListLugarVisitaAdapter extends BaseExpandableListAdapter{
 	public View getChildView(int groupPosition, final int childPosition,
 			boolean isLastChild, View convertView, ViewGroup parent) {
 
-		final String childText = (String) getChild(groupPosition, childPosition);
+
+        final String childText = (String) getChild(groupPosition, childPosition);
 
 		if (convertView == null) {
 			LayoutInflater infalInflater = (LayoutInflater) this.context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -52,7 +51,6 @@ public class ExpandableListLugarVisitaAdapter extends BaseExpandableListAdapter{
 
 		TextView txtListChild = (TextView) convertView.findViewById(R.id.ListItem);
         txtListChild.setText(childText);
-
 		return convertView;
 	}
 

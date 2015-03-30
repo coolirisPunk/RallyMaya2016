@@ -221,109 +221,588 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
 
     </string>
     <!-- CATEGORÍAS TIPS: lugares de visita -->
-    <string-array name="tips_LugaresVisitaHeader">
-        <item>MÉRIDA</item>
-        <item>UMAN</item>
-        <item>HACIENDA YAXCOPOIL</item>
-        <item>CALKINÍ</item>
-        <item>HECELCHAKAN</item>
-        <item>POMUCH</item>
-        <item>CAMPECHE</item>
-        <item>HOPELCHEN</item>
-        <item>SANTA ROSA XTAMPAK</item>
-        <item>UXMAL</item>
-        <item>MUNA</item>
-        <item>TICUL</item>
-        <item>MANÍ</item>
-        <item>MAYAPAN</item>
-        <item>DZIBILCHALTUN</item>
-        <item>PUERTO PROGRESO</item>
-        <item>XCAMBÓ</item>
-        <item>DZILAM GONZALEZ</item>
-        <item>TIZIMIN</item>
-        <item>VALLADOLID</item>
-        <item>CHICHEN ITZÁ</item>
-        <item>XCARET</item>
-        <item>PLAYA DEL CARMEN</item>
-        <item>CANCUN</item>
-        <item>ISLA MUJERES</item>
-    </string-array>
-    <string-array name="tips_LugaresVisita_merida">
+
+
+    <string-array name="lugares_visita_merida">
         <item>La Ciudad Blanca, envuelta en el Mundo Maya, es una ciudad  colonial que se caracteriza por la hospitalidad generosa de su gente, con sus barrios coloniales, arboladas y señoriales avenidas, con servicios de clase mundial, variada gastronomía, vida nocturna y modernas instalaciones garantiza el éxito de los negocios  y un recuerdo duradero de una experiencia única. </item>
     </string-array>
-        <string-array name="tips_LugaresVisita_uman">
+        <string-array name="lugares_visita_uman">
         <item>Visitar la magnífica Parroquia de San Francisco que antes formo parte de un Convento del siglo XVI de proporciones imponentes, destaca su imponente fachada de cantera que quedó inconclusa.  </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_hacienda_yaxcopoil">
+    <string-array name="lugares_visita_hacienda_yaxcopoil">
         <item>Yaxcopoil que fue considerada una de las fincas rústicas más importantes por su tamaño y magnificencia y actualmente es un museo. Desde el siglo XVI, las haciendas en Yucatán funcionaban como el sistema Feudal europea. Eran eficientes granjas y centros de manufacturación que producían carne y productos agrícolas para la exportación. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_calkini">
+    <string-array name="lugares_visita_calkini">
         <item>En lengua Maya significa “Garganta de Sol”, conocida como la “Atenas del Camino Real” y llamada “Cuna de las Artesanías Campechanas”; cuenta con una gran riqueza Cultural, Natural, y Artesanal y Servicios indispensables para disfrutar en Familia.</item>
     </string-array>
-    <string-array name="tips_LugaresVisita_hecelchakan">
+    <string-array name="lugares_visita_hecelchakan">
         <item>El nombre de Hecelchakán está ligado desde siempre al descanso del viajero. En lengua maya significa “Sabana del Descanso” siendo muy descriptivo de lo que aún es su paisaje. Fundada entre 1500 y 1600, se dice que en tiempos antiguos los viajeros en sus largos recorridos se detenían aquí para proveerse del agua de su gran cenote, cuyos frondosos árboles les daban también sombra y fruta. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_pomuch">
+    <string-array name="lugares_visita_pomuch">
         <item>Pueblo mágico con olor a pan, donde la cultura refleja el pasado y el presente, en donde las tradiciones y costumbres siguen vivas a pesar del paso del tiempo. Es famoso nacional e internacionalmente por una particular tradición de sus habitantes para el día de muertos, según la cual los familiares del fallecido, desentierran sus huesos, los limpian y los envuelven en servilletas nuevas y bordadas especialmente para la ocasión, volviendo a depositarlos entonces en su tumba y se le realiza la tradicional ofrenda con alimentos y bebidas. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_campeche">
+    <string-array name="lugares_visita_campeche">
         <item>La mezcla de la actividad comercial del puerto y su afán de protección contra sus agresores de la época dio como resultado la imagen colonial y defensiva del Campeche que hoy puede apreciarse en sus imponentes fuertes y baluartes, sus hermosos templos, plazas y palacios del que fue el puerto de mercancías más estratégico entre la Nueva España y Europa. La ciudad es una rica muestra de lo mejor de la gastronomía del Estado.</item>
     </string-array>
-    <string-array name="tips_LugaresVisita_hopelchen">
+    <string-array name="lugares_visita_hopelchen">
         <item>Hopelchén o lugar de los cinco pozos, se sitúa al este del Estado en la frontera con Yucatán, en la región de los Chenes, nombre maya para describir a los pozos, fuente principal de agua en el área. Su cabecera municipal crece en torno a su iglesia de San Antonio  cuyo retablo mayor dedicado a la Virgen María data de la época colonial; y a su plaza, lugar de reunión de los pobladores donde se conjugan de manera cordial la cultura mestiza y la menonita, que hace unos años se estableció en la región. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_santa_rosa_xtampak">
+    <string-array name="lugares_visita_santa_rosa_xtampak">
         <item>En maya “Muros Viejos”, A este sitio se le considera como la ciudad prehispánica más importante de la región de los Chenes, ya que instituyó una capital regional en el área maya; además se le conoce como el sitio de mayor tamaño de aquella región.  </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_uxmal">
+    <string-array name="lugares_visita_uxmal">
         <item>Uno de los sitios  arqueológicos  de todo Mesoamericana y declarado Patrimonio de la Humanidad por la Unesco. Las edificaciones más sobresalientes son: el cuadrángulo de las monjas, el Juego de Pelota, el templo de los Monumentos, la casa de las Tortugas, el Palacio del Gobernador, y la casa del Adivino, pirámide de 35 metros de altura, cuenta con el museo de sitio en el cual se exhiben bellas e interesantes piezas de piedra tallada y cerámica. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_muna">
+    <string-array name="lugares_visita_muna">
         <item>Lugar de agua suave o tierna, por derivarse de las voces mun (tierno, suave) y á o há agua. En la época prehispánica perteneció al cacicazgo de Tutul xiu y después de la conquista permaneció bajo el régimen de las encomiendas entre las que se puede mencionar la de Don Alonzo Rosado en 1700.</item>
     </string-array>
-    <string-array name="tips_LugaresVisita_ticul">
+    <string-array name="lugares_visita_ticul">
         <item>Es también llamado la Perla del Sur, famoso por su manufactura de zapatos para mujeres y también es un centro de producción de cerámica a gran escala, de hecho, se pueden visitar diversos talleres de los alfareros para comprar piezas terminadas. Ahí encontrará una mezcla de cultura, con grandes edificios coloniales que contrastan con casas mayas de techo de paja.</item>
     </string-array>
-    <string-array name="tips_LugaresVisita_mani">
+    <string-array name="lugares_visita_mani">
         <item>Lugar del mayor de los cacicazgos mayas. Este lugar fue testigo de uno de los actos más infames en la historia, el “Acto de Fe”, cuando Fray Diego de Landa  en 1561, mandó quemar varios objetos que los mayas valoraban, incluyendo los códices que hablaban de la historia, creencias y astronomía de los mayas. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_mayapan">
+    <string-array name="lugares_visita_mayapan">
         <item>Llegó a ser el centro más importante de la civilización maya durante el siglo XIII de nuestra era. Fue construida de forma muy similar a Chichen Itzá. Cuenta con más de 4 mil estructuras rodeadas por una gran muralla y decenas de cenotes. Se destaca el castillo de Kukulkán, en donde  tiene lugar un interesante fenómeno de luz y sombra durante el solsticio de invierno, similar al de Chichen Itzá. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_dzilchaltun">
+    <string-array name="lugares_visita_dzibilchaltun">
         <item>Su estructura más famosa es la Casa de las siete Muñecas, en los equinoccios de primavera y otoño, la orientación  del edificio hace que el sol pueda verse a través de las puertas  este y oeste, otro ejemplo de la precisión matemática de los mayas, también cuenta con el museo del pueblo maya y un cenote para nadar. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_puerto_progreso">
+    <string-array name="lugares_visita_puerto_progreso">
         <item>Progreso de Castro, el puerto más importante del estado es, al mismo tiempo la población, con categoría de ciudad, más joven de Yucatán. La fundación del puerto de Progreso surgió como una necesidad: el traslado de la aduana de Sisal a un sitio más cercano a la capital del Estado. Progreso es actualmente, un punto de enlace turístico y una frontera abierta al intercambio comercial con el golfo de México y el Mar Caribe. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_xcambo">
+    <string-array name="lugares_visita_xcambo">
         <item>"Cocodrilo celestial" o "Lugar donde se realizan trueques" Espléndido escaparate natural que combina apacibles playas y una zona arqueológica.  Es un yacimiento arqueológico que se encuentra ubicado en el municipio de Dzemul Es considerada por los expertos como una de los yacimientos de mayor extensión en la costa norte peninsular, contando con edificios de grandes dimensiones. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_dzilam_gonzalez">
+    <string-array name="lugares_visita_dzilam_gonzalez">
         <item>Significa "Pelado o descortezado" En la época prehispánica perteneció al cacicazgo de los cheles. Después de realizada la conquista permaneció bajo el régimen de las encomiendas, las que prevalecen durante toda la época colonial. Se caracteriza por su peculiar Fiesta Tradicional. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_tizimin">
+    <string-array name="lugares_visita_tizimin">
         <item>Es traducido como lugar del "tzimin" (tapir) El sitio que hoy ocupa Tizimín formaba parte, en tiempos prehispánicos, de la provincia de los Cupules. Cuenta con monumentos Arquitectónicos: El ex convento y parroquia de los Santos Reyes (siglos XVII); ex convento y templo de San Francisco (siglo XVI). </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_valladolid">
+    <string-array name="lugares_visita_valladolid">
         <item>Valladolid, donde sucedieron dos grandes pasajes de la historia de México: “La Guerra de Castas” en 1847 y “La Primera chispa de la Revolución Mexicana” en 1910: es conocida actualmente como “La Capital del Oriente Maya”, título merecido no sólo por la belleza arquitectónica de sus edificaciones coloniales ancestrales como el Convento de San Bernardino de Siena, el Palacio Municipal, la Iglesia de San Servacio, el Ex Telar de la Aurora, el Museo de San Roque, así como otros no menos importantes. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_chichenitza">
+    <string-array name="lugares_visita_chichenitza">
         <item>Una de las 7 maravillas del Mundo; se puede admirar el Castillo, el Templo de los Guerreros, el Grupo de las mil Columnas, la Plataforma de Venus, el Tzompantli, el Juego de Pelota, el Caracol, antiguo Observatorio y la Iglesia. Es la más impresionante de las ruinas de la civilización Maya. El edificio más conocido es el Castillo, tiene una altura de poco más de 30 metros y en la parte superior hay un templo dedicado a Kukulkán.</item>
     </string-array>
-    <string-array name="tips_LugaresVisita_xcaret">
+    <string-array name="lugares_visita_xcaret">
         <item>"Xcaret" significa en maya pequeña caleta, pues cuenta con una ensenada de extraordinaria belleza. La ubicación geográficamente conveniente de esta caleta la hizo atractiva para los mayas, quienes construyeron ahí un puerto y centro mercantil. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_playa_carmen">
+    <string-array name="lugares_visita_playa_del_carmen">
         <item>Antiguamente un pequeño pueblo, Playa del Carmen es hoy día uno de los sitios más glamurosos del Caribe Mexicano. “Playa”, como lo llaman sus visitantes asiduos, se sitúa en el corazón de la Riviera Maya y congrega los mejores restaurantes, tiendas y centros nocturnos. Playa del Carmen es uno de los destinos culinarios más importantes de la Riviera Maya. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_cancun">
+    <string-array name="lugares_visita_cancun">
         <item>Cancún forma parte del territorio de la antigua civilización maya y aún es considerado la entrada al Mundo Maya. Cancún se distingue por contar con infraestructura, modernos centros de entretenimiento y filosofía de servicio que rivalizan con destinos vacacionales en todo el mundo. Este destino ofrece a los viajeros lo mejor de muchos mundos: del Caribe y de México; de los tiempos modernos y los antiguos; de la aventura y la tranquilidad. </item>
     </string-array>
-    <string-array name="tips_LugaresVisita_isla_mujeres">
+    <string-array name="lugares_visita_isla_mujeres">
         <item>Los primeros vestigios en Isla Mujeres datan del año 564 dc. La isla era una posición estratégica para los navegantes mayas los cuales construyeron ya en el período posclásico, un faro al sur de la misma para ayudas a la navegación. </item>
     </string-array>
+    <string-array name="tips_lugares_visita_merida">
+        <item name="id">1</item>
+        <item name="title">MÉRIDA</item>
+        <item name="tag">lugares_visita_merida</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_uman">
+        <item name="id">2</item>
+        <item name="title">UMAN</item>
+        <item name="tag">lugares_visita_uman</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_hacienda_yaxcopoil">
+        <item name="id">3</item>
+        <item name="title">HACIENDA YAXCOPOIL</item>
+        <item name="tag">lugares_visita_hacienda_yaxcopoil</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_calkini">
+        <item name="id">4</item>
+        <item name="title">CALKINÍ</item>
+        <item name="tag">lugares_visita_calkini</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_hecelchakan">
+        <item name="id">4</item>
+        <item name="title">HECELCHAKAN</item>
+        <item name="tag">lugares_visita_hecelchakan</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_pomuch">
+        <item name="id">5</item>
+        <item name="title">POMUCH</item>
+        <item name="tag">lugares_visita_pomuch</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_campeche">
+        <item name="id">5</item>
+        <item name="title">CAMPECHE</item>
+        <item name="tag">lugares_visita_campeche</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_hopelchen">
+        <item name="id">5</item>
+        <item name="title">HOPELCHEN</item>
+        <item name="tag">lugares_visita_hopelchen</item>
+    </string-array>
+    <string-array name="tips_lugares_visita_santa_rosa_xtampak">
+        <item name="id">5</item>
+        <item name="title">SANTA ROSA XTAMPAK</item>
+        <item name="tag">lugares_visita_santa_rosa_xtampak</item>
+    </string-array>
+    <string-array name="tips_lugares_uxmal">
+        <item name="id">5</item>
+        <item name="title">UXMAL</item>
+        <item name="tag">lugares_visita_uxmal</item>
+    </string-array>
+    <string-array name="tips_lugares_muna">
+        <item name="id">5</item>
+        <item name="title">MUNA</item>
+        <item name="tag">lugares_visita_muna</item>
+    </string-array>
+    <string-array name="tips_lugares_ticul">
+        <item name="id">5</item>
+        <item name="title">TICUL</item>
+        <item name="tag">lugares_visita_ticul</item>
+    </string-array>
+    <string-array name="tips_lugares_mani">
+        <item name="id">5</item>
+        <item name="title">MANÍ</item>
+        <item name="tag">lugares_visita_mani</item>
+    </string-array>
+    <string-array name="tips_lugares_mayapan">
+        <item name="id">5</item>
+        <item name="title">MAYAPAN</item>
+        <item name="tag">lugares_visita_mayapan</item>
+    </string-array>
+    <string-array name="tips_lugares_dzibilchaltun">
+        <item name="id">5</item>
+        <item name="title">DZIBILCHALTUN</item>
+        <item name="tag">lugares_visita_dzibilchaltun</item>
+    </string-array>
+    <string-array name="tips_lugares_puerto_progreso">
+        <item name="id">5</item>
+        <item name="title">PUERTO PROGRESO</item>
+        <item name="tag">lugares_visita_puerto_progreso</item>
+    </string-array>
+    <string-array name="tips_lugares_xcambo">
+        <item name="id">5</item>
+        <item name="title">XCAMBÓ</item>
+        <item name="tag">lugares_visita_xcambo</item>
+    </string-array>
+    <string-array name="tips_lugares_dzilam_gonzalez">
+        <item name="id">5</item>
+        <item name="title">DZILAM GONZALEZ</item>
+        <item name="tag">lugares_visita_dzilam_gonzalez</item>
+    </string-array>
+    <string-array name="tips_lugares_tizimin">
+        <item name="id">5</item>
+        <item name="title">TIZIMIN</item>
+        <item name="tag">lugares_visita_tizimin</item>
+    </string-array>
+    <string-array name="tips_lugares_valladolid">
+        <item name="id">5</item>
+        <item name="title">VALLADOLID</item>
+        <item name="tag">lugares_visita_valladolid</item>
+    </string-array>
+    <string-array name="tips_lugares_chichenitza">
+        <item name="id">5</item>
+        <item name="title">CHICHEN ITZÁ</item>
+        <item name="tag">lugares_visita_chichenitza</item>
+    </string-array>
+    <string-array name="tips_lugares_xcaret">
+        <item name="id">5</item>
+        <item name="title">XCARET</item>
+        <item name="tag">lugares_visita_xcaret</item>
+    </string-array>
+    <string-array name="tips_lugares_playa_del_carmen">
+        <item name="id">5</item>
+        <item name="title">PLAYA DEL CARMEN</item>
+        <item name="tag">lugares_visita_playa_del_carmen</item>
+    </string-array>
+    <string-array name="tips_lugares_cancun">
+        <item name="id">5</item>
+        <item name="title">CANCUN</item>
+        <item name="tag">lugares_visita_cancun</item>
+    </string-array>
+
+    <string-array name="tips_lugares_isla_mujeres">
+        <item name="id">5</item>
+        <item name="title">ISLA MUJERES</item>
+        <item name="tag">lugares_visita_isla_mujeres</item>
+    </string-array>
+    <array name="LugaresVisitaHeader">
+        <item>@array/tips_lugares_visita_merida</item>
+        <item>@array/tips_lugares_visita_uman</item>
+        <item>@array/tips_lugares_visita_hacienda_yaxcopoil</item>
+        <item>@array/tips_lugares_visita_calkini</item>
+        <item>@array/tips_lugares_visita_hecelchakan</item>
+        <item>@array/tips_lugares_visita_pomuch</item>
+        <item>@array/tips_lugares_visita_campeche</item>
+        <item>@array/tips_lugares_visita_hopelchen</item>
+        <item>@array/tips_lugares_visita_santa_rosa_xtampak</item>
+        <item>@array/tips_lugares_uxmal</item>
+        <item>@array/tips_lugares_muna</item>
+        <item>@array/tips_lugares_ticul</item>
+        <item>@array/tips_lugares_mani</item>
+        <item>@array/tips_lugares_mayapan</item>
+        <item>@array/tips_lugares_dzibilchaltun</item>
+        <item>@array/tips_lugares_puerto_progreso</item>
+        <item>@array/tips_lugares_xcambo</item>
+        <item>@array/tips_lugares_dzibilchaltun</item>
+        <item>@array/tips_lugares_tizimin</item>
+        <item>@array/tips_lugares_valladolid</item>
+        <item>@array/tips_lugares_chichenitza</item>
+        <item>@array/tips_lugares_xcaret</item>
+        <item>@array/tips_lugares_playa_del_carmen</item>
+        <item>@array/tips_lugares_cancun</item>
+        <item>@array/tips_lugares_isla_mujeres</item>
+    </array>
+
+    <string name="title_activity_patrocinador">PatrocinadorActivity</string>
+    <string name="title_activity_directorio">DirectorioActivity</string>
+
+    <string-array name="contactos_emergencia_campeche">
+        <item><b>Emergencias</b> \n(060)</item>
+        <item><b>Denuncia segura</b> \n(066)</item>
+        <item><b>Denuncia anónima</b> \n(089)</item>
+        <item><b>Policia Estatal</b> \n(981) 8119110 </item>
+        <item><b>Policia Federal Prev.</b> \n(981) 8163635   </item>
+        <item><b>PGR</b> \n(981) 8126778  </item>
+        <item><b>ISSSTE</b> \n(981) 8114116  </item>
+        <item><b>Bomberos</b> \n(981) 8164978  </item>
+        <item><b>IMSS</b> \n(981) 8163802, 981-811-12420 </item>
+    </string-array>
+    <string-array name="hoteles_campeche">
+        <item><b>Plaza Campeche</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 # 126 Esq. Circuito Baluartes Col. Centro. C.P 24000, San francisco de Campeche, Campeche. </item>
+        <item><b>Plaza Colonial</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 x 51, Centro Histórico, 24000 San Francisco de Campeche, Campeche</item>
+        <item><b>Ocean View</b> \nTeléfono: 01 981 811 9991 \nreservaciones@oceanview.com.mx \nPedro Sainz de Baranda o Av. Costera S/N, San Francisco de Campeche, 24010 Campeche, CAMP</item>
+        <item><b>Hotel Best Wester del Mar</b> \nTel: 01 981 811 9191 \ninfo@delmarhotel.com.mx \nAv. Ruiz Cortines #51, Centro, 24000 Campeche, Campeche</item>
+    </string-array>
+    <string-array name="refaccionarias_campeche">
+        <item><b>LEYMAR</b> \nAV. LOPEZ MATEOS 282, SAN ROMAN, CAMPECHE, C.P. 24040, CAMP. \n(981)816-6868</item>
+        <item><b>REFACCIONARIA DIESEL EL INGENIERO SA DE CV</b> \nPATRICIO TRUEBA 257D, SAN RAFAEL, CAMPECHE, C.P. 24090, CAMP. \n(981)813-1244</item>
+        <item><b>CLUBASUR</b> \nAV. PERIFERICO 60, BENITO JUAREZ, CARMEN, C.P. 24180, CAMP. \n(938)382-0062</item>
+        <item><b>REFACCIONARIA SANTA LUCIA</b> \nAV. ALVARO OBREGON Nº 325, SANTA LUCIA, CAMPECHE, C.P. 24010, CAMP. \n(981)815-5695</item>
+        <item><b>CENTRO REFACCIONARIO DE CAMPECHE S.A. DE C.V.</b> \nAV. GOBERNADORES 376, BELEN II, CAMPECHE, C.P. 24050, CAMP. \n(981)811-1559</item>
+        <item><b>REFACCIONARIA MEXICO</b> \n10 DE JULIO 231, BENITO JUAREZ, CARMEN, C.P. 24180, CAMP. \n(938)111-0254</item>
+        <item><b>MADISA</b> \n47 3, PALLAS, CARMEN, C.P. 24140, CAMP. \n(938)382-1332</item>
+        <item><b>EL CHOQUE</b> \nAV GOBERNADORES N 298, SANTA LUCIA, CAMPECHE, C.P. 24020, CAMP. \n(981)816-3002</item>
+        <item><b>NISSAN CAMPECHE</b> \nAV LOPEZ MATEOS SN, PRADO, CAMPECHE, C.P. 24030, CAMP. \n(981)812-5351</item>
+        <item><b>NISSAN CD DEL CARMEN</b> \nAV. LOPEZ MATEOS 175, PUERTO PESQUERO, CIUDAD DEL CARMEN, C.P. 24129, CAMP \n(938)382-0950</item>
+        <item><b>REFACCIONARIA GOLDEN TRACK SERVICE</b> \nAV. GOBERNADORES 234, SANTA LUCIA, CAMPECHE, C.P. 24020, CAMP \n(981)811-4741</item>
+    </string-array>
+    <string-array name="vulcanizadoras_campeche">
+        <item><b>LLANTAS ROYAL DEL CARMEN S.A. DE C.V.</b> \n31 267 PETROLERA, 24180 CARMEN, CAMPECHE, MEXICO \n01(938) 382 3122</item>
+        <item><b>LLANTA SIS DEL SURESTE S.D.R.L DE C.V.</b> \n55 421 OBRERA, 24117 CARMEN, CAMPECHE, MEXICO \n01(938) 381 8285</item>
+        <item><b>DIMO LLANTAS Y ACCESORIOS</b> \n26 182 SANTA MARGARITA, 24140 CARMEN, CAMPECHE, MEXICO \n01(938) 382 8374</item>
+        <item><b>SERVIMAX</b> \nAVENIDA PERIFÉRICA LUIS DONALDO COLOSIO SN SALITRAL, 24189 CARMEN, CAMPECHE, MEXICO \n01(938) 384 4874</item>
+        <item><b>LLANTAS Y LLANTAS</b> \nCALLE 45 110 SANTA ANA, 24050 CAMPECHE, MEXICO \n01(981) 816 2945</item>
+        <item><b>SERVILLANTAS DE CHAMPOTON</b> \nEUGENIO ECHEVERRÍA CASTELLOT SN CENTRO, 24400 CAMPECHE, MEXICO \n01(982) 828 0732</item>
+        <item><b>GENERAL TIRE DE CAMPECHE</b> \nLÓPEZ MATEOS 253 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 811 5374</item>
+        <item><b>LLANTA MAYA DE CAMPECHE, S.A. DE C.V.</b> \nAVENIDA MAESTROS CAMPECHANOS 363 MULTUNCHAC, 24090 CAMPECHE, MEXICO \n01(981) 811 5329</item>
+        <item><b>LLANTAS DE CAMPECHE S.A. DE C.V</b> \nLÓPEZ MATEOS 125 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 811 3283</item>
+        <item><b>RADIAL LLANTAS</b> \nCIRCUITO BALUARTES 5 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 816 3508</item>
+        <item><b>AVANTE</b> \nAVENIDA CENTRAL 144 A SAN JOSÉ, 24040 CAMPECHE, MEXICO \n01(981) 811 7133</item>
+    </string-array>
+    <string-array name="directorio_emergencias_campeche">
+        <item name="id">1</item>
+        <item name="title">NÚMERO DE EMERGENCIA</item>
+        <item name="tag">contactos_emergencia_campeche</item>
+    </string-array>
+    <string-array name="directorio_hoteles_campeche">
+        <item name="id">2</item>
+        <item name="title">INFORMACIÓN DE HOTELES</item>
+        <item name="tag">hoteles_campeche</item>
+    </string-array>
+    <string-array name="directorio_refaccionarias_campeche">
+        <item name="id">2</item>
+        <item name="title">REFACCIONARIAS</item>
+        <item name="tag">refaccionarias_campeche</item>
+    </string-array>
+    <string-array name="directorio_vulcanizadoras_campeche">
+        <item name="id">2</item>
+        <item name="title">VULCANIZADORAS</item>
+        <item name="tag">vulcanizadoras_campeche</item>
+    </string-array>
+    <array name="directorio_campeche_header">
+        <item>@array/directorio_emergencias_campeche</item>
+        <item>@array/directorio_hoteles_campeche</item>
+        <item>@array/directorio_refaccionarias_campeche</item>
+        <item>@array/directorio_vulcanizadoras_campeche</item>
+    </array>
 
 
+    <string-array name="contactos_emergencia_yucatan">
+        <item><b>Central de bomberos</b> \n01(999) 924-92-42  y  (999)923-29-71</item>
+        <item><b>Bomberos Pacabtun</b> \n01(999)982-72-96</item>
+        <item><b>Denuncia anónima</b> \n089</item>
+        <item><b>Bomberos Kukulkán</b> \n01(999)983-05-55</item>
+        <item><b>Bomberos Cd. Industrial</b> \n01(999)919-06-11</item>
+        <item><b>Bomberos Melitón Salazar</b> \n01(999)984-22-33</item>
+        <item><b>Bomberos Col. México</b> \n01 (999)927-03-32</item>
+        <item><b>Bomberos Delegación Sur</b> \n01(999)940-11-11</item>
+        <item><b>Policía Delegación Sur</b> \n01 (999)940-10-14</item>
+        <item><b>Unidad Estatal de Protección Civil</b> \n01-800-719-86-33, 01(999)944 26 88, 118 (Telcel)</item>
+        <item><b>Comisión Federal de Electricidad</b> \n071</item>
+        <item><b>Secretaría de Seguridad Pública</b> \066 o 01(999)925-25-55</item>
+        <item><b>Policía Meridana</b> \n01(999) 942-00-60</item>
+        <item><b>Procuraduría del Estado</b> \n01(999) 930-32-50 o 066</item>
+        <item><b>Servicio Médico Forense</b> \n01 (999) 930-32-50 EXT 41008</item>
+        <item><b>Protección Civil Mérida</b> \n01 999 924 87 69 ext. 109, 111, 01 999 923 53 36 ext. 109, 111, directo 01(999) 928 83 11</item>
+        <item><b>Cruz Roja</b> \n</item>
+        <item><b>Emergencias</b> \n01 (999) 924 98 13, 01 (999) 928 53 91, 065</item>
+        <item><b>Ambulancias</b> \n065 o 01 (999) 983-02-43</item>
+        <item><b>Clínica IMSS T1</b> \n</item>
+        <item><b>Conmutador</b> \n01 (999) 922-56-56</item>
+        <item><b>Urgencias</b> \n01 (999) 942-01-11</item>
+        <item><b>Ambulancias</b> \n01 (999) 942-01-14</item>
+        <item><b>Admisión al hospital</b> \n01 (999) 942-01-12</item>
+        <item><b>Servicio Médico Forense</b> \n01 999 930-32-50 EXT 41008</item>
+        <item><b>Protección Civil Mérida</b> \n01 999 924 87 69 ext. 109, 111, 01 999 923 53 36 ext. 109, 111, directo 01 (999) 928 83 11</item>
+        <item><b>Cruz Roja</b> \n</item>
+        <item><b>Emergencias</b> \n01 (999) 924 98 13, 01 (999) 928 53 91, 065</item>
+        <item><b>Tizimín</b> \nCruz Roja \n01 (986) 863 3868</item>
+        <item><b>Tizimín</b> \n Policía Municipal\n01 (986) 8 63 21 13</item>
+        <item><b>Tizimín</b> \n Policía Federal de Caminos\n01 (986) 8 63 40 40</item>
+        <item><b>Tizimín</b> \nMinisterio Público \n01 (986) 8 63 32 58</item>
+        <item><b>Tizimín</b> \n Hospital General "San Carlos"\n01 (986) 8 63 22 67</item>
+        <item><b>Tizimín</b> \n Clínica del IMSS\n01 (986) 8 63 20 04</item>
+        <item><b>Tizimín</b> \nClínica del ISSSTE \n01 (986) 8 63 24 21</item>
+        <item><b>Tizimín</b> \n Central de Especialidades Médicas del Oriente\n01 (986) 8 63 45 40</item>
+        <item><b>Tizimín</b> \n DIF Municipal\n01 (986) 8 63 22 37</item>
+        <item><b>Tizimín</b> \nCentro de Salud\n01 (986) 8 63 23 89</item>
+    </string-array>
+    <string-array name="hoteles_yucatan">
+        <item><b>Fiesta Americana Mérida</b> \n02 al 04 de Mayo \nDesayuno: Si \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
+        <item><b>Uxmal</b>\n<b>The Logde Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán</item>
+        <item><b>Uxmal</b>\n<b>Hacienda Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán</item>
+        <item><b>Fiesta Americana Mérida</b> \n06 al 07 de Mayo \nDesayuno: Si \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
+        <item><b>Chichen Itzá</b>\n<b>The Lodge Chichen Itzá</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
+        <item><b>Chichen Itzá</b>\n<b>Mayaland</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
+        <item><b>Chichen Itzá</b>\n<b>Oka’an Villas</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
+        <item><b>Mérida</b>\n<b>Fiesta Americana Mérida</b> \nTel: 999 942 1111 \nventasfamd@posadas.com\nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
+        <item><b>Mérida</b>\n<b>Gran Real Mérida</b> \nTel: 999 928 6081/82/83\nreservaciones@granrealyucatan.com\nCalle 56 No. 474 Por 55 Centro, C.P. 97000 Mérida, Yucatán, México.</item>
+        <item><b>Mérida</b>\n<b>Misión Express Mérida Altabrisa</b> \nTel: 01 999 942 3600\nventasmeridaexpress@hotelesmision.com.mx\nCalle 20, Entre calles 15 y 19, 255, Fracc. Altabrisa, 97130 Mérida, Yucatán</item>
+        <item><b>Mérida</b>\n<b>Misión Panamericana Mérida</b> \nTel: 01 999 923 9407\nejecutivomerida3@hotelesmision.com.mx\nCalle 59 #455, Centro, C.P. 97000 Mérida, Yucatán</item>
+        <item><b>Mérida</b>\n<b>Fiesta Inn Mérida</b> \nTel: (999) 964 35 00\nventasfimer@posadas.com\nCalle 5 B No. 290 A x 20 A y 60, Col Revolución. México C.P. 97115, Mérida, Yucatán</item>
+        <item><b>Mérida</b>\n<b>Holiday Inn Mérida</b> \nTel: 999 964 2200\nreservaciones@hiexmerida.com\nCalle 20A No 300A por 3C y 5ª, Colonia Xcumpich C.P. 97204, Mérida, Yucatán</item>
+        <item><b>Mérida</b>\n<b>Hotel los Aluxes</b> \nTeléfono: 01 999 924 2199\nmary-dc-21@hotmail.com\nCalle 60 444 X 49 51, Centro, 97000 Mérida, YUC</item>
+        <item><b>Uxmal</b>\n<b>The Flycatcher Inn</b> \nTel: 01 997 978 5350\n info@flycatcherinn.com\nCalle 20 S/N, San Marcos, 97841 Santa Elena, Yucatán</item>
+        <item><b>Chichen Itzá</b>\n<b>Villas Arqueológicas Chichen Itzá</b> \nTel: 019858510187 \nreservas@villasmex.com\nKm. 120 Carretera Mérida Valladolid Piste Tinúm Chichén Itzá, Yucatán CP 97751</item>
+    </string-array>
+    <string-array name="refaccionarias_yucatan">
+        <item><b>REPUESTOS DEL GOLFO Y CARIBE SA DE CV</b> \nCALLE 58 Nº 471, CENTRO, MERIDA, C.P. 97000, YUC. \n(999)923-7142</item>
+        <item><b>REFACCIONARIA TMK TRANSMISIONES</b> \nCALLE 59 A X 84 Y 84 A 556, MERIDA CENTRO, MERIDA, C.P. 97000, YUC. \n(999)928-7776</item>
+        <item><b>REFACCIONARIA AUTOMOTRIZ EL ANGEL</b> \nCALLE 71 521-A, MERIDA CENTRO, MERIDA, C.P. 97000, YUC \n(999)923-8787</item>
+        <item><b>LA COLISION</b> \nAVIACION 520-C, CENTRO, MERIDA, C.P. 97000, YUC \n(999)923-3824</item>
+        <item><b>AUTOPARTES EL HUESO</b> \nC 62 NO 269 X 71 Y 71A, SAN ANTONIO KAUA, MERIDA, C.P. 97176, YUC \n(999)983-9684</item>
+        <item><b>REFACCIONARIA Y TALLER ELECTRICO BUGS</b> \n98 150 A, F CANUL REYES, PROGRESO, C.P. 97320, YUC \n(969)935-3582</item>
+        <item><b>GOVI</b> \nCALLE 25 LOC 2A, CHICHEN-ITZA, MERIDA, C.P. 97170, YUC\n(999)982-3486</item>
+        <item><b>REFACCIONARIA ESPECIALIZADA</b> \nC. 65 N 348 X 38 Y 40, CENTRO, MERIDA, C.P. 97000, YUC \n(999)940-0927</item>
+        <item><b>TRACTO PARTES Y REFACCIONES DEL SURESTE</b> \nCARR MERIDA-CANCUN KM 1 23 3, SAN PEDRO NOHPAT, KANASIN, C.P. 97370, YUC \n(99)9212-3130</item>
+        <item><b>REFACCIONARIA AEROPUERTO</b> \nCALLE 12 A S/N, SAN MARCOS NOCOH, MERIDA, C.P. 97296, YUC. \n(999)946-3045</item>
+        <item><b>CAR SERVICE</b> \nCALLE 35 DIAG 311 X 32, SAN LUIS CHUBURNA, MERIDA, C.P. 97140, YUC. \n(999)988-5989</item>
+        <item><b>AUTORREPUESTOS</b> \nC. 59 X 70 Nº 560, CENTRO, MERIDA, C.P. 97000, YUC \n(999)923-1828</item>
+
+        <item><b>REFACCIONARIAS AUTOMOTRICES MA</b> \nCALLE 31 186 E, FRANCISCO I MADERO, MERIDA, C.P. 97240, YUC.</item>
+        <item><b>DESHUESADERO CAMARIOCA</b> \nA CANCUN LT 10, SAN PEDRO NOH PAT, KANASIN, C.P. 97370, YUC \n(999)289-8082</item>
+        <item><b>DESHUESADERO SAYALLIN</b> \nPERIFERICO PONIENTE 16568, S/C, MERIDA, C.P. 97300, YUC \n(999)945-2633</item>
+        <item><b>EDIFICIO TOBY AUTO REPUESTOS DE MERIDA</b> \nCALLE 56 Nº 440 X 49, CENTRO, MERIDA, C.P. 97000, YUC \n(999)928-5747</item>
+        <item><b>CAR HOME</b> \nCIRCUITO COLONIAS C-7 AN 140A X 28 Y 30, GARCIA GINERES, MERIDA, C.P. 97070, YUC \n(999)925-2411</item>
+        <item><b>DESHUESADERO REFACCIONARIA MONTEJO </b> \nCALLE 19 Nº 116, ITZIMNA, MERIDA, C.P. 97100, YUC\n(999)926-1213</item>
+        <item><b>CIEN POR CIENTO ACUMULADORES</b> \n111 595-A, MELITON SALAZAR, MERIDA, C.P. 97269, YUC\n(999)176-5339</item>
+        <item><b>DIST. PENINSULAR AUTOMOTRIZ SA</b> \n60 280, BUENAVISTA, MERIDA, C.P. 97127, YUC\n(999)926-7792</item>
+        <item><b>AUTOPARTES EL VAQUERO</b> \nCARR MERIDA-CHOLUL LOTE 3, LA QUINTA, MERIDA, C.P. 97000, YUC. \n(999)943-0140</item>
+        <item><b>REFACCIONARIA AEROPUERTO</b> \nCALLE 12 A S/N, SAN MARCOS NOCOH, MERIDA, C.P. 97296, YUC. \n(999)946-3045</item>
+        <item><b>REFACCIONES LIZAMA</b> \nCALLE 47 X 14 Y 14A 678, MANUEL AVILA CAMACHO, MERIDA, C.P. 97159, YUC \n(999)982-4539</item>
+        <item><b>DEPCO</b> \n65 297-B X 28 Y 30, CENTRO, MERIDA, C.P. 97000, YUC. \n(999)928-7745</item>
+
+        <item><b>MADERO REFACCIONARIAS</b> \n31 168-E, FRANCISCO I MADERO, MERIDA, C.P. 97240, YUC \n(999)912-0100</item>
+        <item><b>GRUPO VALMEX</b> \n50 NO. 473, CENTRO, MERIDA, C.P. 97000, YUC. \n(999)928-3862</item>
+        <item><b>DESHUESADERO LA CURVA</b> \nAV. CORREA RACHO 425, DIAZ ORDAZ, MERIDA, C.P. 97130, YUC. \n(999)943-8444</item>
+        <item><b>AUTOPARTES CORDERO</b> \nCALLE 57 Nº 360 D, CHUMINOPOLIS, MERIDA, C.P. 97158, YUC\n(999)188-0956</item>
+        <item><b>AUTOPARTES USADAS DEL SURESTE</b> \n35 267, SANTA MARIA CHUBURNA, MERIDA, C.P. 97129, YUC. \n(999)986-3891</item>
+        <item><b>DESHUESADERO REFACCIONARIA HIDALGO</b> \n35 X 16 Y 16A 271 C, SANTA MARIA CHUBURNA, MERIDA, C.P. 97138, YUC\n(999)212-0235</item>
+        <item><b>REFACCIONARIA EL ELEFANTE SA DE CV</b> \n46 407 X 65, MERIDA CENTRO, MERIDA, C.P. 97000, YUC\n(999)928-5680</item>
+        <item><b>DIST. PENINSULAR AUTOMOTRIZ SA</b> \n60 280, BUENAVISTA, MERIDA, C.P. 97127, YUC\n(999)926-7792</item>
+        <item><b>CLUTCH Y FRENOS CHUBURNA</b> \n20 N 137 Y 139, CHUBURNA DE HIDALGO, MERIDA, C.P. 97205, YUC. \n(999)981-2091</item>
+        <item><b>NISSAN</b> \nAV. CIRCUITO COLONIAS S/N, PEDREGALES DE TANLUM, MERIDA, C.P. 97210, YUC. \n(999)942-4500</item>
+        <item><b>CAR HOME</b> \n7-A 140-A, GARCIA GINERES, MERIDA, C.P. 97070, YUC \n(999)925-2411</item>
+        <item><b>GRUPO ROFIL</b> \n51 479-A, CENTRO, MERIDA, C.P. 97000, YUC. \n(999)923-0847</item>
+        <item><b>REFACCIONARIA DIESEL MERIDA</b> \n65-A 519-B, CENTRO, MERIDA, C.P. 97000, YUC.\n(999)924-2935</item>
+        <item><b>MACROBODEGA DE CRISTALES Y RADIADORES SA DE CV</b> \n35 477, NUEVO YUCATAN, MERIDA, C.P. 97147, YUC.\n(999)986-0461</item>
+    </string-array>
+
+    <string-array name="vulcanizadoras_yucatan">
+        <item><b>TALLER DE REPARACIÓN DE LLANTAS</b> \n19 SN, CENTRO KANASÍN, YUCATÁN</item>
+        <item><b>LLANTERA SANTA ISABEL</b> \n58 SN, FRACCIONAMIENTO SANTA ISABEL KANASÍN, YUCATÁN</item>
+        <item><b>LLANTERA</b> \nSIN NOMBRE SN, SAN LUIS CHUBURNA MÉRIDA, YUCATÁN</item>
+        <item><b>SERVIMAX</b> \nAVENIDA PERIFÉRICA LUIS DONALDO COLOSIO SN SALITRAL, 24189 CARMEN, CAMPECHE, MEXICO \n01 938 384 4874</item>
+        <item><b>TALLER DE REP. DE LLANTAS LA GUADALUPANA</b> \n18 SN, TRES REYES TZUCACAB, YUCATÁN</item>
+        <item><b>LLANTERA</b> \n31 SNUM, CHUBURNA DE HIDALGO MÉRIDA, YUCATÁN</item>
+        <item><b>LLANTERA EL FLACO</b> \n23 108, SIN NONBRE IXIL, YUCATÁN</item>
+        <item><b>LLANTERA</b> \nSIN NOMBRE SN, CHUBURNA MÉRIDA, YUCATÁN</item>
+        <item><b>TALLER DE YANTAS</b> \n21 SN, TELCHAC, SAN PEDRO TELCHAC PUEBLO, YUCATÁN</item>
+        <item><b>LLANTERA</b> \n10 SN, CUAUHTEMOC KANASÍN, YUCATÁN</item>
+        <item><b>LLANTERA</b> \n25 99, TEPAKAN TEPAKÁN, YUCATÁN</item>
+
+        <item><b>TALLER LLANTERA EN GENERAL</b> \n11 SN, CENTRO KAUA, YUCATÁN</item>
+        <item><b>DISTRIBUIDORA DE LLANTAS BIGOTES</b> \nAVENIDA SN, SANTA ROSA KANASÍN, YUCATÁN</item>
+        <item><b>LLANTERA</b> \n31 SN, LIBERTAD TAHMEK, YUCATÁN</item>
+        <item><b>LLANTERA SOCA</b> \n29 SN, CENTRO PETO, YUCATÁN</item>
+        <item><b>SERVICIO DE LLANTERA EL NEGRITO</b> \n21 SN, UCU UCÚ, YUCATÁN</item>
+        <item><b>LLANTERA</b> \n86 EMILIANO ZAPATA SUR 3 MÉRIDA, YUCATÁN</item>
+        <item><b>TALLER DE REPARACION DE LLANTAS</b> \nPRIVADA 16 SN, SIN NOMBRE DZILAM DE BRAVO, YUCATÁN</item>
+        <item><b>LLANTERA AUTOMOTRIZ MECA</b> \n58 SN, MILCHECHEN 1 KANASÍN, YUCATÁN</item>
+        <item><b>LLANTERA MAURO</b> \n61 63 SN, SAN PEDRO KANASÍN, YUCATÁN</item>
+    </string-array>
+
+    <string-array name="directorio_emergencias_yucatan">
+        <item name="id">1</item>
+        <item name="title">NÚMERO DE EMERGENCIA</item>
+        <item name="tag">contactos_emergencia_yucatan</item>
+    </string-array>
+    <string-array name="directorio_hoteles_yucatan">
+        <item name="id">2</item>
+        <item name="title">INFORMACIÓN DE HOTELES</item>
+        <item name="tag">hoteles_yucatan</item>
+    </string-array>
+    <string-array name="directorio_refaccionarias_yucatan">
+        <item name="id">2</item>
+        <item name="title">REFACCIONARIAS</item>
+        <item name="tag">refaccionarias_yucatan</item>
+    </string-array>
+    <string-array name="directorio_vulcanizadoras_yucatan">
+        <item name="id">2</item>
+        <item name="title">VULCANIZADORAS</item>
+        <item name="tag">vulcanizadoras_yucatan</item>
+    </string-array>
+    <array name="directorio_yucatan_header">
+        <item>@array/directorio_emergencias_yucatan</item>
+        <item>@array/directorio_hoteles_yucatan</item>
+        <item>@array/directorio_refaccionarias_yucatan</item>
+        <item>@array/directorio_vulcanizadoras_yucatan</item>
+    </array>
+
+    <string-array name="contactos_emergencia_quintanaroo">
+        <item><b>Banco de Sangre</b> \n887 26 95</item>
+        <item><b>Bomberos</b> \n884 12 02</item>
+        <item><b>Cruz Roja Mexicana</b> \n884 16 16</item>
+        <item><b>Procuraduría de Defensa al Turista</b> \n892 48 25</item>
+        <item><b>Incendios Forestales en Estado de Quintana Roo</b> \n01 (998) 206 82 36</item>
+        <item><b>Policía Judicial del Estado</b> \n884 11 71 / 881 71 50</item>
+        <item><b>Policía Federal de Caminos</b> \n884 11 07 / 884 15 42</item>
+        <item><b>Protección Civil </b> \n887 34 35</item>
+        <item><b>Policía Turística</b> \n885 22 77</item>
+        <item><b>Incendios Forestales en Estado de Quintana Roo</b> \n01 (998) 206 82 36</item>
+        <item><b>Tel – Sida</b> \n01 800 712 08 86</item>
+        <item><b>CFE</b> 071</item>
+        <item><b>Jurisdicción Sanitaria</b> \n884 23 42</item>
+        <item><b>TELMEX</b> \n01-800 123 22 22</item>
+        <item><b>Seguridad Pública</b> \n884 19 13 / 884 23 42 / 884 07 10</item>
+        <item><b>Secretaría de Marina Armada de México *SOS MARINA</b> \n(* 767 627 462)</item>
+        <item><b>Cancerología de Quintana Roo </b> \n</item>
+        <item><b>Emergencias</b> \n01 (999) 924 98 13, 01 (999) 928 53 91, 065</item>
+        <item><b>Ambulancias</b> \n065 o 01 (999) 983-02-43</item>
+        <item><b>Clínica IMSS T1</b> \n886 67 96 / 843 58 26</item>
+        <item><b>Clínica Victoria</b> \n884 24 07</item>
+        <item><b>Clínica Morelos</b> \n886 42 82</item>
+        <item><b>Clínica Médica Taxistas de Cancún A.C.</b> \n887 74 66</item>
+        <item><b>Hospital Galenia</b> \n891 52 00 / 891 52 04</item>
+        <item><b>DIF Municipal</b> \n888 89 21 y 22 </item>
+        <item><b>Hospital General de Cancún</b> \n01 (998) 887 3557</item>
+        <item><b>UNEME DEDICAM</b> \n5 68 04 24</item>
+        <item><b>Quirúrgica del Sur</b> \n843 54 54</item>
+        <item><b>IMSS</b> \n01-800 623 23 23</item>
+        <item><b>CRIT Quintana Roo</b> \n01 (998) 193 3000</item>
+        <item><b>Hospital Americano</b> \n 01 (998) 287 8023</item>
+        <item><b>AMERIMED</b> \n881 34 00</item>
+        <item><b>HOSPITEN</b> \n881 37 00</item>
+        <item><b>ISSSTE</b> \n01-800-2000-128</item>
+        <item><b>CRIM </b> \n888 56 63 y 888 56 62</item>
+        <item><b>Hospital Regional de Especialidades del IMSS</b> \n01 (998) 267 8644</item>
+    </string-array>
+
+    <string-array name="hoteles_quintanaroo">
+        <item><b>Grand Oasis Cancún</b> \n08 al 10 de Mayo \nDesayuno: Si \nBlvd Kukulkán, Km 16.5, Zona Hotelera, Cancún, Quintana Roo, México C.P. 77500</item>
+    </string-array>
+    <string-array name="refaccionarias_quintanaroo">
+        <item><b>REFACCIONES LA RIVIERA</b> \nJOSE LOPEZ PORTILLO 45 45 8 8, SUPERMANZANA 58, BENITO JUAREZ, C.P. 77515, QR \n(998)843-7334</item>
+        <item><b>LA COLISION</b> \nAV. JOSE LOPEZ PORTILLO 142 LT 15 LOC A MZA. 45, SUPERMANZANA 63, BENITO JUAREZ, C.P. 77513, QR. \n(998)887-7236</item>
+        <item><b>REFACCIONARIA AUTOMOTRIZ EL ANGEL</b> \nCALLE 71 521-A, MERIDA CENTRO, MERIDA, C.P. 97000, YUC \n(999)923-8787</item>
+        <item><b>AUTOPARTES GENKA</b> \nAV LOPEZ PORTILLO LOC 1 MZ-1 1 17 LT-17, SUPERMANZANA 60, BENITO JUAREZ, C.P. 77514, QR.\n(998)884-5784</item>
+        <item><b>AUTOPARTES RV</b> \nAV TALLERES MZ 102 2 Y 3, REGION 91, BENITO JUAREZ, C.P. 77516, QR. \n(998)891-8173</item>
+        <item><b>REFACCIONARIA MARDAM</b> \nCALLE 71 NORTE 20 LT. 3, REGION 92, CANCUN, C.P. 77516, QR. \n(998)888-8439</item>
+        <item><b>AUTO ELECTRICA SEGURA</b> \nFCO. I MADERO FRANJA 7 MZ. 7, LTE. 56, SUPERMANZANA 68, CANCÚN, C.P. 77524, QR\n(998)234-9010</item>
+        <item><b>REFACCIONARIA MARDAM</b> \nCALLE 71 NORTE 20 LT. 3, REGION 92, CANCUN, C.P. 77516, QR \n(998)888-8439</item>
+        <item><b>REFACCIONARIA EL SOCIO</b> \nAV. TALLERES MZA. 50 LTS 3,4 Y 5 LOC 1 Y 2, REGION 90, CANCUN, C.P. 77510, QR. \n(998)888-5566</item>
+        <item><b>REFACCIONARIA DIESEL MORELOS</b> \nFCO. I MADERO MZA. 2 LTE. 11, SUPERMANZANA 72, BENITO JUAREZ, C.P. 77510, QR. \n(998)898-4211</item>
+        <item><b>REFACCIONES CBC</b> \nAV JOSÉ LÓPEZ PORTILLO MZ. 61 LOTE 10, SUPERMANZANA 91, BENITO JUAREZ, C.P. 77516, QR.\n(998)888-3884</item>
+        <item><b>DESHUESADERO EL INFIERNO</b> \nLOPEZ PORTILLO 107 LT 4, REGION 99, BENITO JUAREZ, C.P. 77536, QR. \n(998)898-6012</item>
+        <item><b>DESHUESADERO DEL CARIBE</b> \nKM 311.5 FRENTE A COMA, CARR MÉRIDA-CANCÚN, BENITO JUAREZ, C.P. 77500, QR. \n(999)926-1213</item>
+        <item><b>SERVICIOS Y REFACCIONES DE CANCUN SA DE CV</b> \nPASEO CAMPESTRE MZA. 5 LT. 7, SM. 309, BENITO JUAREZ, C.P. 77560, QR. \n(998)882-1762</item>
+        <item><b>REFACCIONARIA EL CAMINANTE</b> \nAV FRANCISCO I MADERO MZ.2 LT.34, SM 71, CANCUN, C.P. 77510, QR.\n(998)888-5605</item>
+        <item><b>REFACCIONARIA CAMPOS PARCAMP S</b> \n71 MZ 1 LT 1Y2, HACIENDA DEL REY, CANCUN, C.P. 77516, QR. \n(998)888-8098</item>
+        <item><b>AUTORREPUESTOS</b> \nAV LÓPEZ PORTILLO Nº 316, CENTRO, CANCUN, C.P. 77513, QR \n(998)887-1155</item>
+        <item><b>REFACCIONARIA EL CAMINANTE</b> \nAV FRANCISCO I MADERO MZ.2 LT.34, SM 71, CANCUN, C.P. 77510, QR. \n(998)888-5605</item>
+        <item><b>RECONSTRUCTORA DE MOTORES MERIDA, SA DE CV</b> \n33 MZA 4 LT 50, SM 72, BENITO JUAREZ, C.P. 77510, QR. \n(998)888-2718</item>
+        <item><b>NISSAN CANCUN</b> \nBLVD. LUIS DONALDO COLOSIO LOTE 1 MZA. 5, SM 310, BENITO JUAREZ, C.P. 77500, QR\n(998)848-8930</item>
+        <item><b>LUBRICANTES MARAL</b> \nJOSE LOPEZ PORTILLO S/N, REGION 98, BENITO JUAREZ, C.P. 77537, QR. \n(998)886-7066</item>
+        <item><b>REFACCIONARIA DEL HOGAR</b> \nAV TORCASITA LOCAL 4, MZA. 3 47, SUPERMANZANA 66, CANCUN, C.P. 77510, QR. \n(998)884-0783</item>
+
+
+    </string-array>
+
+    <string-array name="vulcanizadoras_quintanaroo">
+        <item><b>LOPEZ AVILES DOUGLAS</b> \nCHETUMAL, QUINTANA ROO. CALDERITAS 567 COL. CENTRO \n(983)832-1814</item>
+        <item><b>VULCANIZADORA ELIT</b> \nCANCUN, QUINTANA ROO. REG. 92 MZ. 39 LT. 20 \n044 998 2027580</item>
+        <item><b>VULCANIZADORA MOVIL CANCUN</b> \nCANCUN, QUINTANA ROO. REGIÓN 92 MZ. 39 LOTE 20 \n044 (998) 2027580</item>
+        <item><b>VULCANIZADORA MANDINO</b> \nCANCUN, QUINTANA ROO. AV. KABAH NO. 102 SM. 31 MZ. 6 LT. 20 \n(998)887-4369</item>
+        <item><b>RENOVADORA E DE LLANTAS DE Q ROO</b> \nCHETUMAL, QUINTANA ROO. AV OBREGON 282 COL. CENTRO \n(983)832-1998</item>
+        <item><b>VULCANIZADORA CALDERON</b> \nCANCUN, QUINTANA ROO. S.M. 69 MZ. 5 LOTE 32 AV. FRANCISCO I MADERO \n(998)888-2251</item>
+        <item><b>VULCANIZADORA COZUMEL</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 74 ENTRE 35 Y 40 COLONIA COLOSIO \n(984)267-2721</item>
+        <item><b>VULCANIZADORA EN PLAYA DEL CARMEN</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 74 ENTRE 35 Y 40 COLONIA LUIS DONALDO COLOSIO MZ. 382 LOTE 19 \n(984)134-4704</item>
+        <item><b>VULCANIZADORA PALMA</b> \nCANCUN, QUINTANA ROO. L PORTILLO MZN 60 LT 9 COL. REG 93 CANCUN Q ROO \n(998)888-9919</item>
+        <item><b>VULCANIZADORA PANCHITO</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 2 NTE. MZ. 89 LT. 6 ENTRE 45 Y CARR. FED. \n(984)745-7504 / 873-0162</item>
+    </string-array>
+
+    <string-array name="directorio_emergencias_quintanaroo">
+        <item name="id">1</item>
+        <item name="title">NÚMERO DE EMERGENCIA</item>
+        <item name="tag">contactos_emergencia_quintanaroo</item>
+    </string-array>
+    <string-array name="directorio_hoteles_quintanaroo">
+        <item name="id">2</item>
+        <item name="title">INFORMACIÓN DE HOTELES</item>
+        <item name="tag">hoteles_quintanaroo</item>
+    </string-array>
+    <string-array name="directorio_refaccionarias_quintanaroo">
+        <item name="id">2</item>
+        <item name="title">REFACCIONARIAS</item>
+        <item name="tag">refaccionarias_quintanaroo</item>
+    </string-array>
+    <string-array name="directorio_vulcanizadoras_quintanaroo">
+        <item name="id">2</item>
+        <item name="title">VULCANIZADORAS</item>
+        <item name="tag">vulcanizadoras_quintanaroo</item>
+    </string-array>
+    <array name="directorio_quintanaroo_header">
+        <item>@array/directorio_emergencias_quintanaroo</item>
+        <item>@array/directorio_hoteles_quintanaroo</item>
+        <item>@array/directorio_refaccionarias_quintanaroo</item>
+        <item>@array/directorio_vulcanizadoras_quintanaroo</item>
+    </array>
+
+    <string name="title_activity_diabetes">DiabetesActivity</string>
+
+
+
+
+
+    <!-- Diabetes-->
+    <string name="diabetes_title">Información sobre la Diabetes T1</string>
+    <string name="diabetes_text">
+ Rally Maya México es una Asociación Civil que surge a partir de la idea de trasladarse al pasado a través de automotores antiguos y clásicos de cuatro ruedas para recorrer una hermosa península que se compone de tres Estados; Campeche, Quintana Roo y Yucatán que muestra una rica variedad Cultural, Gastronómica, Turística y una Naturaleza única y primorosa, que invita a todas aquellas personas que desean aventurarse a una experiencia inolvidable juntamente con sus familias. No obstante esto no sería una A.C. si no tuviera un fin que es; Regalar Sonrisas a niños con Diabetes tipo 1 que surge a partir de la organización conjunta de padres cuyos hijos padecen de esta Enfermedad y con la necesidad de luchar en contra de las complicaciones, del aumento de los factores de riesgo, pero sobre todo en la prevención de este padecimiento.\n\n
+Por lo que Rally Maya México en su afán de ayudar a estos pequeños, brinda y logra una vía de apoyo a tres asociaciones civiles de la Península; Asociación Mexicana de Diabetes en el Sureste A.C., Asociación Mexicana de Diabetes Capitulo Campeche A.C. y al Centro de Ayuda a Pacientes con Enfermedades Crónico Degenerativas Quintana Roo y otras organizaciones civiles sin fines de lucro cuyo objetivo es brindar alternativas de educación, atención y prevención orientadas a mejorar su calidad de vida de las personas de bajos recursos con diabetes tipo1 en el Sureste Mexicano.\n\n
+En su segunda edición Rally Maya México pretende causar un impacto notable a esta causa promoviéndolo a los participantes nacionales e internacionales para que se sumen apadrinando a un niño o niña con estos padecimientos, además de estar al pendiente y buscando todas aquellas alternativas que apoyen la causa.
+
+    </string>
+    <string name="title_activity_cronometro">CronometroActivity</string>
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
 
 </resources>

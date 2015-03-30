@@ -2,15 +2,13 @@ package com.punkmkt.rallymaya;
 
 import java.util.ArrayList;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -19,176 +17,51 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ListView;
 
+import com.punkmkt.rallymaya.adapters.DrawerListAdapter;
 import com.punkmkt.rallymaya.adapters.MenuAdapter;
-import com.punkmkt.rallymaya.adapters.MenuAdapterRecycler;
-import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
+
+import com.punkmkt.rallymaya.models.DrawerItem;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends BaseActivity {
 
-    /*
-     DECLARACIONES
-     */
-    private DrawerLayout drawerLayout;
-    private ListView drawerList;
-    private ActionBarDrawerToggle drawerToggle;
-    private CharSequence activityTitle;
-    private CharSequence itemTitle;
-    private String[] tagTitles;
 
     private GridView grid;
 
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
     private ArrayList<ItemMenu> itemMenus = new ArrayList<ItemMenu>();
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+       // setContentView(R.layout.activity_main);
+        /**
+         *  We will not use setContentView in this activty
+         *  Rather than we will use layout inflater to add view in FrameLayout of our base activity layout*/
 
-        itemTitle = activityTitle = getTitle();
-        tagTitles = getResources().getStringArray(R.array.ItemMenusSec);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawerList = (ListView) findViewById(R.id.left_drawer);
+        /**
+         * Adding our layout to parent class frame layout.
+         */
+        getLayoutInflater().inflate(R.layout.activity_main, frameLayout);
 
-        // Setear una sombra sobre el contenido principal cuando el drawer se despliegue
-        drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
+        /**
+         * Setting title and itemChecked
+         */
+        mDrawerList.setItemChecked(position, true);
 
-        //Crear elementos de la lista
-        ArrayList<DrawerItem> items = new ArrayList<DrawerItem>();
-        items.add(new DrawerItem(tagTitles[0],R.drawable.home_sec));
-        items.add(new DrawerItem(tagTitles[1],R.drawable.rally_maya_sec));
-        items.add(new DrawerItem(tagTitles[2],R.drawable.participantes_sec));
-        items.add(new DrawerItem(tagTitles[3],R.drawable.ruta_sec));
-        items.add(new DrawerItem(tagTitles[4],R.drawable.tips_sec));
-        items.add(new DrawerItem(tagTitles[5],R.drawable.patrocinadores_sec));
-        items.add(new DrawerItem(tagTitles[6],R.drawable.directorio_sec));
-        items.add(new DrawerItem(tagTitles[7],R.drawable.diabetes_sec));
-        items.add(new DrawerItem(tagTitles[8],R.drawable.cronometro_sec));
-        items.add(new DrawerItem(tagTitles[9],R.drawable.facebook_sec));
-        items.add(new DrawerItem(tagTitles[10],R.drawable.twitter_sec));
-
-
-        // Relacionar el adaptador y la escucha de la lista del drawer
-        drawerList.setAdapter(new DrawerListAdapter(this, items));
-        drawerList.setOnItemClickListener(new DrawerItemClickListener());
-
-        // Habilitar el icono de la app por si hay algún estilo que lo deshabilitó
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-
-        // Crear ActionBarDrawerToggle para la apertura y cierre
-        drawerToggle = new ActionBarDrawerToggle(
-                this,
-                drawerLayout,
-                R.drawable.ic_drawer,
-                R.string.drawer_open,
-                R.string.drawer_close
-        ) {
-            public void onDrawerClosed(View view) {
-                getSupportActionBar().setTitle(itemTitle);
-
-                /*Usa este método si vas a modificar la action bar
-                con cada fragmento
-                 */
-                //invalidateOptionsMenu();
-            }
-
-            public void onDrawerOpened(View drawerView) {
-                getSupportActionBar().setTitle(activityTitle);
-
-                /*Usa este método si vas a modificar la action bar
-                con cada fragmento
-                 */
-                //invalidateOptionsMenu();
-            }
-        };
-        //Seteamos la escucha
-        drawerLayout.setDrawerListener(drawerToggle);
-        if (savedInstanceState == null) {
-        //    selectItem(0);
-        }
         String[] item_menus = getResources().getStringArray(R.array.ItemMenus);
-
+        String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
+        setTitle(item_menus_sec[1]);
         for (int index = 0; index < item_menus.length; index++) {
             ItemMenu menu = new ItemMenu();
             menu.setId(index+1);
             //actionbar.setName(item_menus[index]);
             itemMenus.add(menu);
         }
-//        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-//        mRecyclerView.setHasFixedSize(true);
-//        mRecyclerView.setAdapter(new MenuAdapter(itemMenus, R.layout.row_menu));
-//        mRecyclerView.setLayoutManager(new GridLayoutManager(this,2));
-//        mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-
         grid = (GridView)findViewById(R.id.grid_menu);
         grid.setAdapter(new MenuAdapter(this,R.layout.row_menu, itemMenus));
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (drawerToggle.onOptionsItemSelected(item)) {
-            // Toma los eventos de selección del toggle aquí
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    /* La escucha del ListView en el Drawer */
-    private class DrawerItemClickListener implements ListView.OnItemClickListener {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            selectItem(position);
-        }
-    }
-
-    private void selectItem(int position) {
-        // Reemplazar el contenido del layout principal por un fragmento
-        //Fragment fragment = new ArticleFragment();
-        //Bundle args = new Bundle();
-        //args.putInt(ArticleFragment.ARG_ARTICLES_NUMBER, position);
-        //fragment.setArguments(args);
-
-        //FragmentManager fragmentManager = getFragmentManager();
-       // fragmentManager.beginTransaction().replace(R.id.content_frame, fragment).commit();
-
-        // Se actualiza el item seleccionado y el título, después de cerrar el drawer
-        drawerList.setItemChecked(position, true);
-        setTitle(tagTitles[position]);
-        drawerLayout.closeDrawer(drawerList);
-    }
-
-    /* Método auxiliar para setear el titulo de la action bar */
-    @Override
-    public void setTitle(CharSequence title) {
-        itemTitle = title;
-        getSupportActionBar().setTitle(itemTitle);
-    }
-
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        // Sincronizar el estado del drawer
-        drawerToggle.syncState();
-    }
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        // Cambiar las configuraciones del drawer si hubo modificaciones
-        drawerToggle.onConfigurationChanged(newConfig);
-    }
 }

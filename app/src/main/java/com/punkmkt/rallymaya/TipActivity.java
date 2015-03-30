@@ -1,20 +1,11 @@
 package com.punkmkt.rallymaya;
 
 import android.graphics.Color;
-import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LayerDrawable;
-import android.graphics.drawable.TransitionDrawable;
-import android.os.Build;
-import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.punkmkt.rallymaya.fragments.Diccionario_maya;
@@ -22,46 +13,24 @@ import com.punkmkt.rallymaya.fragments.Lugar_visita;
 import com.punkmkt.rallymaya.fragments.Tip_viaje;
 
 
-public class TipActivity extends ActionBarActivity {
+public class TipActivity extends BaseActivity {
     PagerSlidingTabStrip tabs;
-    private Drawable oldBackground = null;
-    private int currentColor = 0xFF666666;
-    private final Handler handler = new Handler();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tips);
+        getLayoutInflater().inflate(R.layout.activity_tips, frameLayout);
+        String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
+        setTitle(item_menus_sec[4]);
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
+        tabs.setTabBackgroundColorTab(R.drawable.background_tab);
+        tabs.setTabBackgroundColorCurrentTab(R.drawable.background_current_tab);
         tabs.setViewPager(pager);
-       // tabs.setDividerColorResource(Color.WHITE);
         tabs.setTextColor(Color.WHITE);
 
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_tips, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
     public class MyPagerAdapter extends FragmentPagerAdapter {
 
         public MyPagerAdapter(FragmentManager fm) {

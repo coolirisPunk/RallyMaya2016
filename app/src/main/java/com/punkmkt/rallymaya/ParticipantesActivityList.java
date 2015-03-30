@@ -1,192 +1,167 @@
 package com.punkmkt.rallymaya;
 
-import android.content.res.Configuration;
-import android.os.AsyncTask;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.widget.DefaultItemAnimator;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
+
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
+
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.BaseAdapter;
 import android.widget.GridView;
-import android.widget.ListView;
+
+import com.android.volley.Request;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.NetworkImageView;
 
 import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
-import com.punkmkt.rallymaya.adapters.ParticipanteAdapterRecylcer;
+import com.punkmkt.rallymaya.adapters.PatrocinadorAdapter;
 import com.punkmkt.rallymaya.models.Participante;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import android.app.ProgressDialog;
+import android.widget.ImageView;
 
 
-public class ParticipantesActivityList extends ActionBarActivity {
-    private DrawerLayout drawerLayout;
-    private ListView drawerList;
-    private ActionBarDrawerToggle drawerToggle;
-    private CharSequence activityTitle;
-    private CharSequence itemTitle;
-    private String[] tagTitles;
+public class ParticipantesActivityList extends BaseActivity {
 
-    private RecyclerView mRecyclerView;
+
     private GridView grid;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
     private ArrayList<Participante> participantes = new ArrayList<Participante>();
-
-    //private PintaImages tarea1;
+    private final String RALLY_MAYA_JSON_API_URL = "http://punklabs.ninja/rallymaya/api/v1/cars/?format=json";
+    private ProgressDialog progress;
+    String url = null;
+    ImageLoader mImageLoader;
+    NetworkImageView mNetworkImageView;
+    private ParticipanteAdapter adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_participantes_activity_list);
 
-        itemTitle = activityTitle = getTitle();
-        tagTitles = getResources().getStringArray(R.array.ItemMenusSec);
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawerList = (ListView) findViewById(R.id.left_drawer);
-        // Setear una sombra sobre el contenido principal cuando el drawer se despliegue
-        drawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-        //Crear elementos de la lista
-        ArrayList<DrawerItem> items = new ArrayList<DrawerItem>();
-        items.add(new DrawerItem(tagTitles[0],R.drawable.home_sec));
-        items.add(new DrawerItem(tagTitles[1],R.drawable.rally_maya_sec));
-        items.add(new DrawerItem(tagTitles[2],R.drawable.participantes_sec));
-        items.add(new DrawerItem(tagTitles[3],R.drawable.ruta_sec));
-        items.add(new DrawerItem(tagTitles[4],R.drawable.tips_sec));
-        items.add(new DrawerItem(tagTitles[5],R.drawable.patrocinadores_sec));
-        items.add(new DrawerItem(tagTitles[6],R.drawable.directorio_sec));
-        items.add(new DrawerItem(tagTitles[7],R.drawable.diabetes_sec));
-        items.add(new DrawerItem(tagTitles[8],R.drawable.cronometro_sec));
-        items.add(new DrawerItem(tagTitles[9],R.drawable.facebook_sec));
-        items.add(new DrawerItem(tagTitles[10],R.drawable.twitter_sec));
+        getLayoutInflater().inflate(R.layout.activity_participantes_activity_list, frameLayout);
 
+        grid = (GridView)findViewById(R.id.grid_participantes);
+        adapter = new ParticipanteAdapter(this,participantes);
+        grid.setAdapter(adapter);
 
-        // Relacionar el adaptador y la escucha de la lista del drawer
-        drawerList.setAdapter(new DrawerListAdapter(this, items));
-        drawerList.setOnItemClickListener(new DrawerItemClickListener());
-
-        // Habilitar el icono de la app por si hay algún estilo que lo deshabilitó
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
-
-        // Crear ActionBarDrawerToggle para la apertura y cierre
-        drawerToggle = new ActionBarDrawerToggle(
-                this,
-                drawerLayout,
-                R.drawable.ic_drawer,
-                R.string.drawer_open,
-                R.string.drawer_close
-        ) {
-            public void onDrawerClosed(View view) {
-                getSupportActionBar().setTitle(itemTitle);
-
-                /*Usa este método si vas a modificar la action bar
-                con cada fragmento
-                 */
-                //invalidateOptionsMenu();
+        grid.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                //Destino clicked_destino = (Destino) grid.getItemAtPosition(position);
+                //Toast.makeText(MayaKaanEscapadas.this, "You Clicked at " + clicked_destino.getNombre(), Toast.LENGTH_SHORT).show();
+                Participante participante = (Participante) grid.getItemAtPosition(position);
+                Intent Idetail = new Intent (getApplicationContext(), ParticipantesActivityDetail.class);
+                Idetail.putExtra("id", participante.getId());
+                Idetail.putExtra("nombre", participante.getName());
+                Idetail.putExtra("image", participante.getImage());
+                Idetail.putExtra("year", participante.getYear());
+                startActivity(Idetail);
             }
-            public void onDrawerOpened(View drawerView) {
-                getSupportActionBar().setTitle(activityTitle);
 
-                /*Usa este método si vas a modificar la action bar
-                con cada fragmento
-                 */
-                //invalidateOptionsMenu();
+        });
+
+
+        String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
+        setTitle(item_menus_sec[2]);
+
+        JsonObjectRequest jr = new JsonObjectRequest(Request.Method.GET, RALLY_MAYA_JSON_API_URL,
+                null, new Response.Listener<JSONObject>() {
+
+            @Override
+            public void onResponse(JSONObject response) {
+                parseJSONRespone(response);
+                progress.dismiss();
             }
-        };
-        //Seteamos la escucha
-        drawerLayout.setDrawerListener(drawerToggle);
 
-        if (savedInstanceState == null) {
-            //    selectItem(0);
-        }
-       // tarea1 = new PintaImages();
-       // tarea1.execute();
-        for (int index = 0; index <26; index++) {
-            Participante participante = new Participante();
-            participante.setId(index + 1);
-            participantes.add(participante);
-            //Log.e("participantes",participante.toString());
-        }
-            grid = (GridView)findViewById(R.id.grid_participantes);
-            grid.setAdapter(new ParticipanteAdapter(this, R.layout.row_participante, participantes));
+        }, new Response.ErrorListener() {
+
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.v("VOLLEY", error.getMessage());
+            }
+        });
+        progress = ProgressDialog.show(this, "","Cargando participantes.");
+
+
+        MyVolleySingleton.getInstance().addToRequestQueue(jr);
+
+
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_rally_maya, menu);
-        return true;
-    }
-    /* La escucha del ListView en el Drawer */
-    private class DrawerItemClickListener implements ListView.OnItemClickListener {
-        @Override
-        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-            selectItem(position);
-        }
-    }
-
-    private void selectItem(int position) {
-        drawerList.setItemChecked(position, true);
-        setTitle(tagTitles[position]);
-        drawerLayout.closeDrawer(drawerList);
-    }
-
-    /* Método auxiliar para setear el titulo de la action bar */
-    @Override
-    public void setTitle(CharSequence title) {
-        itemTitle = title;
-        getSupportActionBar().setTitle(itemTitle);
-    }
-
-    @Override
-    protected void onPostCreate(Bundle savedInstanceState) {
-        super.onPostCreate(savedInstanceState);
-        // Sincronizar el estado del drawer
-        drawerToggle.syncState();
-    }
-
-    @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-        super.onConfigurationChanged(newConfig);
-        // Cambiar las configuraciones del drawer si hubo modificaciones
-        drawerToggle.onConfigurationChanged(newConfig);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-
-        if (drawerToggle.onOptionsItemSelected(item)) {
-            // Toma los eventos de selección del toggle aquí
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
-    /*private class PintaImages extends AsyncTask<Void, Integer, Boolean> {
-
-        @Override
-        protected Boolean doInBackground(Void... params) {
-
-            for (int index = 0; index <26; index++) {
+    private void parseJSONRespone(JSONObject response) {
+        try {
+            JSONArray entries = response.getJSONArray("objects");
+            for (int count = 0; count < entries.length(); count++) {
+                JSONObject anEntry = entries.getJSONObject(count);
                 Participante participante = new Participante();
-                participante.setId(index + 1);
+                participante.setId(Integer.parseInt(anEntry.optString("id")));
+                participante.setName(anEntry.optString("name"));
+                participante.setImage(anEntry.optString("picture"));
+                participante.setYear(anEntry.optString("year"));
                 participantes.add(participante);
             }
-            //Log.e("Participantes", participantes.toString());
-            mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view_participantes);
-            mRecyclerView.setHasFixedSize(true);
-            mRecyclerView.setAdapter(new ParticipanteAdapterRecylcer(participantes, R.layout.row_participante_cardview));
-            mRecyclerView.setLayoutManager(new GridLayoutManager(getApplicationContext(),2));
-            mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-            return true;
+            adapter.notifyDataSetChanged();
+
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
 
-    }*/
+    }
+
+    static class ViewHolder {
+        ImageView imageView;
+    }
+
+    class MyImageAdapter extends BaseAdapter {
+
+        @Override
+        public int getCount() {
+            return participantes.size();
+        }
+
+        @Override
+        public Object getItem(int position) {
+            return null;
+        }
+
+        @Override
+        public long getItemId(int position) {
+            return position;
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+
+            View view = convertView;
+            final ViewHolder gridViewImageHolder;
+//            check to see if we have a view
+            if (view == null) {
+                view = getLayoutInflater().inflate(R.layout.grid_image_item, parent, false);
+                gridViewImageHolder = new ViewHolder();
+                gridViewImageHolder.imageView = (ImageView) view.findViewById(R.id.netork_imageView);
+                view.setTag(gridViewImageHolder);
+            } else {
+                gridViewImageHolder = (ViewHolder) view.getTag();
+            }
+
+            mNetworkImageView = (NetworkImageView) gridViewImageHolder.imageView;
+            mNetworkImageView.setDefaultImageResId(R.drawable.article);
+            mNetworkImageView.setErrorImageResId(R.drawable.article);
+            mNetworkImageView.setAdjustViewBounds(true);
+            mNetworkImageView.setImageUrl(ImageUrlArray.IMAGES[position], mImageLoader);
+
+            return view;
+        }
+    }
+
+
 }
