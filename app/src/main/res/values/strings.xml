@@ -5,28 +5,30 @@
 
     <string-array name="ItemMenus">
         <item>RALLY MAYA</item>
+        <item>PROGRAMA</item>
         <item>PARTICIPANTES</item>
         <item>RUTA</item>
         <item>TIPS</item>
         <item>PATROCINADORES</item>
         <item>DIRECTORIO</item>
-        <item>DIABETES</item>
         <item>CRONÓMETRO</item>
     </string-array>
     <string-array name="ItemMenusSec">
         <item>INICIO</item>
         <item>RALLY MAYA</item>
+        <item>PROGRAMA</item>
         <item>PARTICIPANTES</item>
         <item>RUTA</item>
         <item>TIPS</item>
         <item>PATROCINADORES</item>
         <item>DIRECTORIO</item>
-        <item>DIABETES</item>
+
         <item>CRONÓMETRO</item>
         <item>FACEBOOK</item>
         <item>TWITTER</item>
     </string-array>
 
+    <string name="revise_conexion">Revise su conexión a internet</string>
     <string name="drawer_open">Abrir navigation drawer</string>
     <string name="drawer_close">Cerrar navigation drawer</string>
     <string name="headlines">Encabezados de</string>
@@ -36,6 +38,7 @@
 
     <!-- Rally Maya -->
     <string name="rally_maya_title">Información General Rally Maya México 2015</string>
+
     <string name="rally_maya_text">        RALLY MAYA MEXICO 2015 a realizarse del 4 al 9 de Mayo de 2015, en la Península de Yucatán. Rally Maya en su 2ª Edición, dará inicio en la ciudad de Mérida Yucatán, y finalizara en la Ciudad de Cancun Q. Roo. Un museo rodante de autos antiguos de 1915 a 1975,  en  un recorrido de 1,200 Km  durante 6 días.   Un Rally Tour inolvidable en una tenaz  carrera de regularidad.\n\n
 
 
@@ -59,8 +62,8 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
 
 
 <!--TIPS-->
-    <string name="tips_viaje_text">
-Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabulosos de la Península de Yucatán que seguramente le dejarán una inolvidable experiencia de viaje, por lo que le recomendamos lo siguiente:\n\n
+    <string name="tips_viaje_text">Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabulosos de la Península de Yucatán que seguramente le dejarán una inolvidable experiencia de viaje. En el mes de Mayo en la península de Yucatán se pronostica un clima: Seco-Caluroso.\nLa temperatura media anual del Estado de Yucatán está entre 25 y 26°C, en el mes de Abril y Mayo, sin embargo podría llegar a 40° a la sombra, por lo que le recomendamos lo siguiente:\n\n
+
 - Agua \n
 - Repelente \n
 - Protector solar \n
@@ -84,9 +87,8 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
 - Reproductor de música \n
 - Cangurera \n
 - Dinero/efectivo \n
-- Herramientas mecánicas \n
-
-       \n\n Estas son algunos tips que les sugerimos tener a la mano y pueda disfrutar del placer de viajar en el tiempo con Rally Maya México.
+- Herramientas mecánicas
+\n\nEstas son algunos tips que les sugerimos tener a la mano y pueda disfrutar del placer de viajar en el tiempo con Rally Maya México.
 
     </string>
     <string name="diccionario_maya_text">
@@ -265,9 +267,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
     <string-array name="lugares_visita_mayapan">
         <item>Llegó a ser el centro más importante de la civilización maya durante el siglo XIII de nuestra era. Fue construida de forma muy similar a Chichen Itzá. Cuenta con más de 4 mil estructuras rodeadas por una gran muralla y decenas de cenotes. Se destaca el castillo de Kukulkán, en donde  tiene lugar un interesante fenómeno de luz y sombra durante el solsticio de invierno, similar al de Chichen Itzá. </item>
     </string-array>
-    <string-array name="lugares_visita_dzibilchaltun">
-        <item>Su estructura más famosa es la Casa de las siete Muñecas, en los equinoccios de primavera y otoño, la orientación  del edificio hace que el sol pueda verse a través de las puertas  este y oeste, otro ejemplo de la precisión matemática de los mayas, también cuenta con el museo del pueblo maya y un cenote para nadar. </item>
-    </string-array>
+
     <string-array name="lugares_visita_puerto_progreso">
         <item>Progreso de Castro, el puerto más importante del estado es, al mismo tiempo la población, con categoría de ciudad, más joven de Yucatán. La fundación del puerto de Progreso surgió como una necesidad: el traslado de la aduana de Sisal a un sitio más cercano a la capital del Estado. Progreso es actualmente, un punto de enlace turístico y una frontera abierta al intercambio comercial con el golfo de México y el Mar Caribe. </item>
     </string-array>
@@ -286,9 +286,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
     <string-array name="lugares_visita_chichenitza">
         <item>Una de las 7 maravillas del Mundo; se puede admirar el Castillo, el Templo de los Guerreros, el Grupo de las mil Columnas, la Plataforma de Venus, el Tzompantli, el Juego de Pelota, el Caracol, antiguo Observatorio y la Iglesia. Es la más impresionante de las ruinas de la civilización Maya. El edificio más conocido es el Castillo, tiene una altura de poco más de 30 metros y en la parte superior hay un templo dedicado a Kukulkán.</item>
     </string-array>
-    <string-array name="lugares_visita_xcaret">
-        <item>"Xcaret" significa en maya pequeña caleta, pues cuenta con una ensenada de extraordinaria belleza. La ubicación geográficamente conveniente de esta caleta la hizo atractiva para los mayas, quienes construyeron ahí un puerto y centro mercantil. </item>
-    </string-array>
+
     <string-array name="lugares_visita_playa_del_carmen">
         <item>Antiguamente un pequeño pueblo, Playa del Carmen es hoy día uno de los sitios más glamurosos del Caribe Mexicano. “Playa”, como lo llaman sus visitantes asiduos, se sitúa en el corazón de la Riviera Maya y congrega los mejores restaurantes, tiendas y centros nocturnos. Playa del Carmen es uno de los destinos culinarios más importantes de la Riviera Maya. </item>
     </string-array>
@@ -368,11 +366,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item name="title">MAYAPAN</item>
         <item name="tag">lugares_visita_mayapan</item>
     </string-array>
-    <string-array name="tips_lugares_dzibilchaltun">
-        <item name="id">5</item>
-        <item name="title">DZIBILCHALTUN</item>
-        <item name="tag">lugares_visita_dzibilchaltun</item>
-    </string-array>
+
     <string-array name="tips_lugares_puerto_progreso">
         <item name="id">5</item>
         <item name="title">PUERTO PROGRESO</item>
@@ -403,11 +397,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item name="title">CHICHEN ITZÁ</item>
         <item name="tag">lugares_visita_chichenitza</item>
     </string-array>
-    <string-array name="tips_lugares_xcaret">
-        <item name="id">5</item>
-        <item name="title">XCARET</item>
-        <item name="tag">lugares_visita_xcaret</item>
-    </string-array>
+
     <string-array name="tips_lugares_playa_del_carmen">
         <item name="id">5</item>
         <item name="title">PLAYA DEL CARMEN</item>
@@ -439,14 +429,11 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item>@array/tips_lugares_ticul</item>
         <item>@array/tips_lugares_mani</item>
         <item>@array/tips_lugares_mayapan</item>
-        <item>@array/tips_lugares_dzibilchaltun</item>
         <item>@array/tips_lugares_puerto_progreso</item>
         <item>@array/tips_lugares_xcambo</item>
-        <item>@array/tips_lugares_dzibilchaltun</item>
         <item>@array/tips_lugares_tizimin</item>
-        <item>@array/tips_lugares_valladolid</item>
         <item>@array/tips_lugares_chichenitza</item>
-        <item>@array/tips_lugares_xcaret</item>
+        <item>@array/tips_lugares_valladolid</item>
         <item>@array/tips_lugares_playa_del_carmen</item>
         <item>@array/tips_lugares_cancun</item>
         <item>@array/tips_lugares_isla_mujeres</item>
@@ -467,10 +454,10 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item><b>IMSS</b> \n(981) 8163802, 981-811-12420 </item>
     </string-array>
     <string-array name="hoteles_campeche">
-        <item><b>Plaza Campeche</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 # 126 Esq. Circuito Baluartes Col. Centro. C.P 24000, San francisco de Campeche, Campeche. </item>
-        <item><b>Plaza Colonial</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 x 51, Centro Histórico, 24000 San Francisco de Campeche, Campeche</item>
-        <item><b>Ocean View</b> \nTeléfono: 01 981 811 9991 \nreservaciones@oceanview.com.mx \nPedro Sainz de Baranda o Av. Costera S/N, San Francisco de Campeche, 24010 Campeche, CAMP</item>
-        <item><b>Hotel Best Wester del Mar</b> \nTel: 01 981 811 9191 \ninfo@delmarhotel.com.mx \nAv. Ruiz Cortines #51, Centro, 24000 Campeche, Campeche</item>
+        <item><b>Plaza Campeche</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 # 126 Esq. Circuito Baluartes Col. Centro. C.P 24000, San Francisco de Campeche, Campeche.\nTel: 981 811 9900 \n www.hotelplazacampeche.com</item>
+        <item><b>Plaza Colonial</b> \n04 al 05 de Mayo \nDesayuno: Si \nCalle 10 x 51, Centro Histórico, 24000 San Francisco de Campeche, Campeche\nTel: 981 811 9900 \n www.hotelplazacolonial.com</item>
+        <!--item><b>Ocean View</b> \nTeléfono: 01 981 811 9991 \nreservaciones@oceanview.com.mx \nPedro Sainz de Baranda o Av. Costera S/N, San Francisco de Campeche, 24010 Campeche, CAMP</item>
+        <item><b>Hotel Best Wester del Mar</b> \nTel: 01 981 811 9191 \ninfo@delmarhotel.com.mx \nAv. Ruiz Cortines #51, Centro, 24000 Campeche, Campeche</item-->
     </string-array>
     <string-array name="refaccionarias_campeche">
         <item><b>LEYMAR</b> \nAV. LOPEZ MATEOS 282, SAN ROMAN, CAMPECHE, C.P. 24040, CAMP. \n(981)816-6868</item>
@@ -567,14 +554,15 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item><b>Tizimín</b> \nCentro de Salud\n01 (986) 8 63 23 89</item>
     </string-array>
     <string-array name="hoteles_yucatan">
-        <item><b>Fiesta Americana Mérida</b> \n02 al 04 de Mayo \nDesayuno: Si \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
-        <item><b>Uxmal</b>\n<b>The Logde Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán</item>
-        <item><b>Uxmal</b>\n<b>Hacienda Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán</item>
-        <item><b>Fiesta Americana Mérida</b> \n06 al 07 de Mayo \nDesayuno: Si \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
-        <item><b>Chichen Itzá</b>\n<b>The Lodge Chichen Itzá</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
-        <item><b>Chichen Itzá</b>\n<b>Mayaland</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
-        <item><b>Chichen Itzá</b>\n<b>Oka’an Villas</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán</item>
-        <item><b>Mérida</b>\n<b>Fiesta Americana Mérida</b> \nTel: 999 942 1111 \nventasfamd@posadas.com\nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
+        <item><b>Fiesta Americana Mérida</b> \n01 al 04 de Mayo \nDesayuno: Si \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México\nTel: 01 999 942 1111\n www.fiestamericana.com/es/merida</item>
+        <item><b>Uxmal</b>\n<b>The Logde Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán\nTel: 998 887 2495 \n www.mayaland.com</item>
+        <item><b>Uxmal</b>\n<b>Hacienda Uxmal Mayaland</b> \n05 al 06 de Mayo \nDesayuno: Si \nKm. 20 Carret. 180, C.P. 97844 Uxmal, Yucatán\nTel: 998 887 2495 \n www.mayaland.com</item>
+        <item><b>Mérida</b>\n<b>Fiesta Americana Mérida</b> \nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México\nTel: 01 999 942 1111 \nwww.fiestamericana.com/es/merida\n</item>
+        <item><b>Chichen Itzá</b>\n<b>The Lodge Chichen Itzá</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán\nTel: 998 887 2495\n www.mayaland.com</item>
+        <item><b>Chichen Itzá</b>\n<b>Mayaland</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán\nTel: 998 887 2495\n www.mayaland.com</item>
+        <item><b>Chichen Itzá</b>\n<b>Oka’an Villas</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán\nTel: 985 858 7857 \nwww.hotelokaan.com\n</item>
+        <item><b>Chichen Itzá</b>\n<b>Hacienda Chichen Resort and Yaxkin Spa</b> \n07 al 08 de Mayo \nDesayuno: Si \nCarretera Mérida- Cancun, Km 120, C.P. 97751 Chichen-Itzá, Yucatán\nTel: 999 920 8407\nwww.haciendachichen.com \n</item>
+        <!--item><b>Mérida</b>\n<b>Fiesta Americana Mérida</b> \nTel: 999 942 1111 \nventasfamd@posadas.com\nPaseo Montejo No. 451, Esq. Av. Colón Col. Centro, 97000, Mérida, Yucatán, México</item>
         <item><b>Mérida</b>\n<b>Gran Real Mérida</b> \nTel: 999 928 6081/82/83\nreservaciones@granrealyucatan.com\nCalle 56 No. 474 Por 55 Centro, C.P. 97000 Mérida, Yucatán, México.</item>
         <item><b>Mérida</b>\n<b>Misión Express Mérida Altabrisa</b> \nTel: 01 999 942 3600\nventasmeridaexpress@hotelesmision.com.mx\nCalle 20, Entre calles 15 y 19, 255, Fracc. Altabrisa, 97130 Mérida, Yucatán</item>
         <item><b>Mérida</b>\n<b>Misión Panamericana Mérida</b> \nTel: 01 999 923 9407\nejecutivomerida3@hotelesmision.com.mx\nCalle 59 #455, Centro, C.P. 97000 Mérida, Yucatán</item>
@@ -582,7 +570,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item><b>Mérida</b>\n<b>Holiday Inn Mérida</b> \nTel: 999 964 2200\nreservaciones@hiexmerida.com\nCalle 20A No 300A por 3C y 5ª, Colonia Xcumpich C.P. 97204, Mérida, Yucatán</item>
         <item><b>Mérida</b>\n<b>Hotel los Aluxes</b> \nTeléfono: 01 999 924 2199\nmary-dc-21@hotmail.com\nCalle 60 444 X 49 51, Centro, 97000 Mérida, YUC</item>
         <item><b>Uxmal</b>\n<b>The Flycatcher Inn</b> \nTel: 01 997 978 5350\n info@flycatcherinn.com\nCalle 20 S/N, San Marcos, 97841 Santa Elena, Yucatán</item>
-        <item><b>Chichen Itzá</b>\n<b>Villas Arqueológicas Chichen Itzá</b> \nTel: 019858510187 \nreservas@villasmex.com\nKm. 120 Carretera Mérida Valladolid Piste Tinúm Chichén Itzá, Yucatán CP 97751</item>
+        <item><b>Chichen Itzá</b>\n<b>Villas Arqueológicas Chichen Itzá</b> \nTel: 019858510187 \nreservas@villasmex.com\nKm. 120 Carretera Mérida Valladolid Piste Tinúm Chichén Itzá, Yucatán CP 97751</item-->
     </string-array>
     <string-array name="refaccionarias_yucatan">
         <item><b>REPUESTOS DEL GOLFO Y CARIBE SA DE CV</b> \nCALLE 58 Nº 471, CENTRO, MERIDA, C.P. 97000, YUC. \n(999)923-7142</item>
@@ -650,7 +638,9 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item><b>LLANTERA AUTOMOTRIZ MECA</b> \n58 SN, MILCHECHEN 1 KANASÍN, YUCATÁN</item>
         <item><b>LLANTERA MAURO</b> \n61 63 SN, SAN PEDRO KANASÍN, YUCATÁN</item>
     </string-array>
-
+    <string-array name="centro_convenciones_yucatan">
+        <item><b>Lic. Carlos Ariel Franco Osorno</b> \nGerente\nTel. (999) 9-42-19-00 ext 106\nDirección:Calle 60Nte. No. 299-E Col Revolución ExCordemex, Mérida, Yucatán. México. CP 97118\n </item>
+    </string-array>
     <string-array name="directorio_emergencias_yucatan">
         <item name="id">1</item>
         <item name="title">NÚMERO DE EMERGENCIA</item>
@@ -671,11 +661,17 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
         <item name="title">VULCANIZADORAS</item>
         <item name="tag">vulcanizadoras_yucatan</item>
     </string-array>
+    <string-array name="directorio_centro_convenciones_yucatan">
+        <item name="id">3</item>
+        <item name="title">CENTRO DE CONVENCIONES</item>
+        <item name="tag">centro_convenciones_yucatan</item>
+    </string-array>
     <array name="directorio_yucatan_header">
         <item>@array/directorio_emergencias_yucatan</item>
         <item>@array/directorio_hoteles_yucatan</item>
         <item>@array/directorio_refaccionarias_yucatan</item>
         <item>@array/directorio_vulcanizadoras_yucatan</item>
+        <item>@array/directorio_centro_convenciones_yucatan</item>
     </array>
 
     <string-array name="contactos_emergencia_quintanaroo">
@@ -718,7 +714,7 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
     </string-array>
 
     <string-array name="hoteles_quintanaroo">
-        <item><b>Grand Oasis Cancún</b> \n08 al 10 de Mayo \nDesayuno: Si \nBlvd Kukulkán, Km 16.5, Zona Hotelera, Cancún, Quintana Roo, México C.P. 77500</item>
+        <item><b>Grand Oasis Cancún</b> \n08 al 10 de Mayo \nDesayuno: Si \nBlvd Kukulkán, Km 16.5, Zona Hotelera, Cancún, Quintana Roo, México C.P. 77500\nTel: 998 283 3249\n www.hoteloasiscancun.net</item>
     </string-array>
     <string-array name="refaccionarias_quintanaroo">
         <item><b>REFACCIONES LA RIVIERA</b> \nJOSE LOPEZ PORTILLO 45 45 8 8, SUPERMANZANA 58, BENITO JUAREZ, C.P. 77515, QR \n(998)843-7334</item>
@@ -792,8 +788,10 @@ Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabul
 
 
 
-
+    <!-- Mypdf-->
+    <string name="pdf_seccion">REGLAMENTO</string>
     <!-- Diabetes-->
+    <string name="diabetes_seccion">DIABETES</string>
     <string name="diabetes_title">Información sobre la Diabetes T1</string>
     <string name="diabetes_text">
  Rally Maya México es una Asociación Civil que surge a partir de la idea de trasladarse al pasado a través de automotores antiguos y clásicos de cuatro ruedas para recorrer una hermosa península que se compone de tres Estados; Campeche, Quintana Roo y Yucatán que muestra una rica variedad Cultural, Gastronómica, Turística y una Naturaleza única y primorosa, que invita a todas aquellas personas que desean aventurarse a una experiencia inolvidable juntamente con sus familias. No obstante esto no sería una A.C. si no tuviera un fin que es; Regalar Sonrisas a niños con Diabetes tipo 1 que surge a partir de la organización conjunta de padres cuyos hijos padecen de esta Enfermedad y con la necesidad de luchar en contra de las complicaciones, del aumento de los factores de riesgo, pero sobre todo en la prevención de este padecimiento.\n\n
@@ -804,5 +802,7 @@ En su segunda edición Rally Maya México pretende causar un impacto notable a e
     <string name="title_activity_cronometro">CronometroActivity</string>
     <string name="title_activity_intro">IntroActivity</string>
     <string name="title_activity_base">BaseActivity</string>
+    <string name="title_activity_programa">ProgramaActivity</string>
+    <string name="title_activity_my_pdf_view">MyPdfViewActivity</string>
 
 </resources>

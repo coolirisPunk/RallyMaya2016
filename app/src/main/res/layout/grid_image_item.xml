@@ -5,12 +5,12 @@
 
     <com.android.volley.toolbox.NetworkImageView
         android:id="@+id/netork_imageView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
         android:layout_alignParentTop="true"
-        android:scaleType="centerCrop" />
-
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:scaleType="fitCenter"
+    android:layout_gravity="center"/>
 
 
 </RelativeLayout>

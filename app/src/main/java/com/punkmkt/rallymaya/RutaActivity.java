@@ -118,7 +118,7 @@ public class RutaActivity extends BaseActivity {
             }
         }
         else{
-            Toast.makeText(getApplicationContext(), "Revise su conexión a internet",Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), getResources().getString(R.string.revise_conexion),Toast.LENGTH_SHORT).show();
         }
     }
     private String getDirectionsUrl(LatLng origin,LatLng dest){

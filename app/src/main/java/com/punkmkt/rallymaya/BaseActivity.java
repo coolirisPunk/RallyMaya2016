@@ -1,24 +1,25 @@
 package com.punkmkt.rallymaya;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.Uri;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.punkmkt.rallymaya.adapters.DrawerListAdapter;
 import com.punkmkt.rallymaya.models.DrawerItem;
 
 import java.util.ArrayList;
-
 
 public class BaseActivity extends ActionBarActivity {
     /**
@@ -201,6 +202,12 @@ public class BaseActivity extends ActionBarActivity {
                 intent = new Intent(this, CronometroActivity.class);
                 this.startActivity(intent);
                 break;
+            case 9:
+                this.startActivity(getOpenFacebookIntent(this));
+                break;
+            case 10:
+                this.startActivity(GetOpenTwitterIntent(this));
+                break;
             default:
                 break;
         }
@@ -230,19 +237,40 @@ public class BaseActivity extends ActionBarActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         // Sincronizar el estado del drawer
         actionBarDrawerToggle.syncState();
     }
-
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         // Cambiar las configuraciones del drawer si hubo modificaciones
         actionBarDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    public static Intent getOpenFacebookIntent(Context context) {
+        try {
+            context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/132058193656387"));
+        } catch (Exception e) {
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/<RallyMayaMexico>"));
+        }
+
+    }
+
+    public static Intent GetOpenTwitterIntent(Context context){
+        Intent intent = null;
+        try {
+            context.getPackageManager().getPackageInfo("com.twitter.android", 0);
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("twitter://user?user_id=205733974"));
+            //intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            // intent;
+        } catch (Exception e) {
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/rallymayamexico"));
+        }
+
     }
 
 

@@ -19,6 +19,7 @@ import com.punkmkt.rallymaya.DirectorioActivity;
 import com.punkmkt.rallymaya.ParticipantesActivityDetail;
 import com.punkmkt.rallymaya.ParticipantesActivityList;
 import com.punkmkt.rallymaya.PatrocinadorActivity;
+import com.punkmkt.rallymaya.ProgramaActivity;
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.RallyMayaActivity;
 import com.punkmkt.rallymaya.RutaActivity;
@@ -58,22 +59,23 @@ public class MenuAdapter extends ArrayAdapter<ItemMenu>{
                 viewHolder.image.setImageResource(R.drawable.rally_maya);
                 break;
             case 2:
-                viewHolder.image.setImageResource(R.drawable.participantes);
+                viewHolder.image.setImageResource(R.drawable.menu_programa);
                 break;
             case 3:
-                viewHolder.image.setImageResource(R.drawable.ruta);
+                viewHolder.image.setImageResource(R.drawable.participantes);
                 break;
             case 4:
-                viewHolder.image.setImageResource(R.drawable.tips);
+                viewHolder.image.setImageResource(R.drawable.ruta);
                 break;
             case 5:
-                viewHolder.image.setImageResource(R.drawable.patrocinadores);
+                viewHolder.image.setImageResource(R.drawable.tips);
                 break;
             case 6:
-                viewHolder.image.setImageResource(R.drawable.directorio);
+                viewHolder.image.setImageResource(R.drawable.patrocinadores);
                 break;
             case 7:
-                viewHolder.image.setImageResource(R.drawable.diabetes);
+                viewHolder.image.setImageResource(R.drawable.directorio);
+
                 break;
             case 8:
                 viewHolder.image.setImageResource(R.drawable.cronometro);
@@ -89,27 +91,27 @@ public class MenuAdapter extends ArrayAdapter<ItemMenu>{
                         context.startActivity(intent);
                         break;
                     case 1:
-                        intent = new Intent(context, ParticipantesActivityList.class);
+                        intent = new Intent(context, ProgramaActivity.class);
                         context.startActivity(intent);
                         break;
                     case 2:
-                        intent = new Intent(context, RutaActivity.class);
+                        intent = new Intent(context, ParticipantesActivityList.class);
                         context.startActivity(intent);
                         break;
                     case 3:
-                        intent = new Intent(context, TipActivity.class);
+                        intent = new Intent(context, RutaActivity.class);
                         context.startActivity(intent);
                         break;
                     case 4:
-                        intent = new Intent(context, PatrocinadorActivity.class);
+                        intent = new Intent(context, TipActivity.class);
                         context.startActivity(intent);
                         break;
                     case 5:
-                        intent = new Intent(context, DirectorioActivity.class);
+                        intent = new Intent(context, PatrocinadorActivity.class);
                         context.startActivity(intent);
                         break;
                     case 6:
-                        intent = new Intent(context, DiabetesActivity.class);
+                        intent = new Intent(context, DirectorioActivity.class);
                         context.startActivity(intent);
                         break;
                     case 7:

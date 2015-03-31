@@ -21,6 +21,7 @@ import com.android.volley.toolbox.NetworkImageView;
 import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
 import com.punkmkt.rallymaya.adapters.PatrocinadorAdapter;
 import com.punkmkt.rallymaya.models.Participante;
+import com.punkmkt.rallymaya.utils.NetworkUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -29,6 +30,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import android.app.ProgressDialog;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 
 public class ParticipantesActivityList extends BaseActivity {
@@ -68,32 +70,33 @@ public class ParticipantesActivityList extends BaseActivity {
             }
 
         });
-
-
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[2]);
+        if(NetworkUtils.haveNetworkConnection(this)) {
+            JsonObjectRequest jr = new JsonObjectRequest(Request.Method.GET, RALLY_MAYA_JSON_API_URL,
+                    null, new Response.Listener<JSONObject>() {
+                @Override
+                public void onResponse(JSONObject response) {
+                    parseJSONRespone(response);
+                    progress.dismiss();
+                }
 
-        JsonObjectRequest jr = new JsonObjectRequest(Request.Method.GET, RALLY_MAYA_JSON_API_URL,
-                null, new Response.Listener<JSONObject>() {
+            }, new Response.ErrorListener() {
 
-            @Override
-            public void onResponse(JSONObject response) {
-                parseJSONRespone(response);
-                progress.dismiss();
-            }
-
-        }, new Response.ErrorListener() {
-
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Log.v("VOLLEY", error.getMessage());
-            }
-        });
-        progress = ProgressDialog.show(this, "","Cargando participantes.");
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Log.v("VOLLEY", error.getMessage());
+                }
+            });
+            progress = ProgressDialog.show(this, "", "Cargando participantes.");
 
 
-        MyVolleySingleton.getInstance().addToRequestQueue(jr);
+            MyVolleySingleton.getInstance().addToRequestQueue(jr);
 
+        }
+        else{
+            Toast.makeText(getApplicationContext(), getResources().getString(R.string.revise_conexion), Toast.LENGTH_SHORT).show();
+        }
 
     }
 

@@ -1,99 +1,73 @@
 package com.punkmkt.rallymaya.adapters;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.ImageView;
 
+import com.android.volley.toolbox.ImageLoader;
+import com.android.volley.toolbox.NetworkImageView;
+import com.punkmkt.rallymaya.MyVolleySingleton;
 import com.punkmkt.rallymaya.ParticipantesActivityDetail;
 import com.punkmkt.rallymaya.R;
+import com.punkmkt.rallymaya.models.Participante;
 import com.punkmkt.rallymaya.models.Patrocinador;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by germanpunk on 05/03/15.
  */
-public class PatrocinadorAdapter extends ArrayAdapter<Patrocinador> {
-    private Context context;
-    private ArrayList<Patrocinador> patrocinadores;
-    private int itemLayout;
-    public PatrocinadorAdapter(Context context, int viewResourceId, ArrayList<Patrocinador> patrocinadores) {
-        super(context, viewResourceId, patrocinadores);
-        this.context = context;
-        this.patrocinadores = patrocinadores;
-        this.itemLayout = viewResourceId;
-    }
+public class PatrocinadorAdapter extends BaseAdapter {
+    private Activity activity;
+    private LayoutInflater inflater;
+    private List<Patrocinador> patrocinadores;
+    ImageLoader imageLoader = MyVolleySingleton.getInstance().getImageLoader();
 
-    static class ViewHolder{
-        public ImageView imagen;
+    public PatrocinadorAdapter(Activity activity, List<Patrocinador> patrocinadores) {
+        this.activity = activity;
+        this.patrocinadores = patrocinadores;
     }
 
     @Override
-    public View getView(final int position, View convertView, ViewGroup parent){
-        ViewHolder viewHolder = new ViewHolder();
-        if(convertView == null){
-            convertView = LayoutInflater.from(context).inflate(itemLayout, parent, false);
-            viewHolder.imagen = (ImageView) convertView.findViewById(R.id.image_patrocinador);
-            convertView.setTag(viewHolder);
-        }
-        else{
-            viewHolder = (ViewHolder) convertView.getTag();
-        }
-        Patrocinador patrocinador = patrocinadores.get(position);
-        //viewHolder.name.setText(actionbar.getName());
-        switch (patrocinador.getId()){
-            case 1:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_aicm);
-                break;
-            case 2:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_asur);
-                break;
-            case 3:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_campeche);
-                break;
-            case 4:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_cancun);
-                break;
-            case 5:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_deiman);
-                break;
-            case 6:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_donm);
-                break;
-            case 7:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_fullgas);
-                break;
-            case 8:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_interjet);
-                break;
-            case 9:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_mayaland);
-                break;
-            case 10:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_oasis);
-                break;
-            case 11:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_scappino);
-                break;
-            case 12:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_sct);
-                break;
-            case 13:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_ultramar);
-                break;
-            case 14:
-                viewHolder.imagen.setImageResource(R.drawable.patrocinador_yucatan);
-                break;
-        }
-        convertView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });
+    public int getCount() {
+        return patrocinadores.size();
+    }
+
+    @Override
+    public Object getItem(int location) {
+        return patrocinadores.get(location);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+
+        if (inflater == null)
+            inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        if (convertView == null)
+            convertView = inflater.inflate(R.layout.grid_image_item, null);
+
+        if (imageLoader == null)
+            imageLoader = MyVolleySingleton.getInstance().getImageLoader();
+        NetworkImageView thumbNail = (NetworkImageView) convertView.findViewById(R.id.netork_imageView);
+
+        // getting movie data for the row
+        Patrocinador p = patrocinadores.get(position);
+        // thumbnail image
+        thumbNail.setImageUrl(p.getImage(), imageLoader);
+
         return convertView;
     }
+
 }

@@ -6,17 +6,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class DiabetesActivity extends BaseActivity {
+public class ProgramaActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getLayoutInflater().inflate(R.layout.activity_diabetes, frameLayout);
-        String title;
-        title = getResources().getString(R.string.diabetes_seccion);
-        setTitle(title);
+        getLayoutInflater().inflate(R.layout.activity_programa, frameLayout);
+        String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
+        setTitle(item_menus_sec[2]);
     }
-
 
 
 }
