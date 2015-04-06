@@ -1,5 +1,6 @@
 package com.punkmkt.rallymaya;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -40,10 +41,12 @@ public class ParticipantesActivityList extends BaseActivity {
     private ArrayList<Participante> participantes = new ArrayList<Participante>();
     private final String RALLY_MAYA_JSON_API_URL = "http://punklabs.ninja/rallymaya/api/v1/cars/?format=json";
     private ProgressDialog progress;
+    private ProgressDialog myDialog;
     String url = null;
     ImageLoader mImageLoader;
     NetworkImageView mNetworkImageView;
     private ParticipanteAdapter adapter;
+    Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,8 +61,6 @@ public class ParticipantesActivityList extends BaseActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-                //Destino clicked_destino = (Destino) grid.getItemAtPosition(position);
-                //Toast.makeText(MayaKaanEscapadas.this, "You Clicked at " + clicked_destino.getNombre(), Toast.LENGTH_SHORT).show();
                 Participante participante = (Participante) grid.getItemAtPosition(position);
                 Intent Idetail = new Intent (getApplicationContext(), ParticipantesActivityDetail.class);
                 Idetail.putExtra("id", participante.getId());
@@ -71,7 +72,7 @@ public class ParticipantesActivityList extends BaseActivity {
 
         });
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
-        setTitle(item_menus_sec[2]);
+        setTitle(item_menus_sec[3]);
         if(NetworkUtils.haveNetworkConnection(this)) {
             JsonObjectRequest jr = new JsonObjectRequest(Request.Method.GET, RALLY_MAYA_JSON_API_URL,
                     null, new Response.Listener<JSONObject>() {
@@ -88,16 +89,26 @@ public class ParticipantesActivityList extends BaseActivity {
                     Log.v("VOLLEY", error.getMessage());
                 }
             });
-            progress = ProgressDialog.show(this, "", "Cargando participantes.");
 
-
+            progress = new ProgressDialog(ParticipantesActivityList.this);
+            progress.setMessage(getResources().getString(R.string.cargando_participantes));
+            progress.setCancelable(false);
+            progress.setButton(DialogInterface.BUTTON_NEGATIVE, getResources().getString(R.string.cancelar), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                    intent = new Intent(getApplicationContext(), MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    getApplicationContext().startActivity(intent);
+                }
+            });
+            progress.show();
+            //progress = ProgressDialog.show(this, "", getResources().getString(R.string.cargando_participantes));
             MyVolleySingleton.getInstance().addToRequestQueue(jr);
-
         }
         else{
             Toast.makeText(getApplicationContext(), getResources().getString(R.string.revise_conexion), Toast.LENGTH_SHORT).show();
         }
-
     }
 
     private void parseJSONRespone(JSONObject response) {

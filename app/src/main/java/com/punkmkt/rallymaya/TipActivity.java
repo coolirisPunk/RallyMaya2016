@@ -20,7 +20,7 @@ public class TipActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.activity_tips, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
-        setTitle(item_menus_sec[4]);
+        setTitle(item_menus_sec[5]);
         ViewPager pager = (ViewPager) findViewById(R.id.pager);
         pager.setAdapter(new MyPagerAdapter(getSupportFragmentManager()));
         tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);

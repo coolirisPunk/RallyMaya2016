@@ -1,6 +1,7 @@
 package com.punkmkt.rallymaya;
 
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -40,12 +41,13 @@ public class PatrocinadorActivity extends BaseActivity {
     ImageLoader mImageLoader;
     NetworkImageView mNetworkImageView;
     private PatrocinadorAdapter adapter;
+    Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.activity_patrocinador, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
-        setTitle(item_menus_sec[5]);
+        setTitle(item_menus_sec[6]);
 //        for (int index = 0; index <14; index++) {
 //            Patrocinador patrocinador = new Patrocinador();
 //            patrocinador.setId(index + 1);
@@ -88,8 +90,20 @@ public class PatrocinadorActivity extends BaseActivity {
                     Log.v("VOLLEY", error.getMessage());
                 }
             });
-            progress = ProgressDialog.show(this, "", "Cargando patrocinadores.");
-
+            //progress = ProgressDialog.show(this, "", getResources().getString(R.string.cargando_patrocinadores));
+            progress = new ProgressDialog(PatrocinadorActivity.this);
+            progress.setMessage(getResources().getString(R.string.cargando_patrocinadores));
+            progress.setCancelable(false);
+            progress.setButton(DialogInterface.BUTTON_NEGATIVE, getResources().getString(R.string.cancelar), new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialog, int which) {
+                    dialog.dismiss();
+                    intent = new Intent(getApplicationContext(), MainActivity.class);
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    getApplicationContext().startActivity(intent);
+                }
+            });
+            progress.show();
 
             MyVolleySingleton.getInstance().addToRequestQueue(jr);
 

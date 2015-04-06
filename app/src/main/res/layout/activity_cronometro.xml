@@ -6,6 +6,7 @@
                 android:orientation="horizontal"
                 android:gravity="center">
                 <ImageView
+                    android:id="@+id/link_app"
                     android:src="@drawable/descarga_app"
                     android:gravity="center_horizontal"
                     android:layout_centerInParent="true"

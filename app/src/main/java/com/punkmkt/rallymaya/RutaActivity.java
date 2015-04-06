@@ -37,101 +37,244 @@ import org.json.JSONObject;
 public class RutaActivity extends BaseActivity {
 
     GoogleMap map;
-    ArrayList<LatLng> markerPoints;
-    ArrayList<Coordenada> coordenadas;
+    ArrayList<LatLng> markerPoints_3;
+    ArrayList<LatLng> markerPoints_4;
+    ArrayList<LatLng> markerPoints_1;
+    ArrayList<LatLng> markerPoints_2;
+    ArrayList<LatLng> markerPoints_extras;
+    ArrayList<Coordenada> coordenadas_1;
+    ArrayList<Coordenada> coordenadas_2;
+    ArrayList<Coordenada> coordenadas_3;
+    ArrayList<Coordenada> coordenadas_4;
+    ArrayList<Coordenada> marcadores;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getLayoutInflater().inflate(R.layout.activity_ruta, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
-        setTitle(item_menus_sec[3]);
+        setTitle(item_menus_sec[4]);
         if(NetworkUtils.haveNetworkConnection(this)) {
-            markerPoints = new ArrayList<LatLng>();
-            coordenadas = new ArrayList<Coordenada>();
+            markerPoints_1 = new ArrayList<LatLng>();
+            markerPoints_2= new ArrayList<LatLng>();
+            markerPoints_3 = new ArrayList<LatLng>();
+            markerPoints_4 = new ArrayList<LatLng>();
+            markerPoints_extras = new ArrayList<LatLng>();
+            coordenadas_1 = new ArrayList<Coordenada>();
+            coordenadas_2 = new ArrayList<Coordenada>();
+            coordenadas_3 = new ArrayList<Coordenada>();
+            coordenadas_4 = new ArrayList<Coordenada>();
+            marcadores = new ArrayList<Coordenada>();
             SupportMapFragment fragment = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map));
             map = fragment.getMap();
             map.setMyLocationEnabled(true);
-            coordenadas.add(new Coordenada(20.9627063, -89.6282379, "Merida"));
-            coordenadas.add(new Coordenada(20.9578743, -86.9253269, "Cancun"));
-            coordenadas.add(new Coordenada(20.9013842, -89.725542, "Uman"));
-            coordenadas.add(new Coordenada(20.74578, -89.7222305, "HACIENDA YAXCOPOIL"));
-            coordenadas.add(new Coordenada(20.3666355, -90.0485722, "CALKINÍ"));
-            coordenadas.add(new Coordenada(20.4593239, -89.7592358, "HECELCHAKAN"));
-            coordenadas.add(new Coordenada(20.1361321, -90.174441, "POMUCH"));
-            coordenadas.add(new Coordenada(19.8254249, -90.5548053, "CAMPECHE"));
-            coordenadas.add(new Coordenada(19.7475659, -89.8427386, "HOPELCHEN"));
-            coordenadas.add(new Coordenada(20.3888822, -89.6859027, "UXMAL"));
-            coordenadas.add(new Coordenada(20.4886998,-89.7090447, "MUNA"));
-            coordenadas.add(new Coordenada(20.4098456,-89.5443497, "TICUL"));
-            coordenadas.add(new Coordenada(21.2386449,-89.2108244, "MANI"));
-            coordenadas.add(new Coordenada(20.9790703,-89.5922433, "MAYAPAN"));
-            coordenadas.add(new Coordenada(21.0982572,-89.7417512, "DZIBILCHALTUN"));
-            coordenadas.add(new Coordenada(21.2500219,-89.649646, "PROGRESO"));
-            coordenadas.add(new Coordenada(21.3274647,-89.2987983, "Telchac Puerto"));
-            coordenadas.add(new Coordenada(21.313508,-89.3541, "xcambo"));
-            coordenadas.add(new Coordenada(21.3294724,-89.0277729, "Dzilam González"));
-            coordenadas.add(new Coordenada(21.0050939,-88.0464464, "Tizimín"));
-            coordenadas.add(new Coordenada(20.6875138,-88.5659138, "Chichén Itzá, Tinum, Yuc."));
-            coordenadas.add(new Coordenada(20.6335355,-87.0796316, "Playa del Carmen"));
-            for (Coordenada coordenada : coordenadas) {
-                if (markerPoints.size() >= 10) {
-                   Log.e("Rebasado el numero de puntos","Coordenadas");
-                    //Toast.makeText(this, "Rebasado el numero de puntos.", Toast.LENGTH_SHORT).show();
+            // A-B
+            coordenadas_1.add(new Coordenada(21.034063, -89.629751, "Mérida"));
+            coordenadas_1.add(new Coordenada(19.854094, -90.523104, "Campeche2"));  //2 B
+
+            coordenadas_1.add(new Coordenada(20.997342, -89.623576, ""));
+            coordenadas_1.add(new Coordenada(20.822885, -89.742599, ""));
+            coordenadas_1.add(new Coordenada(20.745267, -89.721391, ""));
+
+            coordenadas_1.add(new Coordenada(20.489867, -89.732904, "A"));
+            coordenadas_1.add(new Coordenada(20.211763, -90.104163, ""));
+            coordenadas_1.add(new Coordenada(20.129829, -90.1695713, ""));
+            coordenadas_1.add(new Coordenada(19.846212, -90.540779, "Campeche"));
+            coordenadas_1.add(new Coordenada(19.848929, -90.531689, ""));
+
+            coordenadas_2.add(new Coordenada(19.848929, -90.531689, ""));
+            coordenadas_2.add(new Coordenada(20.397248, -89.535449, "Ticul"));
+            coordenadas_2.add(new Coordenada(19.748210, -89.851839, ""));
+            coordenadas_2.add(new Coordenada(19.753445, -89.841121, ""));
+            coordenadas_2.add(new Coordenada(19.775156, -89.596288, ""));
+            coordenadas_2.add(new Coordenada(20.006424, -89.842898, ""));
+            coordenadas_2.add(new Coordenada(20.360130, -89.769430, ""));
+            coordenadas_2.add(new Coordenada(20.325754, -89.641965, "Santa Elena"));
+            coordenadas_2.add(new Coordenada(20.395289, -89.540020, ""));
+            coordenadas_2.add(new Coordenada(20.397859, -89.535846, ""));
+
+            coordenadas_3.add(new Coordenada(20.397859, -89.535846, "Ticul"));
+            coordenadas_3.add(new Coordenada(21.241901, -89.046411, ""));
+            coordenadas_3.add(new Coordenada(20.397248, -89.535449, ""));
+            coordenadas_3.add(new Coordenada(20.386730, -89.392054, ""));
+            coordenadas_3.add(new Coordenada(20.813236, -89.453061, ""));
+            coordenadas_3.add(new Coordenada(21.285345, -89.661917, ""));
+            coordenadas_3.add(new Coordenada(21.393030, -88.891646, ""));
+            coordenadas_3.add(new Coordenada(21.280416, -88.931591, ""));
+            coordenadas_3.add(new Coordenada(21.241901, -89.046411, "Dzidzantun"));
+            coordenadas_3.add(new Coordenada(21.280416, -88.931591, ""));
+
+            coordenadas_4.add(new Coordenada(21.280416, -88.931591, ""));
+            coordenadas_4.add(new Coordenada(21.086005, -86.773757, "Grans Oasis Cancun"));
+            coordenadas_4.add(new Coordenada(21.141256, -89.111939, ""));
+            coordenadas_4.add(new Coordenada(21.198097, -88.810170, ""));
+            coordenadas_4.add(new Coordenada(21.152583, -88.171573, ""));
+            coordenadas_4.add(new Coordenada(21.140176, -88.163162, ""));
+            coordenadas_4.add(new Coordenada(20.742540, -88.21284, ""));
+            coordenadas_4.add(new Coordenada(20.677660,-88.568201, ""));
+            coordenadas_4.add(new Coordenada(20.690885, -88.219442, ""));
+            coordenadas_4.add(new Coordenada(20.214318, -87.453574, ""));
+
+            //MARCADORES.
+            marcadores.add(new Coordenada(21.034063, -89.629751, "Mérida"));
+            marcadores.add(new Coordenada(21.086005, -86.773757, "Grans Oasis Cancun"));
+
+            marcadores.add(new Coordenada(20.745267, -89.721391, "Hacienda Yaxcopoil"));
+            marcadores.add(new Coordenada(19.846212, -90.540779, "Campeche"));
+            marcadores.add(new Coordenada(19.748210, -89.851839, "Holpechen"));
+            marcadores.add(new Coordenada(19.775156, -89.596288, "Santa Rosa Xtampak"));
+            marcadores.add(new Coordenada(20.006424, -89.842898, "Grutas de Xtacumbilxunaan"));
+            marcadores.add(new Coordenada(20.360130, -89.769430, "Uxmal"));
+            marcadores.add(new Coordenada(20.395289, -89.540020, "Ticul"));
+            marcadores.add(new Coordenada(20.386730, -89.392054, "Maní"));
+            marcadores.add(new Coordenada(20.632594, -89.458469, "Mayapan"));
+            marcadores.add(new Coordenada(20.813236, -89.453061, "Acanceh"));
+            marcadores.add(new Coordenada(21.337578, -89.315342, "Telchac Puerto"));
+            marcadores.add(new Coordenada(21.280416, -88.931591, "Dzilam Gonzalez"));
+            marcadores.add(new Coordenada(21.241901, -89.046411, "Dzidzantun"));
+            marcadores.add(new Coordenada(21.140176, -88.163162, "Tizimin"));
+            marcadores.add(new Coordenada(20.677660,-88.568201, "Chichen Itzá"));
+
+
+
+            LatLng location = new LatLng(20.2107651,-89.004814);
+            CameraUpdate center=CameraUpdateFactory.newLatLng(location);
+            CameraUpdate zoom=CameraUpdateFactory.zoomTo(6);
+            map.moveCamera(center);
+            map.animateCamera(zoom);
+
+            for (Coordenada coordenada : coordenadas_1) {
+                if (markerPoints_1.size() > 10) {
+                    Log.e("wtf",coordenada.toString());
+                   Log.e("Rebasado el numero de puntos 3","Coordenadas");
                 } else {
                     Double Lat = coordenada.getLatitud();
                     Double Lng = coordenada.getLongitud();
                     LatLng point = new LatLng(Lat, Lng);
-                    markerPoints.add(point);
+                    markerPoints_1.add(point);
+                   // MarkerOptions options = new MarkerOptions();
+                   // options.position(point);
+                   // options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                   // map.addMarker(options);
+                }
+            }
+
+            // Checks, whether start and end locations are captured
+            if (markerPoints_1.size() >= 2) {
+                LatLng origin = markerPoints_1.get(0);
+                LatLng dest = markerPoints_1.get(1);
+                // Getting URL to the Google Directions API
+                String url = getDirectionsUrl(origin, dest,markerPoints_1);
+                DownloadTask downloadTask = new DownloadTask();
+                // Start downloading json data from Google Directions API
+                downloadTask.execute(url);
+            }
+
+            for (Coordenada coordenada : coordenadas_2) {
+                if (markerPoints_2.size() > 10) {
+                    Log.e("wtf",coordenada.toString());
+                    Log.e("Rebasado el numero de puntos 3","Coordenadas");
+                } else {
+                    Double Lat = coordenada.getLatitud();
+                    Double Lng = coordenada.getLongitud();
+                    LatLng point = new LatLng(Lat, Lng);
+                    markerPoints_2.add(point);
+                    //      MarkerOptions options = new MarkerOptions();
+                    //     options.position(point);
+                    //    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    //    map.addMarker(options);
+                }
+            }
+            if (markerPoints_2.size() >= 2) {
+                LatLng origin = markerPoints_2.get(0);
+                LatLng dest = markerPoints_2.get(1);
+                // Getting URL to the Google Directions API
+                String url = getDirectionsUrl(origin, dest,markerPoints_2);
+                DownloadTask downloadTask = new DownloadTask();
+                // Start downloading json data from Google Directions API
+                downloadTask.execute(url);
+            }
+            for (Coordenada coordenada : coordenadas_3) {
+                if (markerPoints_3.size() > 10) {
+                    Log.e("wtf",coordenada.toString());
+                    Log.e("Rebasado el numero de puntos 3","Coordenadas");
+                } else {
+                    Double Lat = coordenada.getLatitud();
+                    Double Lng = coordenada.getLongitud();
+                    LatLng point = new LatLng(Lat, Lng);
+                    markerPoints_3.add(point);
+                    //  MarkerOptions options = new MarkerOptions();
+                    //  options.position(point);
+                    //    options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    //     map.addMarker(options);
+                }
+            }
+            if (markerPoints_3.size() >= 2) {
+                LatLng origin = markerPoints_3.get(0);
+                LatLng dest = markerPoints_3.get(1);
+                // Getting URL to the Google Directions API
+                String url = getDirectionsUrl(origin, dest,markerPoints_3);
+                DownloadTask downloadTask = new DownloadTask();
+                // Start downloading json data from Google Directions API
+                downloadTask.execute(url);
+            }
+            for (Coordenada coordenada : coordenadas_4) {
+                if (markerPoints_4.size() > 10) {
+                    Log.e("wtf",coordenada.toString());
+                    Log.e("Rebasado el numero de puntos 3","Coordenadas");
+                } else {
+                    Double Lat = coordenada.getLatitud();
+                    Double Lng = coordenada.getLongitud();
+                    LatLng point = new LatLng(Lat, Lng);
+                    markerPoints_4.add(point);
+                   // MarkerOptions options = new MarkerOptions();
+                    //  options.position(point);
+                    // options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
+                    // map.addMarker(options);
+                }
+            }
+            if (markerPoints_4.size() >= 2) {
+                LatLng origin = markerPoints_4.get(0);
+                LatLng dest = markerPoints_4.get(1);
+                // Getting URL to the Google Directions API
+                String url = getDirectionsUrl(origin, dest,markerPoints_4);
+                DownloadTask downloadTask = new DownloadTask();
+                // Start downloading json data from Google Directions API
+                downloadTask.execute(url);
+            }
+
+            for (Coordenada coordenada : marcadores) {
+                    Double Lat = coordenada.getLatitud();
+                    Double Lng = coordenada.getLongitud();
+                    LatLng point = new LatLng(Lat, Lng);
+                    markerPoints_extras.add(point);
                     MarkerOptions options = new MarkerOptions();
+                options.title(coordenada.getCiudad());
                     options.position(point);
-                    if (markerPoints.size() == 1) {
+                    if (markerPoints_extras.size() == 1) {
                         options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN));
-                    } else if (markerPoints.size() == 2) {
+                    } else if (markerPoints_extras.size() == 2) {
                         options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED));
                     } else {
                         options.icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE));
                     }
                     // Add new marker to the Google Map Android API V2
                     map.addMarker(options);
-                }
+
             }
 
-
-            //Log.e("points", markerPoints.toString());
-
-            // Checks, whether start and end locations are captured
-            if (markerPoints.size() >= 2) {
-                LatLng origin = markerPoints.get(0);
-                LatLng dest = markerPoints.get(1);
-                // Getting URL to the Google Directions API
-                String url = getDirectionsUrl(origin, dest);
-                DownloadTask downloadTask = new DownloadTask();
-                // Start downloading json data from Google Directions API
-                downloadTask.execute(url);
-
-                LatLng location = new LatLng(20.2107651,-89.004814);
-                CameraUpdate center=CameraUpdateFactory.newLatLng(location);
-                CameraUpdate zoom=CameraUpdateFactory.zoomTo(6);
-                map.moveCamera(center);
-                map.animateCamera(zoom);
-            }
         }
         else{
             Toast.makeText(getApplicationContext(), getResources().getString(R.string.revise_conexion),Toast.LENGTH_SHORT).show();
         }
     }
-    private String getDirectionsUrl(LatLng origin,LatLng dest){
-
+    private String getDirectionsUrl(LatLng origin,LatLng dest,ArrayList<LatLng> markerPoints){
         // Origin of route
         String str_origin = "origin="+origin.latitude+","+origin.longitude;
-
         // Destination of route
         String str_dest = "destination="+dest.latitude+","+dest.longitude;
-
         // Sensor enabled
         String sensor = "sensor=false";
-
         // Waypoints
         String waypoints = "";
         for(int i=2;i<markerPoints.size();i++){

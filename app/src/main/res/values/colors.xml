@@ -28,5 +28,7 @@
         <item>@color/darkorange</item>
         <item>@color/darkred</item>
     </integer-array>
-
+    <item name="primary" type="color">#DAB180</item>
+    <item name="primary_dark" type="color">#0c0c0a</item>
+    <item name="accent" type="color">#FFFFFF</item>
 </resources> 

@@ -16,19 +16,20 @@
     <string-array name="ItemMenusSec">
         <item>INICIO</item>
         <item>RALLY MAYA</item>
-        <item>PROGRAMA</item>
+        <item>PROGRAMA GENERAL</item>
         <item>PARTICIPANTES</item>
         <item>RUTA</item>
         <item>TIPS</item>
         <item>PATROCINADORES</item>
         <item>DIRECTORIO</item>
-
         <item>CRONÓMETRO</item>
         <item>FACEBOOK</item>
         <item>TWITTER</item>
     </string-array>
-
+    <string name="cancelar">Cancelar</string>
     <string name="revise_conexion">Revise su conexión a internet</string>
+    <string name="cargando_participantes">Cargando participantes</string>
+    <string name="cargando_patrocinadores">Cargando patrocinadores</string>
     <string name="drawer_open">Abrir navigation drawer</string>
     <string name="drawer_close">Cerrar navigation drawer</string>
     <string name="headlines">Encabezados de</string>
@@ -39,22 +40,20 @@
     <!-- Rally Maya -->
     <string name="rally_maya_title">Información General Rally Maya México 2015</string>
 
-    <string name="rally_maya_text">        RALLY MAYA MEXICO 2015 a realizarse del 4 al 9 de Mayo de 2015, en la Península de Yucatán. Rally Maya en su 2ª Edición, dará inicio en la ciudad de Mérida Yucatán, y finalizara en la Ciudad de Cancun Q. Roo. Un museo rodante de autos antiguos de 1915 a 1975,  en  un recorrido de 1,200 Km  durante 6 días.   Un Rally Tour inolvidable en una tenaz  carrera de regularidad.\n\n
-
-
+    <string name="rally_maya_text">RALLY MAYA MEXICO 2015 a realizarse del 4 al 9 de Mayo de 2015, en la Península de Yucatán. Rally Maya en su 2ª Edición, dará inicio en la ciudad de Mérida Yucatán, y finalizara en la Ciudad de Cancun Q. Roo. Un museo rodante de autos antiguos de 1915 a 1975,  en  un recorrido de 1,200 Km  durante 6 días.   Un Rally Tour inolvidable en una tenaz  carrera de regularidad.\n\n
 La Pernocta será en  5 lugares específicos que son MERIDA, CAMPECHE, UXMAL, MERIDA, CHICHEN ITZA Y CANCUN  donde nos darán la bienvenida y podremos conocer de las costumbres de cada lugar, además  visitaremos más de 22 lugares intermedios que sin duda serán toda una experiencia. Este recorrido que  tendrá un abanico de matices Históricos, Culturales, Arqueológicos,  Gastronómicos, Deportivos  y Altruista. Serán 110 automóviles  de colección con un 90% de originalidad   y 220 participantes entre piloto y copiloto, gustosos del mundo del automovilismo.\n\n
 El Rally Maya México en su segunda edición, es creado por el Lic. Benjamin de la Peña Mora. Es uno de los eventos de mayor importancia de autos históricos a nivel nacional e internacional. Comenzando una nueva etapa con el aval de La Federación Internacional de Vehículos Ancestros, la Federación Mexicana de Automóviles Antiguos y de Colección A.C., Comisión Nacional de Rallies México, Rally Automóvil Club, Organización Mexicana del Deporte Automovilístico Internacional, Federación Mexicana de Automóviles Deportivos A.C, Museo del Automóvil del Sureste y el Museo Iconográfico de la Carrera Panamericana, que realiza el culto por el automovilismo histórico en un marco, de hospitalidad y cordialidad en el sureste de México.\n\n
 Es una competición NO DE VELOCIDAD, entre automóviles cuyo único requisito común es que tengan más de 40 años, distinguiéndose varias categorías de antigüedad (1915-1930 / 1931-1945 / 1946-1960 / 1961- 1975) a los solos efectos de clasificación MEDIA CONSTANTE significa que durante todo el tramo cronometrado y durante el mayor tiempo posible deberemos intentar llevar esa velocidad.\n\n
 CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el punto indicado por el organizador, habitualmente por el sistema de auto-salida, a la hora, minuto y segundo que habremos deducido del carnet de ruta, es decir, sin que haya persona alguna de la organización que controle nuestra salida. A partir de ese momento, deberemos alcanzar la media y mantenerla durante todo el tramo.\n\n
-          Explicado esto, veamos qué elementos necesitamos: \n <b>1.- HORA RALLY.-</b> La hora rally se exhibirá por la organización al inicio de la prueba y con ella deberemos sincronizar nuestro reloj de a bordo. Suele coincidir con RNE. Es la hora oficial por la que se guiarán las salidas y los controles. En consecuencia será la referencia para determinar los puntos de penalización por nuestro desajuste, en más o en menos, por los controles de paso (secretos o no) y los horarios.\n\n <b>2.- CALIBRACION DE LA DISTANCIA.-</b> De la misma manera que sincronizamos con la organización nuestro reloj de a bordo, deberemos hacer lo mismo con el medidor de distancia, de tal manera que a igualdad de distancia, el nuestro mida lo mismo que el suyo. Para ello, el organizador nos indicará un tramo de calibración en una carretera poco virada y nos dirá cuánto mide exactamente ese tramo, tanto en el sentido de ida como en el de regreso.\n\n <b>3.- CARNET DE RUTA.-</b> El carnet de ruta nos será facilitado por la organización y en él nos indicará los puntos de auto-salida de cada uno de los tramos de regularidad y los controles horarios donde nos deben marcar la hora de paso.\n\n <b>4.- LIBRETA DE RUTA.-</b> Nos lo facilitará el organizador y es la guía del recorrido de la prueba, los cruces que deberemos tomar, el inicio y fin de los tramos de regularidad y su media. Mediante unas viñetas con símbolos, leyendas y distancias totales y parciales podremos orientarnos en el seguimiento de la ruta impuesta por el organizador.\n\n <b>5.-COMPOSICION DE CADA EQUIPO.-</b>\n
-\t<b>A.- MATERIAL O VEHÍCULO:</b> Placas y tarjeta de Circulación, Seguro Vigente contra terceros, Aparatos de medición de tiempo: Cronómetro Reloj de a bordo o Aparatos de medición de distancia Odómetro (mínimo, no es recomendable el del coche).Y cierta habilidad para su montaje, o…. Terra Trip o Retro trip (más específicos).\n\n
-\t<b>B.- PILOTO:</b> Su misión esencial es obedecer al copiloto. Conducirá observando las normas de circulación, dentro de su carril, sin acortar el recorrido mediante trazadas, pues la distancia recorrida no coincidirá con la medida por el organizador, tratará de seguir una línea paralela al eje o al borde de la carretera, sin deslizar ni hacer derrapar el coche, sobre todo, la rueda que lleve la sonda del medidor de distancia.\n\n
-\t<b>C.- COPILOTO: .-</b> Es la computadora humana del equipo, en definitiva, su elemento primordial.\n
-\t\t <b>Tiene TRES misiones fundamentales:</b> \n
-\t\t a) Llevar la navegación siguiendo el libro de ruta;\n
-\t\t b) El control de tiempos de auto-salida y paso por los controles horarios; y\n
-\t\t c) El control de la velocidad media indicando lo pertinente al piloto. Llevará a cabo la comprobación de niveles y las reparaciones de mantenimiento del coche y procurará el bienestar del piloto atendiéndole en todo lo que precise o desee (excepto bebidas alcohólicas).\n
-\t\t d) Respetar el reglamento de Tránsito de cada lugar.</string>
+  Explicado esto, veamos qué elementos necesitamos: \n<b>1.- HORA RALLY.-</b> La hora rally se exhibirá por la organización al inicio de la prueba y con ella deberemos sincronizar nuestro reloj de a bordo. Suele coincidir con RNE. Es la hora oficial por la que se guiarán las salidas y los controles. En consecuencia será la referencia para determinar los puntos de penalización por nuestro desajuste, en más o en menos, por los controles de paso (secretos o no) y los horarios.\n\n<b>2.- CALIBRACION DE LA DISTANCIA.-</b> De la misma manera que sincronizamos con la organización nuestro reloj de a bordo, deberemos hacer lo mismo con el medidor de distancia, de tal manera que a igualdad de distancia, el nuestro mida lo mismo que el suyo. Para ello, el organizador nos indicará un tramo de calibración en una carretera poco virada y nos dirá cuánto mide exactamente ese tramo, tanto en el sentido de ida como en el de regreso.\n\n<b>3.- CARNET DE RUTA.-</b> El carnet de ruta nos será facilitado por la organización y en él nos indicará los puntos de auto-salida de cada uno de los tramos de regularidad y los controles horarios donde nos deben marcar la hora de paso.\n\n<b>4.- LIBRETA DE RUTA.-</b> Nos lo facilitará el organizador y es la guía del recorrido de la prueba, los cruces que deberemos tomar, el inicio y fin de los tramos de regularidad y su media. Mediante unas viñetas con símbolos, leyendas y distancias totales y parciales podremos orientarnos en el seguimiento de la ruta impuesta por el organizador.\n\n<b>5.-COMPOSICION DE CADA EQUIPO.</b>\n
+<b>A.- MATERIAL O VEHÍCULO:</b> Placas y tarjeta de Circulación, Seguro Vigente contra terceros, Aparatos de medición de tiempo: Cronómetro Reloj de a bordo o Aparatos de medición de distancia Odómetro (mínimo, no es recomendable el del coche).Y cierta habilidad para su montaje, o…. Terra Trip o Retro trip (más específicos).\n\n
+<b>B.- PILOTO:</b> Su misión esencial es obedecer al copiloto. Conducirá observando las normas de circulación, dentro de su carril, sin acortar el recorrido mediante trazadas, pues la distancia recorrida no coincidirá con la medida por el organizador, tratará de seguir una línea paralela al eje o al borde de la carretera, sin deslizar ni hacer derrapar el coche, sobre todo, la rueda que lleve la sonda del medidor de distancia.\n\n
+<b>C.- COPILOTO:</b> Es la computadora humana del equipo, en definitiva, su elemento primordial.\n
+<b>Tiene TRES misiones fundamentales:</b>\n
+a)Llevar la navegación siguiendo el libro de ruta;\n
+b)El control de tiempos de auto-salida y paso por los controles horarios; y\n
+c)El control de la velocidad media indicando lo pertinente al piloto. Llevará a cabo la comprobación de niveles y las reparaciones de mantenimiento del coche y procurará el bienestar del piloto atendiéndole en todo lo que precise o desee (excepto bebidas alcohólicas).\n
+d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <string name="title_activity_participantes_activity_list">ParticipantesActivityList</string>
     <string name="title_activity_participantes_activity_detail">ParticipantesActivityDetail</string>
     <string name="title_activity_ruta">RutaActivity</string>
@@ -431,6 +430,7 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item>@array/tips_lugares_mayapan</item>
         <item>@array/tips_lugares_puerto_progreso</item>
         <item>@array/tips_lugares_xcambo</item>
+        <item>@array/tips_lugares_dzilam_gonzalez</item>
         <item>@array/tips_lugares_tizimin</item>
         <item>@array/tips_lugares_chichenitza</item>
         <item>@array/tips_lugares_valladolid</item>
@@ -485,6 +485,50 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item><b>RADIAL LLANTAS</b> \nCIRCUITO BALUARTES 5 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 816 3508</item>
         <item><b>AVANTE</b> \nAVENIDA CENTRAL 144 A SAN JOSÉ, 24040 CAMPECHE, MEXICO \n01(981) 811 7133</item>
     </string-array>
+    <string-array name="gasolineras_campeche">
+        <item><b>LLANTAS ROYAL DEL CARMEN S.A. DE C.V.</b> \n31 267 PETROLERA, 24180 CARMEN, CAMPECHE, MEXICO \n01(938) 382 3122</item>
+        <item><b>LLANTA SIS DEL SURESTE S.D.R.L DE C.V.</b> \n55 421 OBRERA, 24117 CARMEN, CAMPECHE, MEXICO \n01(938) 381 8285</item>
+        <item><b>DIMO LLANTAS Y ACCESORIOS</b> \n26 182 SANTA MARGARITA, 24140 CARMEN, CAMPECHE, MEXICO \n01(938) 382 8374</item>
+        <item><b>SERVIMAX</b> \nAVENIDA PERIFÉRICA LUIS DONALDO COLOSIO SN SALITRAL, 24189 CARMEN, CAMPECHE, MEXICO \n01(938) 384 4874</item>
+        <item><b>LLANTAS Y LLANTAS</b> \nCALLE 45 110 SANTA ANA, 24050 CAMPECHE, MEXICO \n01(981) 816 2945</item>
+        <item><b>SERVILLANTAS DE CHAMPOTON</b> \nEUGENIO ECHEVERRÍA CASTELLOT SN CENTRO, 24400 CAMPECHE, MEXICO \n01(982) 828 0732</item>
+        <item><b>GENERAL TIRE DE CAMPECHE</b> \nLÓPEZ MATEOS 253 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 811 5374</item>
+        <item><b>LLANTA MAYA DE CAMPECHE, S.A. DE C.V.</b> \nAVENIDA MAESTROS CAMPECHANOS 363 MULTUNCHAC, 24090 CAMPECHE, MEXICO \n01(981) 811 5329</item>
+        <item><b>LLANTAS DE CAMPECHE S.A. DE C.V</b> \nLÓPEZ MATEOS 125 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 811 3283</item>
+        <item><b>RADIAL LLANTAS</b> \nCIRCUITO BALUARTES 5 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 816 3508</item>
+        <item><b>AVANTE</b> \nAVENIDA CENTRAL 144 A SAN JOSÉ, 24040 CAMPECHE, MEXICO \n01(981) 811 7133</item>
+    </string-array>
+    <string-array name="contactos_comite">
+        <item><b>Benjamin de la Peña Mora</b> \nPresidente Fundador\nbenjamindelapenamora@gmail.com \n998 845 7563</item>
+        <item><b>Cecilia Torres Allier</b> \nCoordinador General\npr@rallymayamexico.com direcccion@showtvmedia.com\n998 110 0405</item>
+        <item><b>Wilmer Sotomayor Sanchez</b> \nCoordinador General\nwilmer3820@hotmail.com \n998 196 3681</item>
+        <item><b>Nayeli Canul Chi</b> \nAsistente de Cordinación General\ninformacion@rallymayamexico.com ventas@showtvmedia.com\n998 115 1148</item>
+        <item><b>Kenneth Betancour Rodriguez</b> \nDiseño\ndesign@rallymayamexico.com \n998 135 4961</item>
+        <item><b>Mauricio Maya Oliva</b> \nCoordinador Legal\nmauriciomaya55@hotmail.com\n998 842 0635</item>
+        <item><b>Rafael Machado </b> \nResponsable del Rally Maya\nramazumx@yahoo.com\n552 563 9317</item>
+        <item><b>Jaime Novelo Montalvo</b> \nCoordinador de Cultura Maya\njaimenovelo@prodigy.net.mx\n998 842 0031</item>
+        <item><b>Héctor González Valdepeña</b> \nComisario PF</item>
+        <item><b>Adan Rosario Jimenez Solano</b> \nSubinspector PF</item>
+        <item><b>Juan Armin Hernandez Ortiz</b> \nOficial PF</item>
+        <item><b>Eduardo Artigas Coba</b> \nOficial PF</item>
+        <item><b>Miguel Anehl Niri Buen</b> \nSuboficial PF</item>
+        <item><b>Juan Alberto Paredes Altamirano</b> \nSuboficial PF</item>
+        <item><b>Rafael Pacheco Coronel</b> \nCoordinador de Seguridad\nrpcgeneral@hotmail.com\n998 109 9880</item>
+        <item><b>Lorenzo Orozco de la Barquera</b> \nApoyo Logistica\norozcodelabarquera@prodigy.net.mx\n998 109 8128</item>
+        <item><b>Horacio Chousal </b> \nDirector de Cronometraje y Control\nchousal1953@gmail.com\n722 389 0231</item>
+        <item><b>Rosario Escamilla</b> \nAsistente de Cronometraje\n722 7117072</item>
+        <item><b>Victor Hugo Sánchez Camacho</b> \nDirector de Prensa\nhijodevecino@gmail.com\n553 999 3035</item>
+        <item><b>Luis Berumen García</b> \nApoyo Logistica\nlgberumen@yahoo.com.mx\n555 102 0406</item>
+        <item><b>Dennis Rodriguez</b> \nResponsable Médico\n555 437 5972</item>
+        <item><b>Jorge Fuentes Amezcua</b> \nJefe de Vallas\nletygro60@gmail.com\n998 577 8727</item>
+        <item><b>Marcos Noe Oliver Mosqueda</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
+        <item><b>Edgardo Sierra Larrieu</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
+        <item><b>Marcos Noe Oliver Mosqueda</b> \nResponsable de Bienvenida\nwalloxtreme@hotmail.com</item>
+        <item><b>Juan Jose Ortiz Jasso</b> \nResponsable de Acomodo de Autos\nfox_juanjo@hotmail.com\n998 844 9803</item>
+        <item><b>Marcos Noe Oliver Mosqueda</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
+        <item><b>Rosario Escamilla</b> \nAsistente de Cronometraje\nrosarioescamilla58@gmail.com\n722 7117072</item>
+        <item><b>Marcos Noe Oliver Mosqueda</b> \nResponsable de equipaje\ntravel-cancun@hotmail.com\n998 841 3559</item>
+    </string-array>
     <string-array name="directorio_emergencias_campeche">
         <item name="id">1</item>
         <item name="title">NÚMERO DE EMERGENCIA</item>
@@ -505,11 +549,23 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item name="title">VULCANIZADORAS</item>
         <item name="tag">vulcanizadoras_campeche</item>
     </string-array>
+    <string-array name="directorio_gasolineras_campeche">
+        <item name="id">2</item>
+        <item name="title">GASOLINERAS</item>
+        <item name="tag">gasolineras_campeche</item>
+    </string-array>
+    <string-array name="directorio_comite_general">
+        <item name="id">4</item>
+        <item name="title">CONTACTOS DE CÓMITE</item>
+        <item name="tag">contactos_comite</item>
+    </string-array>
     <array name="directorio_campeche_header">
         <item>@array/directorio_emergencias_campeche</item>
         <item>@array/directorio_hoteles_campeche</item>
         <item>@array/directorio_refaccionarias_campeche</item>
         <item>@array/directorio_vulcanizadoras_campeche</item>
+        <item>@array/directorio_gasolineras_campeche</item>
+        <item>@array/directorio_comite_general</item>
     </array>
 
 
@@ -638,6 +694,26 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item><b>LLANTERA AUTOMOTRIZ MECA</b> \n58 SN, MILCHECHEN 1 KANASÍN, YUCATÁN</item>
         <item><b>LLANTERA MAURO</b> \n61 63 SN, SAN PEDRO KANASÍN, YUCATÁN</item>
     </string-array>
+
+    <string-array name="gasolineras_yucatan">
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n48 479, TIZIMIN CENTRO, TIZIMIN, C.P. 97700, YUC\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 491, TIZIMIN CENTRO, TIZIMIN, C.P. 97700, YUC\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n31 393, IZAMAL, IZAMAL, C.P. 97540, YUC.\n(999)884-0474</item>
+        <item>GASOLINERA PEMEX\nTABLAJE 14335, PACABTUN, MERIDA, C.P. 97160, YUC\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n18 SN, TZUCACAB, TZUCACAB, C.P. 97960, YUC\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n59 801, PACABTUN, MERIDA, C.P. 97160, YUC\n(999)946-0610</item>
+        <item>GASOLINERA PEMEX\nCNILLO PERIFERICO SN, PACABTUN, MERIDA, C.P. 97160, YUC\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\nAV YUCATAN 180, JARDINES DEL NORTE, MERIDA, C.P. 97138, YUC\n(999)943-0662</item>
+        <item>60 MANZANA 134 SECCION CATASTRAL 14 SN, CHUBURNA DE HIDALGO, MERIDA, C.P. 97300, YUC\n(449)968-5060</item>
+        <item>18 117, PANABA, PANABA, C.P. 97610, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+    </string-array>
+
     <string-array name="centro_convenciones_yucatan">
         <item><b>Lic. Carlos Ariel Franco Osorno</b> \nGerente\nTel. (999) 9-42-19-00 ext 106\nDirección:Calle 60Nte. No. 299-E Col Revolución ExCordemex, Mérida, Yucatán. México. CP 97118\n </item>
     </string-array>
@@ -666,12 +742,20 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item name="title">CENTRO DE CONVENCIONES</item>
         <item name="tag">centro_convenciones_yucatan</item>
     </string-array>
+    <string-array name="directorio_gasolineras_yucatan">
+        <item name="id">4</item>
+        <item name="title">GASOLINERAS</item>
+        <item name="tag">gasolineras_yucatan</item>
+    </string-array>
     <array name="directorio_yucatan_header">
         <item>@array/directorio_emergencias_yucatan</item>
         <item>@array/directorio_hoteles_yucatan</item>
         <item>@array/directorio_refaccionarias_yucatan</item>
         <item>@array/directorio_vulcanizadoras_yucatan</item>
+        <item>@array/directorio_gasolineras_yucatan</item>
+        <item>@array/directorio_comite_general</item>
         <item>@array/directorio_centro_convenciones_yucatan</item>
+
     </array>
 
     <string-array name="contactos_emergencia_quintanaroo">
@@ -755,7 +839,18 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item><b>VULCANIZADORA PALMA</b> \nCANCUN, QUINTANA ROO. L PORTILLO MZN 60 LT 9 COL. REG 93 CANCUN Q ROO \n(998)888-9919</item>
         <item><b>VULCANIZADORA PANCHITO</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 2 NTE. MZ. 89 LT. 6 ENTRE 45 Y CARR. FED. \n(984)745-7504 / 873-0162</item>
     </string-array>
-
+    <string-array name="gasolineras_quintanaroo">
+        <item><b>LOPEZ AVILES DOUGLAS</b> \nCHETUMAL, QUINTANA ROO. CALDERITAS 567 COL. CENTRO \n(983)832-1814</item>
+        <item><b>VULCANIZADORA ELIT</b> \nCANCUN, QUINTANA ROO. REG. 92 MZ. 39 LT. 20 \n044 998 2027580</item>
+        <item><b>VULCANIZADORA MOVIL CANCUN</b> \nCANCUN, QUINTANA ROO. REGIÓN 92 MZ. 39 LOTE 20 \n044 (998) 2027580</item>
+        <item><b>VULCANIZADORA MANDINO</b> \nCANCUN, QUINTANA ROO. AV. KABAH NO. 102 SM. 31 MZ. 6 LT. 20 \n(998)887-4369</item>
+        <item><b>RENOVADORA E DE LLANTAS DE Q ROO</b> \nCHETUMAL, QUINTANA ROO. AV OBREGON 282 COL. CENTRO \n(983)832-1998</item>
+        <item><b>VULCANIZADORA CALDERON</b> \nCANCUN, QUINTANA ROO. S.M. 69 MZ. 5 LOTE 32 AV. FRANCISCO I MADERO \n(998)888-2251</item>
+        <item><b>VULCANIZADORA COZUMEL</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 74 ENTRE 35 Y 40 COLONIA COLOSIO \n(984)267-2721</item>
+        <item><b>VULCANIZADORA EN PLAYA DEL CARMEN</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 74 ENTRE 35 Y 40 COLONIA LUIS DONALDO COLOSIO MZ. 382 LOTE 19 \n(984)134-4704</item>
+        <item><b>VULCANIZADORA PALMA</b> \nCANCUN, QUINTANA ROO. L PORTILLO MZN 60 LT 9 COL. REG 93 CANCUN Q ROO \n(998)888-9919</item>
+        <item><b>VULCANIZADORA PANCHITO</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 2 NTE. MZ. 89 LT. 6 ENTRE 45 Y CARR. FED. \n(984)745-7504 / 873-0162</item>
+    </string-array>
     <string-array name="directorio_emergencias_quintanaroo">
         <item name="id">1</item>
         <item name="title">NÚMERO DE EMERGENCIA</item>
@@ -776,11 +871,19 @@ CONTROL DE LA MEDIA POR EL PARTICIPANTE: El tramo de regularidad se inicia en el
         <item name="title">VULCANIZADORAS</item>
         <item name="tag">vulcanizadoras_quintanaroo</item>
     </string-array>
+
+    <string-array name="directorio_gasolineras_quintanaroo">
+        <item name="id">2</item>
+        <item name="title">GASOLINERAS</item>
+        <item name="tag">gasolineras_quintanaroo</item>
+    </string-array>
     <array name="directorio_quintanaroo_header">
         <item>@array/directorio_emergencias_quintanaroo</item>
         <item>@array/directorio_hoteles_quintanaroo</item>
         <item>@array/directorio_refaccionarias_quintanaroo</item>
         <item>@array/directorio_vulcanizadoras_quintanaroo</item>
+        <item>@array/directorio_gasolineras_quintanaroo</item>
+        <item>@array/directorio_comite_general</item>
     </array>
 
     <string name="title_activity_diabetes">DiabetesActivity</string>
@@ -800,7 +903,7 @@ En su segunda edición Rally Maya México pretende causar un impacto notable a e
 
     </string>
     <string name="title_activity_cronometro">CronometroActivity</string>
-    <string name="title_activity_intro">IntroActivity</string>
+    <string name="title_activity_intro">Rally Maya México</string>
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_programa">ProgramaActivity</string>
     <string name="title_activity_my_pdf_view">MyPdfViewActivity</string>

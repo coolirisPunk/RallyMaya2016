@@ -74,12 +74,12 @@ public class BaseActivity extends ActionBarActivity {
 
         items.add(new DrawerItem(tagTitles[0],R.drawable.home_sec));
         items.add(new DrawerItem(tagTitles[1],R.drawable.rally_maya_sec));
-        items.add(new DrawerItem(tagTitles[2],R.drawable.participantes_sec));
-        items.add(new DrawerItem(tagTitles[3],R.drawable.ruta_sec));
-        items.add(new DrawerItem(tagTitles[4],R.drawable.tips_sec));
-        items.add(new DrawerItem(tagTitles[5],R.drawable.patrocinadores_sec));
-        items.add(new DrawerItem(tagTitles[6],R.drawable.directorio_sec));
-        items.add(new DrawerItem(tagTitles[7],R.drawable.diabetes_sec));
+        items.add(new DrawerItem(tagTitles[2],R.drawable.programa_menu_secundario));
+        items.add(new DrawerItem(tagTitles[3],R.drawable.participantes_sec));
+        items.add(new DrawerItem(tagTitles[4],R.drawable.ruta_sec));
+        items.add(new DrawerItem(tagTitles[5],R.drawable.tips_sec));
+        items.add(new DrawerItem(tagTitles[6],R.drawable.patrocinadores_sec));
+        items.add(new DrawerItem(tagTitles[7],R.drawable.directorio_sec));
         items.add(new DrawerItem(tagTitles[8],R.drawable.cronometro_sec));
         items.add(new DrawerItem(tagTitles[9],R.drawable.facebook_sec));
         items.add(new DrawerItem(tagTitles[10],R.drawable.twitter_sec));
@@ -175,29 +175,30 @@ public class BaseActivity extends ActionBarActivity {
                 this.startActivity(intent);
                 break;
             case 2:
-                intent = new Intent(this, ParticipantesActivityList.class);
+                intent = new Intent(this, ProgramaActivity.class);
                 this.startActivity(intent);
                 break;
             case 3:
-                intent = new Intent(this, RutaActivity.class);
+                intent = new Intent(this, ParticipantesActivityList.class);
                 this.startActivity(intent);
                 break;
             case 4:
-                intent = new Intent(this, TipActivity.class);
+                intent = new Intent(this, RutaActivity.class);
                 this.startActivity(intent);
                 break;
             case 5:
-                intent = new Intent(this, PatrocinadorActivity.class);
+                intent = new Intent(this, TipActivity.class);
                 this.startActivity(intent);
                 break;
             case 6:
-                intent = new Intent(this, DirectorioActivity.class);
+                intent = new Intent(this, PatrocinadorActivity.class);
                 this.startActivity(intent);
                 break;
             case 7:
-                intent = new Intent(this, DiabetesActivity.class);
+                intent = new Intent(this, DirectorioActivity.class);
                 this.startActivity(intent);
                 break;
+
             case 8:
                 intent = new Intent(this, CronometroActivity.class);
                 this.startActivity(intent);
@@ -230,7 +231,7 @@ public class BaseActivity extends ActionBarActivity {
         }
 
         switch (item.getItemId()) {
-            case R.id.action_settings:
+            case R.id.action_bar:
                 return true;
 
             default:
@@ -255,7 +256,7 @@ public class BaseActivity extends ActionBarActivity {
             context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
             return new Intent(Intent.ACTION_VIEW, Uri.parse("fb://page/132058193656387"));
         } catch (Exception e) {
-            return new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/<RallyMayaMexico>"));
+            return new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/RallyMayaMexico"));
         }
 
     }
@@ -270,7 +271,6 @@ public class BaseActivity extends ActionBarActivity {
         } catch (Exception e) {
             return new Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/rallymayamexico"));
         }
-
     }
 
 
