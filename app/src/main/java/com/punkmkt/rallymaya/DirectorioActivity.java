@@ -4,12 +4,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
 
 import com.astuetz.PagerSlidingTabStrip;
 import com.punkmkt.rallymaya.fragments.DirectorioCampeche;
@@ -21,6 +16,7 @@ public class DirectorioActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MainActivity.fa.finish();
         getLayoutInflater().inflate(R.layout.activity_directorio, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[7]);

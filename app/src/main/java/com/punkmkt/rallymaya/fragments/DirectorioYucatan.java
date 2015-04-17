@@ -12,7 +12,6 @@ import android.widget.ExpandableListView;
 
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.adapters.ExpandableListDirectorioAdapter;
-import com.punkmkt.rallymaya.adapters.ExpandableListLugarVisitaAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,14 +1,9 @@
 package com.punkmkt.rallymaya.adapters;
 
-import java.util.ArrayList;
 import android.content.Context;
-import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
-
 import com.punkmkt.rallymaya.MyVolleySingleton;
 import com.punkmkt.rallymaya.R;
 import com.punkmkt.rallymaya.models.Participante;
@@ -66,7 +61,7 @@ public class ParticipanteAdapter extends BaseAdapter {
         // getting movie data for the row
         Participante p = participantes.get(position);
         // thumbnail image
-        thumbNail.setImageUrl(p.getImage(), imageLoader);
+        thumbNail.setImageUrl(p.getThumbnail(), imageLoader);
 
         // title
        /// title.setText(p.getName());

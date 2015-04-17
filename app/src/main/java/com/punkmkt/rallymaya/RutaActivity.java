@@ -51,6 +51,7 @@ public class RutaActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MainActivity.fa.finish();
         getLayoutInflater().inflate(R.layout.activity_ruta, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[4]);
@@ -69,71 +70,73 @@ public class RutaActivity extends BaseActivity {
             map = fragment.getMap();
             map.setMyLocationEnabled(true);
             // A-B
-            coordenadas_1.add(new Coordenada(21.034063, -89.629751, "Mérida"));
-            coordenadas_1.add(new Coordenada(19.854094, -90.523104, "Campeche2"));  //2 B
+            coordenadas_1.add(new Coordenada(21.032591, -89.629652, "Mérida"));
+            coordenadas_1.add(new Coordenada(19.836682, -90.551432, "Campeche1"));  //1 B
 
-            coordenadas_1.add(new Coordenada(20.997342, -89.623576, ""));
-            coordenadas_1.add(new Coordenada(20.822885, -89.742599, ""));
-            coordenadas_1.add(new Coordenada(20.745267, -89.721391, ""));
-
-            coordenadas_1.add(new Coordenada(20.489867, -89.732904, "A"));
-            coordenadas_1.add(new Coordenada(20.211763, -90.104163, ""));
+            coordenadas_1.add(new Coordenada(21.030547, -89.633892, ""));
+            coordenadas_1.add(new Coordenada(21.034661, -89.654309, ""));
+            coordenadas_1.add(new Coordenada(20.881648, -89.748006, ""));
+            coordenadas_1.add(new Coordenada(20.743058, -89.715522, ""));
+            coordenadas_1.add(new Coordenada(20.486824, -89.713388, ""));
+            coordenadas_1.add(new Coordenada(20.441434, -90.027737, ""));
+            coordenadas_1.add(new Coordenada(20.237072, -90.093613, ""));
             coordenadas_1.add(new Coordenada(20.129829, -90.1695713, ""));
-            coordenadas_1.add(new Coordenada(19.846212, -90.540779, "Campeche"));
-            coordenadas_1.add(new Coordenada(19.848929, -90.531689, ""));
 
-            coordenadas_2.add(new Coordenada(19.848929, -90.531689, ""));
-            coordenadas_2.add(new Coordenada(20.397248, -89.535449, "Ticul"));
-            coordenadas_2.add(new Coordenada(19.748210, -89.851839, ""));
-            coordenadas_2.add(new Coordenada(19.753445, -89.841121, ""));
+            coordenadas_2.add(new Coordenada(19.836682, -90.551432, "Campeche"));
+            coordenadas_2.add(new Coordenada(20.813236, -89.453061, ""));
+
+            coordenadas_2.add(new Coordenada(19.844847, -90.485110, ""));
+            coordenadas_2.add(new Coordenada(19.747334, -89.844123, ""));
             coordenadas_2.add(new Coordenada(19.775156, -89.596288, ""));
-            coordenadas_2.add(new Coordenada(20.006424, -89.842898, ""));
             coordenadas_2.add(new Coordenada(20.360130, -89.769430, ""));
-            coordenadas_2.add(new Coordenada(20.325754, -89.641965, "Santa Elena"));
-            coordenadas_2.add(new Coordenada(20.395289, -89.540020, ""));
-            coordenadas_2.add(new Coordenada(20.397859, -89.535846, ""));
+            coordenadas_2.add(new Coordenada(20.325754, -89.641965, ""));
+            coordenadas_2.add(new Coordenada(20.386730, -89.392054, ""));   //C-D
+            coordenadas_2.add(new Coordenada(20.415267, -89.342106, ""));
+            coordenadas_2.add(new Coordenada(20.632594, -89.458469, ""));
 
-            coordenadas_3.add(new Coordenada(20.397859, -89.535846, "Ticul"));
-            coordenadas_3.add(new Coordenada(21.241901, -89.046411, ""));
-            coordenadas_3.add(new Coordenada(20.397248, -89.535449, ""));
-            coordenadas_3.add(new Coordenada(20.386730, -89.392054, ""));
-            coordenadas_3.add(new Coordenada(20.813236, -89.453061, ""));
+
+
+
+            coordenadas_3.add(new Coordenada(20.813236, -89.453061, "Acanceh"));
+            coordenadas_3.add(new Coordenada(20.689625, -88.201762, "Valladolid"));
+
+            coordenadas_3.add(new Coordenada(20.986008, -89.619788, "Acanceh"));
             coordenadas_3.add(new Coordenada(21.285345, -89.661917, ""));
+            coordenadas_3.add(new Coordenada(21.314082, -89.353918, ""));
             coordenadas_3.add(new Coordenada(21.393030, -88.891646, ""));
-            coordenadas_3.add(new Coordenada(21.280416, -88.931591, ""));
-            coordenadas_3.add(new Coordenada(21.241901, -89.046411, "Dzidzantun"));
-            coordenadas_3.add(new Coordenada(21.280416, -88.931591, ""));
+            coordenadas_3.add(new Coordenada(21.280829, -88.928671, "")); //D-E
+            coordenadas_3.add(new Coordenada(21.140176, -88.163162, ""));
+            coordenadas_3.add(new Coordenada(20.742540, -88.212842, ""));
+            coordenadas_3.add(new Coordenada(20.677660,-88.568201, ""));
 
-            coordenadas_4.add(new Coordenada(21.280416, -88.931591, ""));
+
+            coordenadas_4.add(new Coordenada(20.689625, -88.201762, ""));
             coordenadas_4.add(new Coordenada(21.086005, -86.773757, "Grans Oasis Cancun"));
-            coordenadas_4.add(new Coordenada(21.141256, -89.111939, ""));
-            coordenadas_4.add(new Coordenada(21.198097, -88.810170, ""));
-            coordenadas_4.add(new Coordenada(21.152583, -88.171573, ""));
-            coordenadas_4.add(new Coordenada(21.140176, -88.163162, ""));
-            coordenadas_4.add(new Coordenada(20.742540, -88.21284, ""));
-            coordenadas_4.add(new Coordenada(20.677660,-88.568201, ""));
-            coordenadas_4.add(new Coordenada(20.690885, -88.219442, ""));
-            coordenadas_4.add(new Coordenada(20.214318, -87.453574, ""));
+
+            coordenadas_4.add(new Coordenada(20.691899, -88.203566, ""));
+            coordenadas_4.add(new Coordenada(20.703302, -88.202590, ""));
+            coordenadas_4.add(new Coordenada(20.634971, -87.078022, ""));
 
             //MARCADORES.
-            marcadores.add(new Coordenada(21.034063, -89.629751, "Mérida"));
-            marcadores.add(new Coordenada(21.086005, -86.773757, "Grans Oasis Cancun"));
-
-            marcadores.add(new Coordenada(20.745267, -89.721391, "Hacienda Yaxcopoil"));
-            marcadores.add(new Coordenada(19.846212, -90.540779, "Campeche"));
-            marcadores.add(new Coordenada(19.748210, -89.851839, "Holpechen"));
+            marcadores.add(new Coordenada(21.032591, -89.629652, "Mérida"));
+            marcadores.add(new Coordenada(21.086005, -86.773757, "Grand Oasis Cancún"));
+            marcadores.add(new Coordenada(20.881648, -89.748006, "Umán"));
+            marcadores.add(new Coordenada(20.486824, -89.713388, "Muna"));
+            marcadores.add(new Coordenada(20.441434, -90.027737, "Bécal"));
+            marcadores.add(new Coordenada(19.836682, -90.551432, "Campeche"));
+            marcadores.add(new Coordenada(19.747334, -89.844123, "Holpechen"));
             marcadores.add(new Coordenada(19.775156, -89.596288, "Santa Rosa Xtampak"));
-            marcadores.add(new Coordenada(20.006424, -89.842898, "Grutas de Xtacumbilxunaan"));
             marcadores.add(new Coordenada(20.360130, -89.769430, "Uxmal"));
-            marcadores.add(new Coordenada(20.395289, -89.540020, "Ticul"));
             marcadores.add(new Coordenada(20.386730, -89.392054, "Maní"));
-            marcadores.add(new Coordenada(20.632594, -89.458469, "Mayapan"));
-            marcadores.add(new Coordenada(20.813236, -89.453061, "Acanceh"));
-            marcadores.add(new Coordenada(21.337578, -89.315342, "Telchac Puerto"));
-            marcadores.add(new Coordenada(21.280416, -88.931591, "Dzilam Gonzalez"));
-            marcadores.add(new Coordenada(21.241901, -89.046411, "Dzidzantun"));
+            marcadores.add(new Coordenada(20.632594, -89.458469, "Z. A. Mayapan"));
+            marcadores.add(new Coordenada(20.986008, -89.619788, "Mérida"));
+            marcadores.add(new Coordenada(21.314082, -89.353918, "Z. A. Xcambo"));
+            marcadores.add(new Coordenada(21.280829, -88.928671, "Dzilam Gonzalez"));
             marcadores.add(new Coordenada(21.140176, -88.163162, "Tizimin"));
             marcadores.add(new Coordenada(20.677660,-88.568201, "Chichen Itzá"));
+            marcadores.add(new Coordenada(20.689625, -88.201762, "Valladolid"));
+            marcadores.add(new Coordenada(20.634971, -87.078022, "Playa del Carmen"));
+
 
 
 

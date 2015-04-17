@@ -1,6 +1,5 @@
 package com.punkmkt.rallymaya;
 
-import android.content.Context;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -14,10 +13,6 @@ import com.android.volley.toolbox.Volley;
 import android.app.Application;
 import android.text.TextUtils;
 
-import com.android.volley.Request;
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.ImageLoader;
-import com.android.volley.toolbox.Volley;
 
 public class MyVolleySingleton extends Application {
 

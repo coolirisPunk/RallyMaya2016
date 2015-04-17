@@ -2,23 +2,17 @@ package com.punkmkt.rallymaya.adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
-import android.widget.ImageView;
 
 import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.NetworkImageView;
 import com.punkmkt.rallymaya.MyVolleySingleton;
-import com.punkmkt.rallymaya.ParticipantesActivityDetail;
 import com.punkmkt.rallymaya.R;
-import com.punkmkt.rallymaya.models.Participante;
 import com.punkmkt.rallymaya.models.Patrocinador;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**

@@ -7,6 +7,7 @@ public class Participante {
     private Integer id;
     private String name;
     private String image;
+    private String thumbnail;
     private String year;
     private String order;
 
@@ -48,5 +49,12 @@ public class Participante {
 
     public void setOrder(String year) {
         this.order = order;
+    }
+    public String getThumbnail() {
+        return thumbnail;
+    }
+
+    public void setThumbnail(String thumbnail) {
+        this.thumbnail = thumbnail;
     }
 }

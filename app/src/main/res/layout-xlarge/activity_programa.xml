@@ -3,7 +3,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:layout_width="match_parent"
+    android:layout_width="fill_parent"
     android:layout_height="match_parent"
     android:paddingLeft="0dp"
     android:paddingRight="0dp"
@@ -14,7 +14,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="0">
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="1 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -29,7 +29,7 @@
             <TableRow>
                 <TextView android:text="8:00 – 21:00 | City Tour / Concierto Sinfónica en el Teatro Peón Contreras" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="2 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -50,7 +50,7 @@
             <TableRow>
                 <TextView android:text="20:00 – 23:00 | Cocktel ofrecido por la Embajada de Sudáfrica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="3 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -65,7 +65,7 @@
             <TableRow>
                 <TextView android:text="20:30 | Autobuses listos para traslado a la hacienda San Diego Cutz (Cena de Bienvenida y Premiación a la Elegancia)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="4 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -89,7 +89,7 @@
             <TableRow>
                 <TextView android:text="21:00 | Verbena Popular en el Zócalo frente a la Catedral" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="5 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -113,7 +113,7 @@
             <TableRow>
                 <TextView android:text="21:00 | Cena en el Restaurante de Hotel Hacienda Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="6 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -134,7 +134,7 @@
             <TableRow>
                 <TextView android:text="------- | Noche libre en Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="7 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -163,7 +163,7 @@
                 <TextView android:text="21:00 | Cena Especial en los Jardines del Hotel Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
 
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="8 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -189,7 +189,7 @@
                 <TextView android:text="------- | Hotel Todo Incluido - Hotel Grand Oasis Cancún" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
 
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="9 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -207,7 +207,7 @@
             <TableRow>
                 <TextView android:text="20:00 | Cena, Premiación y Clausura - Zama Yach Beach, Isla Mujeres" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="*Este programa está sujeta a Cambios*" android:padding="10dp" android:textSize="15sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
         </TableLayout>

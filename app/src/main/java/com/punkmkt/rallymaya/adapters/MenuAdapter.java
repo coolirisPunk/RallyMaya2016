@@ -4,19 +4,15 @@ package com.punkmkt.rallymaya.adapters;
 import java.util.ArrayList;
 import android.content.Context;
 import android.content.Intent;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.punkmkt.rallymaya.CronometroActivity;
-import com.punkmkt.rallymaya.DiabetesActivity;
 import com.punkmkt.rallymaya.DirectorioActivity;
-import com.punkmkt.rallymaya.ParticipantesActivityDetail;
 import com.punkmkt.rallymaya.ParticipantesActivityList;
 import com.punkmkt.rallymaya.PatrocinadorActivity;
 import com.punkmkt.rallymaya.ProgramaActivity;
@@ -25,8 +21,6 @@ import com.punkmkt.rallymaya.RallyMayaActivity;
 import com.punkmkt.rallymaya.RutaActivity;
 import com.punkmkt.rallymaya.TipActivity;
 import com.punkmkt.rallymaya.models.ItemMenu;
-import com.punkmkt.rallymaya.models.Participante;
-import com.punkmkt.rallymaya.utils.BitmapManager;
 
 public class MenuAdapter extends ArrayAdapter<ItemMenu>{
     private Context context;
@@ -85,6 +79,7 @@ public class MenuAdapter extends ArrayAdapter<ItemMenu>{
             @Override
             public void onClick(View v) {
                 Intent intent;
+
                 switch(position){
                     case 0:
                         intent = new Intent(context, RallyMayaActivity.class);

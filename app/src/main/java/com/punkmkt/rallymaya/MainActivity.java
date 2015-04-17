@@ -2,25 +2,12 @@ package com.punkmkt.rallymaya;
 
 import java.util.ArrayList;
 
-import android.content.Intent;
-import android.content.res.Configuration;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
-
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.GridView;
-import android.widget.ListView;
 
-import com.punkmkt.rallymaya.adapters.DrawerListAdapter;
 import com.punkmkt.rallymaya.adapters.MenuAdapter;
 
-import com.punkmkt.rallymaya.models.DrawerItem;
 import com.punkmkt.rallymaya.models.ItemMenu;
 
 
@@ -30,11 +17,13 @@ public class MainActivity extends BaseActivity {
     private GridView grid;
 
     private ArrayList<ItemMenu> itemMenus = new ArrayList<ItemMenu>();
+    public static Activity fa;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        fa = this;
        // setContentView(R.layout.activity_main);
         /**
          *  We will not use setContentView in this activty

@@ -1,17 +1,13 @@
 package com.punkmkt.rallymaya;
 
 import android.content.Intent;
-import android.content.res.Configuration;
 import android.support.v4.app.ActionBarDrawerToggle;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
 import android.util.Log;
 import android.widget.ImageView;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.punkmkt.rallymaya.utils.BitmapManager;
@@ -30,6 +26,7 @@ public class ParticipantesActivityDetail extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         getLayoutInflater().inflate(R.layout.activity_participantes_activity_detail, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         //setTitle(item_menus_sec[2]);
@@ -39,12 +36,17 @@ public class ParticipantesActivityDetail extends BaseActivity {
         String p_nombre = intent.getStringExtra("nombre");
         String p_image = intent.getStringExtra("image");
         String p_year = intent.getStringExtra("year");
+        String p_thumbnail = intent.getStringExtra("thumbnail");
         Log.e("Intent",p_nombre + p_year + p_image);
         if(NetworkUtils.haveNetworkConnection(this)) {
-            setTitle(p_nombre + " " + p_year);
+            if(p_year != null && !p_year.isEmpty()){
+                setTitle(p_nombre + " " + p_year);
+            }
+            else{
+                setTitle(p_nombre);
+            }
             BitmapManager.getInstance().loadBitmap(p_image, image);
         }
-
     else{
         Toast.makeText(getApplicationContext(), getResources().getString(R.string.revise_conexion), Toast.LENGTH_SHORT).show();
     }

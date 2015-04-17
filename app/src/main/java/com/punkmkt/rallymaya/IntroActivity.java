@@ -4,8 +4,6 @@ import android.content.Intent;
 import android.os.AsyncTask;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 
@@ -34,7 +32,7 @@ public class IntroActivity extends ActionBarActivity {
         protected Void doInBackground(Void... params) {
             // TODO Auto-generated method stub
             try {
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 // TODO: handle exception
                 e.printStackTrace();

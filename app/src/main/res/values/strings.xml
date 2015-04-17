@@ -499,35 +499,39 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>AVANTE</b> \nAVENIDA CENTRAL 144 A SAN JOSÉ, 24040 CAMPECHE, MEXICO \n01(981) 811 7133</item>
     </string-array>
     <string-array name="contactos_comite">
-        <item><b>Benjamin de la Peña Mora</b> \nPresidente Fundador\nbenjamindelapenamora@gmail.com \n998 845 7563</item>
-        <item><b>Cecilia Torres Allier</b> \nCoordinador General\npr@rallymayamexico.com direcccion@showtvmedia.com\n998 110 0405</item>
-        <item><b>Wilmer Sotomayor Sanchez</b> \nCoordinador General\nwilmer3820@hotmail.com \n998 196 3681</item>
-        <item><b>Nayeli Canul Chi</b> \nAsistente de Cordinación General\ninformacion@rallymayamexico.com ventas@showtvmedia.com\n998 115 1148</item>
-        <item><b>Kenneth Betancour Rodriguez</b> \nDiseño\ndesign@rallymayamexico.com \n998 135 4961</item>
-        <item><b>Mauricio Maya Oliva</b> \nCoordinador Legal\nmauriciomaya55@hotmail.com\n998 842 0635</item>
-        <item><b>Rafael Machado </b> \nResponsable del Rally Maya\nramazumx@yahoo.com\n552 563 9317</item>
-        <item><b>Jaime Novelo Montalvo</b> \nCoordinador de Cultura Maya\njaimenovelo@prodigy.net.mx\n998 842 0031</item>
-        <item><b>Héctor González Valdepeña</b> \nComisario PF</item>
-        <item><b>Adan Rosario Jimenez Solano</b> \nSubinspector PF</item>
-        <item><b>Juan Armin Hernandez Ortiz</b> \nOficial PF</item>
-        <item><b>Eduardo Artigas Coba</b> \nOficial PF</item>
-        <item><b>Miguel Anehl Niri Buen</b> \nSuboficial PF</item>
-        <item><b>Juan Alberto Paredes Altamirano</b> \nSuboficial PF</item>
-        <item><b>Rafael Pacheco Coronel</b> \nCoordinador de Seguridad\nrpcgeneral@hotmail.com\n998 109 9880</item>
-        <item><b>Lorenzo Orozco de la Barquera</b> \nApoyo Logistica\norozcodelabarquera@prodigy.net.mx\n998 109 8128</item>
-        <item><b>Horacio Chousal </b> \nDirector de Cronometraje y Control\nchousal1953@gmail.com\n722 389 0231</item>
-        <item><b>Rosario Escamilla</b> \nAsistente de Cronometraje\n722 7117072</item>
-        <item><b>Victor Hugo Sánchez Camacho</b> \nDirector de Prensa\nhijodevecino@gmail.com\n553 999 3035</item>
-        <item><b>Luis Berumen García</b> \nApoyo Logistica\nlgberumen@yahoo.com.mx\n555 102 0406</item>
-        <item><b>Dennis Rodriguez</b> \nResponsable Médico\n555 437 5972</item>
-        <item><b>Jorge Fuentes Amezcua</b> \nJefe de Vallas\nletygro60@gmail.com\n998 577 8727</item>
-        <item><b>Marcos Noe Oliver Mosqueda</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
-        <item><b>Edgardo Sierra Larrieu</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
-        <item><b>Marcos Noe Oliver Mosqueda</b> \nResponsable de Bienvenida\nwalloxtreme@hotmail.com</item>
-        <item><b>Juan Jose Ortiz Jasso</b> \nResponsable de Acomodo de Autos\nfox_juanjo@hotmail.com\n998 844 9803</item>
-        <item><b>Marcos Noe Oliver Mosqueda</b> \nCoordinador Mecanico y Barredora\nmarcu666@hotmail.com\n998 262 0303</item>
-        <item><b>Rosario Escamilla</b> \nAsistente de Cronometraje\nrosarioescamilla58@gmail.com\n722 7117072</item>
-        <item><b>Marcos Noe Oliver Mosqueda</b> \nResponsable de equipaje\ntravel-cancun@hotmail.com\n998 841 3559</item>
+        <item><b>BENJAMIN DE LA PEÑA</b> \nPRESIDENTE FUNDADOR\n998 845 7563</item>
+        <item><b>RAFAEL MACHADO ZUBILLAGA</b> \nDIRECTOR GENERAL\n552 563 9317</item>
+        <item><b>HORACIO CHOUSAL GARCIA</b> \nCOORDINADOR TECNICO Y RESULTADOS\n722 389 0231</item>
+        <item><b>LIC. MAURICIO MAYA OLIVA </b> \nCOORDINADOR JURIDICO\n998 842 0635</item>
+        <item><b>VICTOR HUGO SANCHEZ </b> \nCOORDINADOR DE PRENSA\n553 999 3035</item>
+        <item><b>CP. JAIME NOVELO MONTALVO </b> \nCOORDINADOR DE CULTURA MAYA\n998 842 0031</item>
+        <item><b>GRAL. RAFAEL PACHECO CORONEL</b> \nCOORDINADOR DE SEGURIDAD Y LOGISTICA\n998 109 9880</item>
+        <item><b>CMDT. JOSE CORAL MALDONADO</b> \nDIRECTOR DE OPERACIONES Y VIALIDADES DE YUCATAN\n999 351 4024</item>
+        <item><b>CMDT. JUAN CARLOS GUDENO HERRERA</b> \nVIALIDADES MUNICIPALES YUCATAN\n999 177 4063</item>
+        <item><b>CP. LORENZO OROZCO DE LA BARQUERA </b> \nCOORDINADOR DEL PARQUE VEHICULAR\n998 109 8128</item>
+        <item><b>DR. DENNIS RODRIGUEZ DIAZ</b> \nCOORDINADOR DE SEVICIOS MEDICOS\n555 437 5972</item>
+        <item><b>ARQ. MANUEL OTERO MEDINA</b> \nCOORDINADOR DE AVANZADAS\n998 155 1634</item>
+        <item><b>JUAN MANUEL ESCAREÑO ZAMARON</b> \nCOORDINADOR DE AVANZADAS\n818 997 7375</item>
+        <item><b>EDGARDO SIERRA LARRIEU</b> \nCOORDINADOR DE BIENVENIDAS\n238 115 8290</item>
+        <item><b>JORGE FUENTES AMEZCUA</b> \nCOORDINADOR DE ARCOS Y VALLAS\n998 577 8727</item>
+        <item><b>MARCO ANTONIO OLIVER MOSQUEDA</b> \nRESPONSABLE DE TRANSPORTACION\n998 841 3559</item>
+        <item><b>MARCO ANTONIO CUREÑO </b> \nCOORDINADOR DE SERVICIOS GENERALES\n998 262 0303</item>
+        <item><b>GEORGE GOUBERT </b> \nRESPONSABLE DE BIENVENIDA EN CANCUN\n998 735 1171</item>
+        <item><b>LUIS ARENAS </b> \nRESPONSABLE DE MEDIOS EN CANCUN\n998 202 5309</item>
+        <item><b>ING. MARIO TURRENT ANTON</b> \nCOMITÉ TECNICO\n462 600 6285</item>
+        <item><b>ING. MARIO MEDINA RAMIREZ</b> \nCOMITÉ TECNICO\n 555 398 0028</item>
+        <item><b>PLACIDO GONZALEZ SALAZAR</b> \nCOMITÉ TECNICO\n552 699 4387</item>
+        <item><b>LUIS ARGUELLLES MARTINEZ</b> \nCOMITÉ TECNICO\n222 217 3023 </item>
+        <item><b>ING ANTONIO CISERO ANCONA</b> \nCOMITÉ TECNICO\n998 213 0984</item>
+        <item><b>MARCO ANTONIO CUREÑO </b> \nCOMITÉ TECNICO\n998 262 0303</item>
+        <item><b>CECILIA TORRES ALLIER </b> \nDIRECTORA GENERAL DE SHOWTVMEDIA COMERCIALIZADORA DE RALLY MAYA MEXICO\n998 110 0405</item>
+        <item><b>WILMER SOTOMAYOR SANCHEZ</b> \nASISTENTE DE DIRECCION GENERAL SHOWTVMEDIA\n998 196 3681</item>
+        <item><b>KENNETH BETANCOURT RODRIGUEZ</b> \nDISEÑO SHOWTVMEDIA\n998 135 4961</item>
+        <item><b>NAYELI CANUL CHI</b> \nVENTAS Y REDES DE SHOWTVMEDIA\n998 115 1148</item>
+
+
+
+
     </string-array>
     <string-array name="directorio_emergencias_campeche">
         <item name="id">1</item>
@@ -564,7 +568,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item>@array/directorio_hoteles_campeche</item>
         <item>@array/directorio_refaccionarias_campeche</item>
         <item>@array/directorio_vulcanizadoras_campeche</item>
-        <item>@array/directorio_gasolineras_campeche</item>
+
         <item>@array/directorio_comite_general</item>
     </array>
 
@@ -696,22 +700,16 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
 
     <string-array name="gasolineras_yucatan">
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n48 479, TIZIMIN CENTRO, TIZIMIN, C.P. 97700, YUC\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 491, TIZIMIN CENTRO, TIZIMIN, C.P. 97700, YUC\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n31 393, IZAMAL, IZAMAL, C.P. 97540, YUC.\n(999)884-0474</item>
-        <item>GASOLINERA PEMEX\nTABLAJE 14335, PACABTUN, MERIDA, C.P. 97160, YUC\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n18 SN, TZUCACAB, TZUCACAB, C.P. 97960, YUC\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n59 801, PACABTUN, MERIDA, C.P. 97160, YUC\n(999)946-0610</item>
-        <item>GASOLINERA PEMEX\nCNILLO PERIFERICO SN, PACABTUN, MERIDA, C.P. 97160, YUC\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\nAV YUCATAN 180, JARDINES DEL NORTE, MERIDA, C.P. 97138, YUC\n(999)943-0662</item>
-        <item>60 MANZANA 134 SECCION CATASTRAL 14 SN, CHUBURNA DE HIDALGO, MERIDA, C.P. 97300, YUC\n(449)968-5060</item>
-        <item>18 117, PANABA, PANABA, C.P. 97610, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
-        <item>GASOLINERA PEMEX\n51 279, CHOBENCHE, TEKAX, C.P. 97970, YUC.\n(449)968-5060</item>
+        <item>Estación de Servicio Chuburná\nC. 20 #111 x 25 Colonia Chuburná de Hidalgo.\n</item>
+        <item>Estación de Servicio Umán\nCalle 16-A x Calle S/N TAB. CAT. 14177 Municipio de Umán, Yucatán.</item>
+        <item>GASOLINERA PEMEX\nEstación de Servicio Kopomá\nCarretera Federal Mérida- Campeche km 57 Municipio de Kopomá, Yucatán.</item>
+        <item>Estación de Servicio Muna\nCalle 25 No. 127 Col. San Pastor. C.P. 97840 Municipio de Muna, Yucatán.</item>
+        <item>Estación de Servicio Kanasín\nTablaje 14431-A localidad y municipio de Kanasín, Yucatán.</item>
+        <item>Estación de Servicio San Pedro\nCarretera Mérida-Valladolid km 9.5 Kanasín Yucatán.</item>
+        <item>Estación de Servicio Pisté\nCarretera Mérida- Valladolid km 115 Tablaje Catastral 4097. C.P. 97780, Municipio Pisté, Yucatán.</item>
+        <item>Estación de Servicio Ebtún\nCarretera Valladolid-Mérida, tablaje Catastral 9545 C.P. 97780, Municipio Valladolid, Yucatán.</item>
+        <item>Estación de Servicio Zací\nCalle 42 No. 140 Fracc. Campestre del Pedregal, Municipio Valladolid, Yucatán.</item>
+        <item>Estación de Servicio Chan Yaxché\nCalle 41 Salida Carretera Valladolid-Cancún. Tablaje Catastral 4088, Col. Chan Yaxché. C.P.97780, Valladolid, Yucatán.</item>
     </string-array>
 
     <string-array name="centro_convenciones_yucatan">
@@ -744,7 +742,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <string-array name="directorio_gasolineras_yucatan">
         <item name="id">4</item>
-        <item name="title">GASOLINERAS</item>
+        <item name="title">GASOLINERAS FULL GAS</item>
         <item name="tag">gasolineras_yucatan</item>
     </string-array>
     <array name="directorio_yucatan_header">
@@ -882,7 +880,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item>@array/directorio_hoteles_quintanaroo</item>
         <item>@array/directorio_refaccionarias_quintanaroo</item>
         <item>@array/directorio_vulcanizadoras_quintanaroo</item>
-        <item>@array/directorio_gasolineras_quintanaroo</item>
         <item>@array/directorio_comite_general</item>
     </array>
 

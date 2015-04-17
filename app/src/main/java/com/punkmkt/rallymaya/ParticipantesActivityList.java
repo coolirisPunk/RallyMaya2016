@@ -1,5 +1,6 @@
 package com.punkmkt.rallymaya;
 
+import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +21,6 @@ import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.NetworkImageView;
 
 import com.punkmkt.rallymaya.adapters.ParticipanteAdapter;
-import com.punkmkt.rallymaya.adapters.PatrocinadorAdapter;
 import com.punkmkt.rallymaya.models.Participante;
 import com.punkmkt.rallymaya.utils.NetworkUtils;
 
@@ -47,10 +47,12 @@ public class ParticipantesActivityList extends BaseActivity {
     NetworkImageView mNetworkImageView;
     private ParticipanteAdapter adapter;
     Intent intent;
+    public static Activity fa;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        MainActivity.fa.finish();
+        fa=this;
         getLayoutInflater().inflate(R.layout.activity_participantes_activity_list, frameLayout);
 
         grid = (GridView)findViewById(R.id.grid_participantes);
@@ -67,6 +69,7 @@ public class ParticipantesActivityList extends BaseActivity {
                 Idetail.putExtra("nombre", participante.getName());
                 Idetail.putExtra("image", participante.getImage());
                 Idetail.putExtra("year", participante.getYear());
+                Idetail.putExtra("thumbnail", participante.getThumbnail());
                 startActivity(Idetail);
             }
 
@@ -120,7 +123,14 @@ public class ParticipantesActivityList extends BaseActivity {
                 participante.setId(Integer.parseInt(anEntry.optString("id")));
                 participante.setName(anEntry.optString("name"));
                 participante.setImage(anEntry.optString("picture"));
-                participante.setYear(anEntry.optString("year"));
+                participante.setThumbnail(anEntry.optString("thumbnail"));
+                if(anEntry.has("year") && !anEntry.optString("year").equals("null")){
+                   // Log.e("Lista",anEntry.optString("year"));
+                    participante.setYear(anEntry.optString("year"));
+                }
+                else{
+                    //participante.setYear(" ");
+                }
                 participantes.add(participante);
             }
             adapter.notifyDataSetChanged();
