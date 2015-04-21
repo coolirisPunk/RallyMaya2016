@@ -29,8 +29,8 @@ public class RallyMayaActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MainActivity.fa.finish();
-        fa = this;
+        //MainActivity.fa.finish();
+        //fa = this;
         getLayoutInflater().inflate(R.layout.activity_rally_maya, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[1]);
@@ -41,7 +41,7 @@ public class RallyMayaActivity extends BaseActivity {
             public void onClick(View v) {
                 intent = new Intent(getApplicationContext(), DiabetesActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                finish();
+                //finish();
                 getApplicationContext().startActivity(intent);
 
             }
@@ -50,7 +50,7 @@ public class RallyMayaActivity extends BaseActivity {
             public void onClick(View v) {
                 intent2 = new Intent(getApplicationContext(), MyPdfViewActivity.class);
                 intent2.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                finish();
+                //finish();
                 getApplicationContext().startActivity(intent2);
 
             }

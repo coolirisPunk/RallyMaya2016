@@ -51,7 +51,7 @@ public class ParticipantesActivityList extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MainActivity.fa.finish();
+        //MainActivity.fa.finish();
         fa=this;
         getLayoutInflater().inflate(R.layout.activity_participantes_activity_list, frameLayout);
 

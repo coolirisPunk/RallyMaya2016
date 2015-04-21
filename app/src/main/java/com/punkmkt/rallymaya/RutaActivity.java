@@ -51,7 +51,7 @@ public class RutaActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        MainActivity.fa.finish();
+        //MainActivity.fa.finish();
         getLayoutInflater().inflate(R.layout.activity_ruta, frameLayout);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[4]);
@@ -136,6 +136,7 @@ public class RutaActivity extends BaseActivity {
             marcadores.add(new Coordenada(20.677660,-88.568201, "Chichen Itzá"));
             marcadores.add(new Coordenada(20.689625, -88.201762, "Valladolid"));
             marcadores.add(new Coordenada(20.634971, -87.078022, "Playa del Carmen"));
+            marcadores.add(new Coordenada(21.227841,-86.735816, "Isla mujeres"));
 
 
 

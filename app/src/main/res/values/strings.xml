@@ -227,8 +227,11 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <string-array name="lugares_visita_merida">
         <item>La Ciudad Blanca, envuelta en el Mundo Maya, es una ciudad  colonial que se caracteriza por la hospitalidad generosa de su gente, con sus barrios coloniales, arboladas y señoriales avenidas, con servicios de clase mundial, variada gastronomía, vida nocturna y modernas instalaciones garantiza el éxito de los negocios  y un recuerdo duradero de una experiencia única. </item>
     </string-array>
-        <string-array name="lugares_visita_uman">
+    <string-array name="lugares_visita_uman">
         <item>Visitar la magnífica Parroquia de San Francisco que antes formo parte de un Convento del siglo XVI de proporciones imponentes, destaca su imponente fachada de cantera que quedó inconclusa.  </item>
+    </string-array>
+    <string-array name="lugares_visita_becal">
+        <item>lorem lorem lorem</item>
     </string-array>
     <string-array name="lugares_visita_hacienda_yaxcopoil">
         <item>Yaxcopoil que fue considerada una de las fincas rústicas más importantes por su tamaño y magnificencia y actualmente es un museo. Desde el siglo XVI, las haciendas en Yucatán funcionaban como el sistema Feudal europea. Eran eficientes granjas y centros de manufacturación que producían carne y productos agrícolas para la exportación. </item>
@@ -305,6 +308,11 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item name="title">UMAN</item>
         <item name="tag">lugares_visita_uman</item>
     </string-array>
+    <string-array name="tips_lugares_visita_becal">
+        <item name="id">2</item>
+        <item name="title">BÉCAL</item>
+        <item name="tag">lugares_visita_becal</item>
+    </string-array>
     <string-array name="tips_lugares_visita_hacienda_yaxcopoil">
         <item name="id">3</item>
         <item name="title">HACIENDA YAXCOPOIL</item>
@@ -362,7 +370,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <string-array name="tips_lugares_mayapan">
         <item name="id">5</item>
-        <item name="title">MAYAPAN</item>
+        <item name="title">Z.A. MAYAPAN</item>
         <item name="tag">lugares_visita_mayapan</item>
     </string-array>
 
@@ -373,7 +381,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <string-array name="tips_lugares_xcambo">
         <item name="id">5</item>
-        <item name="title">XCAMBÓ</item>
+        <item name="title">Z.A. XCAMBÓ</item>
         <item name="tag">lugares_visita_xcambo</item>
     </string-array>
     <string-array name="tips_lugares_dzilam_gonzalez">
@@ -416,19 +424,14 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <array name="LugaresVisitaHeader">
         <item>@array/tips_lugares_visita_merida</item>
         <item>@array/tips_lugares_visita_uman</item>
-        <item>@array/tips_lugares_visita_hacienda_yaxcopoil</item>
-        <item>@array/tips_lugares_visita_calkini</item>
-        <item>@array/tips_lugares_visita_hecelchakan</item>
-        <item>@array/tips_lugares_visita_pomuch</item>
+        <item>@array/tips_lugares_muna</item>
+        <item>@array/tips_lugares_visita_becal</item>
         <item>@array/tips_lugares_visita_campeche</item>
         <item>@array/tips_lugares_visita_hopelchen</item>
         <item>@array/tips_lugares_visita_santa_rosa_xtampak</item>
         <item>@array/tips_lugares_uxmal</item>
-        <item>@array/tips_lugares_muna</item>
-        <item>@array/tips_lugares_ticul</item>
         <item>@array/tips_lugares_mani</item>
         <item>@array/tips_lugares_mayapan</item>
-        <item>@array/tips_lugares_puerto_progreso</item>
         <item>@array/tips_lugares_xcambo</item>
         <item>@array/tips_lugares_dzilam_gonzalez</item>
         <item>@array/tips_lugares_tizimin</item>
@@ -438,10 +441,8 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item>@array/tips_lugares_cancun</item>
         <item>@array/tips_lugares_isla_mujeres</item>
     </array>
-
     <string name="title_activity_patrocinador">PatrocinadorActivity</string>
     <string name="title_activity_directorio">DirectorioActivity</string>
-
     <string-array name="contactos_emergencia_campeche">
         <item><b>Emergencias</b> \n(060)</item>
         <item><b>Denuncia segura</b> \n(066)</item>
@@ -498,6 +499,9 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>RADIAL LLANTAS</b> \nCIRCUITO BALUARTES 5 SAN ROMAN, 24040 CAMPECHE, MEXICO \n01(981) 816 3508</item>
         <item><b>AVANTE</b> \nAVENIDA CENTRAL 144 A SAN JOSÉ, 24040 CAMPECHE, MEXICO \n01(981) 811 7133</item>
     </string-array>
+    <string-array name="hospitales_campeche">
+        <item><b>Hospital Manuel Campos y Hospital de Especialidades</b>\nAv. Boulevard s/n Col. Centro, Campeche, Campeche, C.P. 24000\nTel: (01-981) 81-1-17-09 y 81-1-11-42\nwww.campeche.salud.gob.mx/index.php/campeche/9-hospital-qdr-manuel-camposq</item>
+    </string-array>
     <string-array name="contactos_comite">
         <item><b>BENJAMIN DE LA PEÑA</b> \nPRESIDENTE FUNDADOR\n998 845 7563</item>
         <item><b>RAFAEL MACHADO ZUBILLAGA</b> \nDIRECTOR GENERAL\n552 563 9317</item>
@@ -506,8 +510,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>VICTOR HUGO SANCHEZ </b> \nCOORDINADOR DE PRENSA\n553 999 3035</item>
         <item><b>CP. JAIME NOVELO MONTALVO </b> \nCOORDINADOR DE CULTURA MAYA\n998 842 0031</item>
         <item><b>GRAL. RAFAEL PACHECO CORONEL</b> \nCOORDINADOR DE SEGURIDAD Y LOGISTICA\n998 109 9880</item>
-        <item><b>CMDT. JOSE CORAL MALDONADO</b> \nDIRECTOR DE OPERACIONES Y VIALIDADES DE YUCATAN\n999 351 4024</item>
-        <item><b>CMDT. JUAN CARLOS GUDENO HERRERA</b> \nVIALIDADES MUNICIPALES YUCATAN\n999 177 4063</item>
         <item><b>CP. LORENZO OROZCO DE LA BARQUERA </b> \nCOORDINADOR DEL PARQUE VEHICULAR\n998 109 8128</item>
         <item><b>DR. DENNIS RODRIGUEZ DIAZ</b> \nCOORDINADOR DE SEVICIOS MEDICOS\n555 437 5972</item>
         <item><b>ARQ. MANUEL OTERO MEDINA</b> \nCOORDINADOR DE AVANZADAS\n998 155 1634</item>
@@ -558,6 +560,11 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item name="title">GASOLINERAS</item>
         <item name="tag">gasolineras_campeche</item>
     </string-array>
+    <string-array name="directorio_hospitales_campeche">
+        <item name="id">2</item>
+        <item name="title">HOSPITALES</item>
+        <item name="tag">hospitales_campeche</item>
+    </string-array>
     <string-array name="directorio_comite_general">
         <item name="id">4</item>
         <item name="title">CONTACTOS DE CÓMITE</item>
@@ -565,10 +572,10 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <array name="directorio_campeche_header">
         <item>@array/directorio_emergencias_campeche</item>
+        <item>@array/directorio_hospitales_campeche</item>
         <item>@array/directorio_hoteles_campeche</item>
         <item>@array/directorio_refaccionarias_campeche</item>
         <item>@array/directorio_vulcanizadoras_campeche</item>
-
         <item>@array/directorio_comite_general</item>
     </array>
 
@@ -590,7 +597,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>Procuraduría del Estado</b> \n01(999) 930-32-50 o 066</item>
         <item><b>Servicio Médico Forense</b> \n01 (999) 930-32-50 EXT 41008</item>
         <item><b>Protección Civil Mérida</b> \n01 999 924 87 69 ext. 109, 111, 01 999 923 53 36 ext. 109, 111, directo 01(999) 928 83 11</item>
-        <item><b>Cruz Roja</b> \n</item>
         <item><b>Emergencias</b> \n01 (999) 924 98 13, 01 (999) 928 53 91, 065</item>
         <item><b>Ambulancias</b> \n065 o 01 (999) 983-02-43</item>
         <item><b>Clínica IMSS T1</b> \n</item>
@@ -600,7 +606,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>Admisión al hospital</b> \n01 (999) 942-01-12</item>
         <item><b>Servicio Médico Forense</b> \n01 999 930-32-50 EXT 41008</item>
         <item><b>Protección Civil Mérida</b> \n01 999 924 87 69 ext. 109, 111, 01 999 923 53 36 ext. 109, 111, directo 01 (999) 928 83 11</item>
-        <item><b>Cruz Roja</b> \n</item>
         <item><b>Emergencias</b> \n01 (999) 924 98 13, 01 (999) 928 53 91, 065</item>
         <item><b>Tizimín</b> \nCruz Roja \n01 (986) 863 3868</item>
         <item><b>Tizimín</b> \n Policía Municipal\n01 (986) 8 63 21 13</item>
@@ -702,7 +707,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <string-array name="gasolineras_yucatan">
         <item>Estación de Servicio Chuburná\nC. 20 #111 x 25 Colonia Chuburná de Hidalgo.\n</item>
         <item>Estación de Servicio Umán\nCalle 16-A x Calle S/N TAB. CAT. 14177 Municipio de Umán, Yucatán.</item>
-        <item>GASOLINERA PEMEX\nEstación de Servicio Kopomá\nCarretera Federal Mérida- Campeche km 57 Municipio de Kopomá, Yucatán.</item>
+        <item>Estación de Servicio Kopomá\nCarretera Federal Mérida- Campeche km 57 Municipio de Kopomá, Yucatán.</item>
         <item>Estación de Servicio Muna\nCalle 25 No. 127 Col. San Pastor. C.P. 97840 Municipio de Muna, Yucatán.</item>
         <item>Estación de Servicio Kanasín\nTablaje 14431-A localidad y municipio de Kanasín, Yucatán.</item>
         <item>Estación de Servicio San Pedro\nCarretera Mérida-Valladolid km 9.5 Kanasín Yucatán.</item>
@@ -711,7 +716,10 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item>Estación de Servicio Zací\nCalle 42 No. 140 Fracc. Campestre del Pedregal, Municipio Valladolid, Yucatán.</item>
         <item>Estación de Servicio Chan Yaxché\nCalle 41 Salida Carretera Valladolid-Cancún. Tablaje Catastral 4088, Col. Chan Yaxché. C.P.97780, Valladolid, Yucatán.</item>
     </string-array>
+    <string-array name="hospitales_yucatan">
+        <item>Hospital Star Médica\nCalle 26 #199, por 15 y 7, Col. Altabrisa, Mérida, Yuc. C.P. 97133\nTel: 999 930 2880\nwww.starmedica.com</item>
 
+    </string-array>
     <string-array name="centro_convenciones_yucatan">
         <item><b>Lic. Carlos Ariel Franco Osorno</b> \nGerente\nTel. (999) 9-42-19-00 ext 106\nDirección:Calle 60Nte. No. 299-E Col Revolución ExCordemex, Mérida, Yucatán. México. CP 97118\n </item>
     </string-array>
@@ -737,7 +745,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <string-array name="directorio_centro_convenciones_yucatan">
         <item name="id">3</item>
-        <item name="title">CENTRO DE CONVENCIONES</item>
+        <item name="title">CENTRO DE CONVENCIONES SIGLO XXI</item>
         <item name="tag">centro_convenciones_yucatan</item>
     </string-array>
     <string-array name="directorio_gasolineras_yucatan">
@@ -745,8 +753,14 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item name="title">GASOLINERAS FULL GAS</item>
         <item name="tag">gasolineras_yucatan</item>
     </string-array>
+    <string-array name="directorio_hospitales_yucatan">
+        <item name="id">4</item>
+        <item name="title">HOSPITALES</item>
+        <item name="tag">hospitales_yucatan</item>
+    </string-array>
     <array name="directorio_yucatan_header">
         <item>@array/directorio_emergencias_yucatan</item>
+        <item>@array/directorio_hospitales_yucatan</item>
         <item>@array/directorio_hoteles_yucatan</item>
         <item>@array/directorio_refaccionarias_yucatan</item>
         <item>@array/directorio_vulcanizadoras_yucatan</item>
@@ -849,6 +863,9 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>VULCANIZADORA PALMA</b> \nCANCUN, QUINTANA ROO. L PORTILLO MZN 60 LT 9 COL. REG 93 CANCUN Q ROO \n(998)888-9919</item>
         <item><b>VULCANIZADORA PANCHITO</b> \nPLAYA DEL CARMEN, QUINTANA ROO. CALLE 2 NTE. MZ. 89 LT. 6 ENTRE 45 Y CARR. FED. \n(984)745-7504 / 873-0162</item>
     </string-array>
+    <string-array name="hospitales_quintanaroo">
+        <item>Hospital Galenia \nAv. Tulúm, Esq. Nizuc, Mz. 01, Lote 01, Smza. 12, Cancún, Benito Juárez, Quintana Roo, C.P. 77505\nTel: 998 891 5200\nwww.hospitalgalenia.com</item>
+    </string-array>
     <string-array name="directorio_emergencias_quintanaroo">
         <item name="id">1</item>
         <item name="title">NÚMERO DE EMERGENCIA</item>
@@ -869,7 +886,11 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item name="title">VULCANIZADORAS</item>
         <item name="tag">vulcanizadoras_quintanaroo</item>
     </string-array>
-
+    <string-array name="directorio_hospitales_quintanaroo">
+        <item name="id">2</item>
+        <item name="title">HOSPITALES</item>
+        <item name="tag">hospitales_quintanaroo</item>
+    </string-array>
     <string-array name="directorio_gasolineras_quintanaroo">
         <item name="id">2</item>
         <item name="title">GASOLINERAS</item>
@@ -877,6 +898,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     </string-array>
     <array name="directorio_quintanaroo_header">
         <item>@array/directorio_emergencias_quintanaroo</item>
+        <item>@array/directorio_hospitales_quintanaroo</item>
         <item>@array/directorio_hoteles_quintanaroo</item>
         <item>@array/directorio_refaccionarias_quintanaroo</item>
         <item>@array/directorio_vulcanizadoras_quintanaroo</item>
