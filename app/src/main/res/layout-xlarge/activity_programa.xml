@@ -14,71 +14,71 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content">
         <TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="1" android:shrinkColumns="0">
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="1 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 22:00 | Resguardo de Automóviles en el Centro de Convenciones Siglo XXI – Salón Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8:00 – 22:00 | Resguardo y Exhibición de Automóviles en el Centro de Convenciones Siglo XXI – Salón Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="9:00 – 20:00 | Revisión técnica y médica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="11:00 – 20:00 | Revisión técnica y médica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="8:00 – 22:00 | Registro de Participantes en el Hotel – Fiesta Americana Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 21:00 | City Tour / Concierto Sinfónica en el Teatro Peón Contreras" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8:00 – 21:00 | Visita al Museo de la Cultura Maya" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="2 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 22:00 | Recepción de Automóviles en el Centro de Convenciones Siglo XXI – Salón Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8:00 – 17:00 | Recepción de Automóviles en el Centro de Convenciones Siglo XXI – Salón Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 20:00 | Revisión técnica y médica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="9:00 – 17:00 | Exhibición y Revisión técnica y médica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="8:00 – 22:00 | Registro de Participantes en el Hotel – Fiesta Americana Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 17:00 | Luz y Sonido en el Museo de la Cultura Maya Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="11:00 | Entrega de Sillas de Rueda y Aparatos Auditivos" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="18:00 | Traslado de Autos al Estacionamiento del Hotel Fiesta Americana" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="18:00 – 20:00 | Cocktel de la Europea en el Salón Chichen Itzá del Centro de convenciones Siglo XX1" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="20:00 – 23:00 | Cocktel ofrecido por la Embajada de Sudáfrica" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="21:00 | Traslado de Autos al Estacionamiento del Hotel Fiesta Americana" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="3 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="9:00 – 20:00 | Revisión técnica y médica en el Estacionamiento del Hotel Fiesta Americana" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="11:00 – 20:00 | Revisión técnica y médica en el Estacionamiento del Hotel Fiesta Americana" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 – 22:00 | Registro de Participantes en el Hotel – Fiesta Americana Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="12:00 – 14:00 | Junta de Pilotos y Copilotos para la explicación de la Libreta de Ruta" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="16:00 – 19:00 | Salida del Hotel Fiesta Americana Mérida para el Desfile de Automóviles por el Paseo de Montejo" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="17:00 – 16:30 | Salida del Hotel Fiesta Americana Mérida para el Desfile de Automóviles por Paseo de Montejo" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="20:30 | Autobuses listos para traslado a la hacienda San Diego Cutz (Cena de Bienvenida y Premiación a la Elegancia)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="19:30 | Autobuses listos para traslado a la hacienda San Diego Cutz (Cena de Bienvenida y Premiación a la Elegancia)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="4 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 | Banderazo de Salida – Rolando Zapata Bello-Gobernador del Estado de Yucatán en el Hotel Fiesta Americana por avenida Cupules-Itzaes" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="9:00 | Banderazo de Salida – Rolando Zapata Bello-Gobernador del Estado de Yucatán en el Hotel Fiesta Americana por avenida Cupules-Itzaes" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="10:00 – 12:00 | Llegada a Umán – Recepción en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="11:00 – 13:00 | Llegada a Umán – Recepción en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="12:30 – 14:00 | Visita a Muna – Recepción en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="13:30 – 15:00 | Visita a Muna – Recepción en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="15:00 – 17:00 | Visita a Bécal – Recepción en la Feria Anual" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="16:00 – 18:00 | Visita a Bécal – Recepción en la Feria Anual" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="19:00 | Llegada y Meta - Campeche – Desfile de Automóviles en el Malecón de Campeche y exhibición de Autos en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
@@ -89,7 +89,7 @@
             <TableRow>
                 <TextView android:text="21:00 | Verbena Popular en el Zócalo frente a la Catedral" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="5 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -105,7 +105,7 @@
                 <TextView android:text="16:00 | Llegada a Uxmal - Meta Fte. Hotel Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="16:00 | Registro de Hotel \n -The Lodge Uxmal \n -Hacienda Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="16:00 | Registro de Hotel \n -The Lodge Uxmal \n -Hacienda Uxmal, Plantation and Museum" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="20:00 | Actividades Culturales (Opcional Luz y Sonido)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
@@ -113,11 +113,11 @@
             <TableRow>
                 <TextView android:text="21:00 | Cena en el Restaurante de Hotel Hacienda Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="6 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 | Banderazo de Salida en Fte. Hotel Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8:00 | Banderazo de Salida en Frente del Hotel Uxmal Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="9:00 – 12:00 | Llegada a Maní – Actividades Culturales en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
@@ -134,27 +134,27 @@
             <TableRow>
                 <TextView android:text="------- | Noche libre en Mérida" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="7 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 | Banderazo de Salida en el Monumento a la Bandera por el Secretario de Turismo Lic. Saúl Ancona" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="9:00 | Banderazo de Salida en el Monumento a la Bandera por el Secretario de Turismo Lic. Saúl Ancona" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="10:00 – 10:30 | Visita a Xcambó (Flamencos y Zona Arqueológica) (Llevar credencial de INSEN)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="11:00 – 11:30 | Visita a Xcambó (Flamencos y Zona Arqueológica) (Llevar credencial de INSEN)" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="11:30 – 13:30 | Llegada y Recepción Dzilam González en la Plaza principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="12:30 – 14:30 | Llegada y Recepción Dzilam González en la Plaza principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="15:30 – 16:30 | Llegada a Tizimín – Actividades Culturales en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="16:30 – 17:30 | Llegada a Tizimín – Actividades Culturales en la Plaza Principal" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
-                <TextView android:text="18:00 | Llegada a Chichén Itzá - Meta Fte. Hotel Mayaland Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="19:00 | Llegada a Chichén Itzá - Meta Fte. Hotel Mayaland Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
 
             <TableRow>
-                <TextView android:text="18:00 | Registro de Hotel \n -Hotel The Lodge at Chichen Itzá \n -Mayaland Chichen Itzá \n -Hotel Oka’an Villas" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="19:00 | Registro de Hotel \n -Hotel The Lodge at Chichen Itzá \n -Mayaland Chichen Itzá \n -Hotel Oka’an Villas" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="20:00 | Espectáculo de Luz y Sonido en la Zona Arqueológica de Chichen Itzá" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
@@ -163,11 +163,11 @@
                 <TextView android:text="21:00 | Cena Especial en los Jardines del Hotel Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
 
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="8 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
-                <TextView android:text="8:00 | Banderazo de Salida Fte. Hotel Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:text="8:00 | Banderazo de Salida Frente Hotel Mayaland" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
             <TableRow>
                 <TextView android:text="9:30 – 11:30 | Visita y Bienvenida a Valladolid en la Explanada del convento de San Bernardino de Siena" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
@@ -189,7 +189,7 @@
                 <TextView android:text="------- | Hotel Todo Incluido - Hotel Grand Oasis Cancún" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
 
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="9 de Mayo" android:padding="10dp" android:textSize="20sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
             <TableRow>
@@ -207,7 +207,7 @@
             <TableRow>
                 <TextView android:text="20:00 | Cena, Premiación y Clausura - Zama Yach Beach, Isla Mujeres" android:padding="10dp" android:textSize="15dp" android:textColor="@color/color_paragraph" android:textStyle="normal" android:background="@drawable/cell_shape" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
             </TableRow>
-            <TableRow  android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:text="*Este programa está sujeta a Cambios*" android:padding="10dp" android:textSize="15sp" android:textColor="@color/color_paragraph" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/cell_shape" />
             </TableRow>
         </TableLayout>
