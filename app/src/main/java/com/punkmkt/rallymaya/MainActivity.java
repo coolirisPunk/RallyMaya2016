@@ -42,6 +42,7 @@ public class MainActivity extends BaseActivity {
         String[] item_menus = getResources().getStringArray(R.array.ItemMenus);
         String[] item_menus_sec = getResources().getStringArray(R.array.ItemMenusSec);
         setTitle(item_menus_sec[1]);
+
         for (int index = 0; index < item_menus.length; index++) {
             ItemMenu menu = new ItemMenu();
             menu.setId(index+1);
