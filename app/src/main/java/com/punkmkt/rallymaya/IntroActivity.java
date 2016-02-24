@@ -15,7 +15,7 @@ public class IntroActivity extends ActionBarActivity {
         setContentView(R.layout.activity_intro);
         getSupportActionBar().hide();
         //getActionBar().hide();
-        new loading().execute();
+        //new loading().execute();
     }
 
 
