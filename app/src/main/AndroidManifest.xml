@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.punkmkt.rallymaya" >
+    package="com.punkmkt.rallymaya">
 
     <uses-feature
         android:name="android.hardware.telephony"
@@ -35,7 +35,7 @@
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppBaseTheme" >
+        android:theme="@style/AppBaseTheme">
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDU2dvUU-L7C1fX49G62o6rlz4BVEWIdw0" />
@@ -45,65 +45,55 @@
 
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
-
-        </activity>
+            android:label="@string/app_name"></activity>
         <activity
             android:name=".RallyMayaActivity"
-            android:label="@string/title_activity_rally_maya" >
-        </activity>
+            android:label="@string/title_activity_rally_maya"></activity>
         <activity
             android:name=".ParticipantesActivityList"
-            android:label="@string/title_activity_participantes_activity_list" >
-        </activity>
+            android:label="@string/title_activity_participantes_activity_list"></activity>
         <activity
             android:name=".ParticipantesActivityDetail"
-            android:label="@string/title_activity_participantes_activity_detail" >
-        </activity>
+            android:label="@string/title_activity_participantes_activity_detail"></activity>
         <activity
             android:name=".RutaActivity"
-            android:label="@string/title_activity_ruta" >
-        </activity>
+            android:label="@string/title_activity_ruta"></activity>
         <activity
             android:name=".TipActivity"
-            android:label="@string/title_activity_tips" >
-        </activity>
+            android:label="@string/title_activity_tips"></activity>
         <activity
             android:name=".PatrocinadorActivity"
-            android:label="@string/title_activity_patrocinador" >
-        </activity>
+            android:label="@string/title_activity_patrocinador"></activity>
         <activity
             android:name=".DirectorioActivity"
-            android:label="@string/title_activity_directorio" >
-        </activity>
+            android:label="@string/title_activity_directorio"></activity>
         <activity
             android:name=".DiabetesActivity"
-            android:label="@string/title_activity_diabetes" >
-        </activity>
+            android:label="@string/title_activity_diabetes"></activity>
         <activity
             android:name=".CronometroActivity"
-            android:label="@string/title_activity_cronometro" >
-        </activity>
+            android:label="@string/title_activity_cronometro"></activity>
         <activity
-            android:name=".IntroActivity"
-            android:label="@string/title_activity_intro" >
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".BaseActivity"
-            android:label="@string/title_activity_base" >
-        </activity>
+            android:label="@string/title_activity_base"></activity>
         <activity
             android:name=".ProgramaActivity"
-            android:label="@string/title_activity_programa" >
-        </activity>
+            android:label="@string/title_activity_programa"></activity>
         <activity
             android:name=".MyPdfViewActivity"
-            android:label="@string/title_activity_my_pdf_view" >
-        </activity>
+            android:label="@string/title_activity_my_pdf_view"></activity>
+        <activity
+            android:name=".IntroActivity"
+            android:label="@string/title_activity_home"></activity>
     </application>
 
 </manifest>

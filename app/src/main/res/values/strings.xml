@@ -60,7 +60,7 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <string name="title_activity_tips">TipsActivity</string>
 
 
-<!--TIPS-->
+    <!--TIPS-->
     <string name="tips_viaje_text">Durante el recorrido del Rally Maya 2015, se visitarán más de 20 lugares fabulosos de la Península de Yucatán que seguramente le dejarán una inolvidable experiencia de viaje. En el mes de Mayo en la península de Yucatán se pronostica un clima: Seco-Caluroso.\nLa temperatura media anual del Estado de Yucatán está entre 25 y 26°C, en el mes de Abril y Mayo, sin embargo podría llegar a 40° a la sombra, por lo que le recomendamos lo siguiente:\n\n
 
 - Agua \n
@@ -532,8 +532,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
         <item><b>NAYELI CANUL CHI</b> \nVENTAS Y REDES DE SHOWTVMEDIA\n998 115 1148</item>
 
 
-
-
     </string-array>
     <string-array name="directorio_emergencias_campeche">
         <item name="id">1</item>
@@ -908,8 +906,6 @@ d)Respetar el reglamento de Tránsito de cada lugar.</string>
     <string name="title_activity_diabetes">DiabetesActivity</string>
 
 
-
-
     <!-- Mypdf-->
     <string name="pdf_seccion">REGLAMENTO</string>
     <!-- Diabetes-->
@@ -926,5 +922,15 @@ En su segunda edición Rally Maya México pretende causar un impacto notable a e
     <string name="title_activity_base">BaseActivity</string>
     <string name="title_activity_programa">ProgramaActivity</string>
     <string name="title_activity_my_pdf_view">MyPdfViewActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
 
+
+    <!-- Home -->
+    <string name="dias">DÍAS</string>
+    <string name="horas">HORAS</string>
+    <string name="minutos">MINUTOS</string>
+    <string name="segundos">SEGUNDOS</string>
+
+    <string name="inicio_aventura">¡Para el inicio de esta gran aventura!</string>
+    <string name="hastag_rally_maya">#RALLYMAYAMEXICO</string>
 </resources>
